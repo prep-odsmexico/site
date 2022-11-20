@@ -11,7 +11,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/1-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "1-2-1",
@@ -20,6 +20,30 @@
           "keywords": "",
           "href": "/site/en/1-2-1",
           "status": "notstarted"
+        },
+        {
+          "id": "1-2-1-a1",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-1-a1",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-a2",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-1-a2",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-a",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-1-a",
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -55,11 +79,11 @@
         },
         {
           "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
@@ -127,11 +151,11 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "Proporción de la población con inseguridad alimentaria moderada o severa, desglosada por sexo y edad",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
@@ -239,11 +263,11 @@
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "Razón de mortalidad materna",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
@@ -1854,6 +1878,14 @@
           "status": "notstarted"
         },
         {
+          "id": "16-6-2-a",
+          "title": "Satisfacción con el servicio de educación pública obligatoria",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/16-6-2-a",
+          "status": "complete"
+        },
+        {
           "id": "16-7-1",
           "title": "Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",
           "description": "",
@@ -1863,11 +1895,11 @@
         },
         {
           "id": "16-7-2",
-          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
+          "title": "Proporción de la población que considera que la adopción de decisiones es inclusiva y participativa",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-8-1",
@@ -1959,11 +1991,11 @@
         },
         {
           "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "title": "Volumen de las remesas (en dólares de los Estados Unidos) como proporción del PIB total",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-4-1",

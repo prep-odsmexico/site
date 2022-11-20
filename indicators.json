@@ -11,7 +11,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/1-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "1-2-1",
@@ -20,6 +20,30 @@
           "keywords": "",
           "href": "/site/1-2-1",
           "status": "notstarted"
+        },
+        {
+          "id": "1-2-1-a1",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-2-1-a1",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-a2",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-2-1-a2",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-a",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-2-1-a",
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -55,11 +79,11 @@
         },
         {
           "id": "1-5-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes",
+          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
@@ -127,11 +151,11 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalencia de la inseguridad alimentaria moderada o grave entre la población, según la escala de experiencia de inseguridad alimentaria",
+          "title": "Proporción de la población con inseguridad alimentaria moderada o severa, desglosada por sexo y edad",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
@@ -239,11 +263,11 @@
         
         {
           "id": "3-1-1",
-          "title": "Tasa de mortalidad materna",
+          "title": "Razón de mortalidad materna",
           "description": "",
           "keywords": "",
           "href": "/site/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
@@ -1854,6 +1878,14 @@
           "status": "notstarted"
         },
         {
+          "id": "16-6-2-a",
+          "title": "Satisfacción con el servicio de educación pública obligatoria",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-6-2-a",
+          "status": "complete"
+        },
+        {
           "id": "16-7-1",
           "title": "Proporciones de plazas en las instituciones nacionales y locales, entre ellas: a) las asambleas legislativas, b) la administración pública y c) el poder judicial, en comparación con la distribución nacional, desglosadas por sexo, edad, personas con discapacidad y grupos de población",
           "description": "",
@@ -1863,11 +1895,11 @@
         },
         {
           "id": "16-7-2",
-          "title": "Proporción de la población que considera que la adopción de decisiones es inclusiva y responde a sus necesidades, desglosada por sexo, edad, discapacidad y grupo de población",
+          "title": "Proporción de la población que considera que la adopción de decisiones es inclusiva y participativa",
           "description": "",
           "keywords": "",
           "href": "/site/16-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-8-1",
@@ -1959,11 +1991,11 @@
         },
         {
           "id": "17-3-2",
-          "title": "Volumen de remesas (en dólares de los Estados Unidos) en proporción al PIB total",
+          "title": "Volumen de las remesas (en dólares de los Estados Unidos) como proporción del PIB total",
           "description": "",
           "keywords": "",
           "href": "/site/17-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-4-1",

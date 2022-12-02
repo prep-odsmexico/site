@@ -36,4 +36,4 @@ exclude:
   - README
   - README.md
   - LICENSE
-
+decimal_separator: '.'

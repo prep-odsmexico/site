@@ -176,7 +176,7 @@ map_layers:
     # on lower layers.
     staticBorders: false
 map_options:
-  disaggregation_controls: false
+  disaggregation_controls: true
   minZoom: 5
   maxZoom: 10
   tileURL: ''

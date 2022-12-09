@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221209152045">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221209152639">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -229,7 +229,7 @@ layout-indicator
       English
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/1-1-1/">
+            <a class="dropdown-item" href="/site/permalink/">
               Español
             </a>
           </li></ul>
@@ -241,7 +241,7 @@ layout-indicator
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site/1-1-1/">
+            <a class="language-toggle-link" href="/site/permalink/">
                 Español
             </a>
         </li></ul>
@@ -405,6 +405,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>page_content</p>
+
+  </div>
+</div>
+
 
   
 
@@ -414,10 +421,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-1-1'
   data-id="1-1-1"
-  data-country="México"
+  data-country="national_geographical_coverage"
   data-charttitle="Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="computation_units"
   data-xaxislabel=""
   data-showdata="false"
   data-graphtype="line"
@@ -432,7 +439,7 @@ data-event-label="high"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
   data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
-  data-compositebreakdownlabel=""
+  data-compositebreakdownlabel="composite_breakdown_label"
   data-precision="[]"
 >
   
@@ -1285,12 +1292,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221209152045'></script>
+<script src='/site/assets/js/sdg.js?v=20221209152639'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221209152045"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221209152639"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

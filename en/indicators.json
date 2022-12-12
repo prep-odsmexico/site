@@ -2166,4 +2166,20 @@
           "status": "notstarted"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "199",
+      "title": "global_goals.199-title",
+      "indicators": [
+        
+        {
+          "id": "199-1-1",
+          "title": "global_indicators.199-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/199-1-1",
+          "status": "notstarted"
+        }]
+    }
   }]

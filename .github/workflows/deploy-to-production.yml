@@ -22,7 +22,7 @@ on:
     branches:
       - master
   repository_dispatch:
-    types: rebuild-staging
+    types: rebuild-production
 
 jobs:
   build:

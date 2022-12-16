@@ -129,7 +129,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221216170341">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221216172057">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -480,10 +480,34 @@ data-event-label="high"
     // Set values according to this site's configuration.
     propertyEditorAccessibilityFixes(editor.getEditor('root.composite_breakdown_label'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_units', "Porcentaje");
+        var propertyEditor = editor.getEditor('root.computation_units');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_units');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.copyright'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_footnote', "<br>a/ Ejemplo llamada para desagregación total.<br><br>Periodo 2013, Chiapas, Sexo-Hombres.- Las estimaciones tienen un coeficiente de variación (%) en el rango de [15,30), por lo que su nivel de precisión es clasificado como Moderado.");
+        var propertyEditor = editor.getEditor('root.data_footnote');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_footnote');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_footnote'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_non_statistical'));
@@ -572,7 +596,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)");
+        var currentValue = normalizeCurrentValue('graph_title', "Proporción de la población que vive por debajo del umbral de pobreza internacional por sexo, edad, situación laboral y ubicación geográfica (urbana/rural)");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -616,7 +640,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)");
+        var currentValue = normalizeCurrentValue('indicator_name', "Proporción de la población que vive por debajo del umbral de pobreza internacional por sexo, edad, situación laboral y ubicación geográfica (urbana/rural)");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -845,12 +869,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221216170341'></script>
+<script src='/site/assets/js/sdg.js?v=20221216172057'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221216170341"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221216172057"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

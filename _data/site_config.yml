@@ -185,6 +185,7 @@ map_options:
     accessToken: ''
     attribution: ''
   colorRange: chroma.brewer.BuGn
+  limits: chroma.limits(data, 'e', 5);
   noValueColor: '#C8C8C8'
   styleNormal:
     weight: 1

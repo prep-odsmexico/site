@@ -186,18 +186,18 @@ map_options:
     attribution: ''
   colorRange: chroma.brewer.BuGn
   limits: chroma.limits(data, 'e', 5);
-  noValueColor: '#C8C8C8'
+  noValueColor: '#f0f0f0'
   styleNormal:
     weight: 1
     opacity: 1
     fillOpacity: 0.7
-    color: '#6E6E6E'
+    color: '#888888'
     dashArray: ''
   styleHighlighted:
     weight: 1
     opacity: 1
     fillOpacity: 0.7
-    color: '#050505'
+    color: '#111111'
     dashArray: ''
   styleStatic:
     weight: 2

@@ -184,9 +184,9 @@ map_options:
     id: ''
     accessToken: ''
     attribution: ''
-  #colorRange: chroma.brewer.BuGn
-  colorRange: chroma.scale(['#99d8c9', '#00441b']).colors(9)
-  #limits: chroma.limits(data, 'e', 5);
+  # colorRange: chroma.brewer.BuGn
+  colorRange: chroma.scale(['99d8c9', '00441b']).colors(9)
+  # limits: chroma.limits(data, 'e', 5);
   noValueColor: '#f0f0f0'
   styleNormal:
     weight: 1

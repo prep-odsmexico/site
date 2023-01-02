@@ -184,8 +184,7 @@ map_options:
     id: ''
     accessToken: ''
     attribution: ''
-  colorRange: chroma.scale('OrRd').padding([0.4, 0])
-  # colorRange: chroma.brewer.OrRd
+  colorRange: chroma.brewer.OrRd
   # colorRange: chroma.scale(['99d8c9', '00441b']).colors(9)
   # limits: chroma.limits(data, 'e', 5);
   noValueColor: '#f0f0f0'

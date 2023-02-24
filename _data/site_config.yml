@@ -105,8 +105,6 @@ goals_page:
   description: goal.description
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
-graph_color_set: custom
-graph_color_list: ['3fd64f','cfd63f','4eecec','ec4ed9']
 graph_color_number: 0
 graph_title_from_series: false
 header_language_toggle: dropdown

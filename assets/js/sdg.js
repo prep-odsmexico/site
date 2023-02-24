@@ -1175,7 +1175,7 @@ $(document).ready(function() {
     });
 });
 opensdg.chartColors = function(indicatorId) {
-  var colorSet = "sdg";
+  var colorSet = "goal";
   var numberOfColors = 0;
   var customColorList = [];
 

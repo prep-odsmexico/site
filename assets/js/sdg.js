@@ -1175,7 +1175,7 @@ $(document).ready(function() {
     });
 });
 opensdg.chartColors = function(indicatorId) {
-  var colorSet = "accessible";
+  var colorSet = "classic";
   var numberOfColors = 0;
   var customColorList = [];
 

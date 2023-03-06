@@ -3045,6 +3045,7 @@ function getTimeSeriesAttributes(rows) {
         allowedFields: this.allowedFields,
         edges: this.edgesData,
         hasGeoData: this.hasGeoData,
+        startValues: this.startValues,
         indicatorId: this.indicatorId,
         showMap: this.showMap,
         precision: helpers.getPrecision(this.precision, this.selectedUnit, this.selectedSeries),
@@ -3131,7 +3132,7 @@ var mapView = function () {
 
   "use strict";
 
-  this.initialise = function(indicatorId, precision, precisionItems, decimalSeparator, dataSchema, viewHelpers, modelHelpers, chartTitles) {
+  this.initialise = function(indicatorId, precision, precisionItems, decimalSeparator, dataSchema, viewHelpers, modelHelpers, chartTitles, startValues) {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
@@ -3144,6 +3145,7 @@ var mapView = function () {
       viewHelpers: viewHelpers,
       modelHelpers: modelHelpers,
       chartTitles: chartTitles,
+      startValues: startValues,
     });
   };
 };
@@ -4664,6 +4666,7 @@ function createIndicatorDownloadButtons(indicatorDownloads, indicatorId, el) {
                 VIEW.helpers,
                 MODEL.helpers,
                 args.chartTitles,
+                args.startValues,
             );
         }
     });

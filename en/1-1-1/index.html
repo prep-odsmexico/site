@@ -145,7 +145,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230309212209">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230309213424">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1051,7 +1051,9 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>Instituto Nacional de Estadística y Geografía (INEGI). Índice Nacional de Precios al Consumidor (INPC). https://www.inegi.org.mx/programas/inpc/2018/ Banco Mundial (BM). Global Purchasing Power Parities and Real Expenditures. 2011 International Comparison Program. http://icp.worldbank.org/ Instituto Nacional de Estadística y Geografía (INEGI). Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 1992-2014 y el Modelo Estadístico para la Continuidad (MEC) del MCS-ENIGH 2016, 2018 y 2020.</p>
+            <p>Instituto Nacional de Estadística y Geografía (INEGI). Índice Nacional de Precios al Consumidor (INPC). https://www.inegi.org.mx/programas/inpc/2018/
+Banco Mundial (BM). Global Purchasing Power Parities and Real Expenditures. 2011 International Comparison Program. http://icp.worldbank.org/
+Instituto Nacional de Estadística y Geografía (INEGI). Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 1992-2014 y el Modelo Estadístico para la Continuidad (MEC) del MCS-ENIGH 2016, 2018 y 2020.</p>
 
           
         </td>
@@ -1151,7 +1153,10 @@ data-event-label="Change to indicator.sources tab"
         <td>
           
             <ol>
-  <li>Cálculo del ingreso per cápita ajustado.- En primer lugar, se utiliza el ingreso corriente total de la medición de pobreza por ingresos reportada por CONEVAL (para mayor información sobre su composición consultar http://www.coneval.org.mx). En segundo lugar, se deflacta el ingreso con el Índice Nacional de Precios al Consumidor (INPC, base 2ª quincena de julio de 2018=100) al mes de agosto de cada año en que INEGI capta la información de ingresos y gastos de los hogares. Posteriormente, se realiza un ajuste a los ingresos multiplicándolos por la propensión marginal al consumo (únicamente para la desagregación, rural, urbano y nacional). Esta propensión se estima a partir de la razón entre el Consumo Privado y el Producto Interno Bruto (PIB) con series originales base 2008 a precios corrientes (en 2018 se usa la base 2013). 2. Construcción de la línea de referencia.- La línea de la pobreza de $1.90 dólares se construye a partir del tipo de cambio de paridad de poder adquisitivo (PPA) de 2011 publicado por el Banco Mundial (7.673013 pesos por cada dólar americano a precios internacionales). El resultado se lleva a precios de agosto de cada año de medición, utilizando el Índice Nacional de Precios al Consumidor (INPC) publicado por el INEGI. Finalmente, se multiplica por 30 para obtener la línea de referencia mensual. 3. Cálculo del número de personas con ingresos ajustados por debajo de la línea.- Se compara el ingreso per cápita ajustado mensual con la línea de referencia, identificando y contabilizando el número de personas cuyo ingreso es menor a la línea. Se crea el factor de expansión de personas multiplicando el tamaño del hogar por el factor de expansión y se usa para calcular el porcentaje total de personas con ingresos por debajo de la línea de referencia. La ENIGH 2005, a diferencia de las llevadas a cabo en años anteriores de manera bienal, corresponde a una edición especial, por lo que la ENIGH continuará actualizándose cada dos años. */ La actualización del indicador está sujeta a la publicación de los microdatos por parte de INEGI. 1/ Para el año 2005 se realizó una medición.</li>
+  <li>Cálculo del ingreso per cápita ajustado.- En primer lugar, se utiliza el ingreso corriente total de la medición de pobreza por ingresos reportada por CONEVAL (para mayor información sobre su composición consultar http://www.coneval.org.mx). En segundo lugar, se deflacta el ingreso con el Índice Nacional de Precios al Consumidor (INPC, base 2ª quincena de julio de 2018=100) al mes de agosto de cada año en que INEGI capta la información de ingresos y gastos de los hogares. Posteriormente, se realiza un ajuste a los ingresos multiplicándolos por la propensión marginal al consumo (únicamente para la desagregación, rural, urbano y nacional). Esta propensión se estima a partir de la razón entre el Consumo Privado y el Producto Interno Bruto (PIB) con series originales base 2008 a precios corrientes (en 2018 se usa la base 2013).</li>
+  <li>Construcción de la línea de referencia.- La línea de la pobreza de $1.90 dólares se construye a partir del tipo de cambio de paridad de poder adquisitivo (PPA) de 2011 publicado por el Banco Mundial (7.673013 pesos por cada dólar americano a precios internacionales). El resultado se lleva a precios de agosto de cada año de medición, utilizando el Índice Nacional de Precios al Consumidor (INPC) publicado por el INEGI. Finalmente, se multiplica por 30 para obtener la línea de referencia mensual.</li>
+  <li>Cálculo del número de personas con ingresos ajustados por debajo de la línea.- Se compara el ingreso per cápita ajustado mensual con la línea de referencia, identificando y contabilizando el número de personas cuyo ingreso es menor a la línea. Se crea el factor de expansión de personas multiplicando el tamaño del hogar por el factor de expansión y se usa para calcular el porcentaje total de personas con ingresos por debajo de la línea de referencia. La ENIGH 2005, a diferencia de las llevadas a cabo en años anteriores de manera bienal, corresponde a una edición especial, por lo que la ENIGH continuará actualizándose cada dos años.
+*/ La actualización del indicador está sujeta a la publicación de los microdatos por parte de INEGI. 1/ Para el año 2005 se realizó una medición.</li>
 </ol>
 
           
@@ -2198,12 +2203,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230309212209'></script>
+<script src='/site/assets/js/sdg.js?v=20230309213424'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230309212209"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230309213424"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

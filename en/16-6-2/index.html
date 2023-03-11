@@ -145,7 +145,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230311231050">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230311232334">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -431,7 +431,7 @@ data-event-label="high"
   data-id="16-6-2"
   data-country="México"
   data-charttitle="Proportion of population satisfied with their last experience of public services"
-  data-charttitles="[]"
+  data-charttitles="null"
   data-measurementunit="Porcentaje"
   data-xaxislabel=""
   data-showdata="true"
@@ -439,16 +439,16 @@ data-event-label="high"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap="true"
-  data-startvalues="[{&quot;field&quot;:&quot;Entidad federativa&quot;,&quot;value&quot;:&quot;Estados Unidos Mexicanos&quot;},{&quot;field&quot;:&quot;Sexo&quot;,&quot;value&quot;:&quot;Total&quot;},{&quot;field&quot;:&quot;Tipo de servicio&quot;,&quot;value&quot;:&quot;Satisfacción con el servicio de educación pública obligatoria&quot;}]"
-  data-graphlimits="[]"
+  data-startvalues="null"
+  data-graphlimits="null"
   data-stackeddisaggregation=""
-  data-graphannotations="[]"
+  data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
   data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Tipo de servicio&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Satisfacción con el servicio de educación pública obligatoria&quot;,&quot;Satisfacción con el servicio de educación pública universitaria&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Tipo de servicio&quot;},{&quot;name&quot;:&quot;Entidad federativa&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Estados Unidos Mexicanos&quot;,&quot;Aguascalientes&quot;,&quot;Baja California&quot;,&quot;Baja California_Sur&quot;,&quot;Campeche&quot;,&quot;Coahuila de Zaragoza&quot;,&quot;Colima&quot;,&quot;Chiapas&quot;,&quot;Chihuahua&quot;,&quot;Ciudad de México&quot;,&quot;Durango&quot;,&quot;Guanajuato&quot;,&quot;Guerrero&quot;,&quot;Hidalgo&quot;,&quot;Jalisco&quot;,&quot;México&quot;,&quot;Michoacán de Ocampo&quot;,&quot;Morelos&quot;,&quot;Nayarit&quot;,&quot;Nuevo León&quot;,&quot;Oaxaca&quot;,&quot;Puebla&quot;,&quot;Querétaro&quot;,&quot;Quintana Roo&quot;,&quot;San Luis Potosí&quot;,&quot;Sinaloa&quot;,&quot;Sonora&quot;,&quot;Tabasco&quot;,&quot;Tamaulipas&quot;,&quot;Tlaxcala&quot;,&quot;Veracruz de Ignacio de la Llave&quot;,&quot;Yucatán&quot;,&quot;Zacatecas&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Entidad federativa&quot;},{&quot;name&quot;:&quot;Sexo&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total&quot;,&quot;Mujeres&quot;,&quot;Hombres&quot;,&quot;Total/&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sexo&quot;},{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
-  data-precision="[]"
+  data-precision="null"
 >
   
   <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
@@ -1803,8 +1803,6 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
-
 
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
@@ -1831,12 +1829,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230311231050'></script>
+<script src='/site/assets/js/sdg.js?v=20230311232334'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230311231050"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230311232334"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

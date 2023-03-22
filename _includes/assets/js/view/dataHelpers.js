@@ -42,7 +42,13 @@ function alterDataDisplay(value, info, context) {
             localeOpts.minimumFractionDigits = VIEW._precision;
             localeOpts.maximumFractionDigits = VIEW._precision;
         }
-        altered = altered.toLocaleString(opensdg.language, localeOpts);
+        // Now apply our custom decimal separator if needed.
+        if (OPTIONS.decimalSeparator) {
+            altered = altered.toString().replace('.', OPTIONS.decimalSeparator);
+        }
+        else{
+            altered = altered.toLocaleString(opensdg.language, localeOpts);
+        }
     }
     return altered;
 }

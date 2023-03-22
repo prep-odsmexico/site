@@ -174,7 +174,7 @@ map_layers:
     max_zoom: 20
     # Whether or not these boundaries should display statically
     # on lower layers.
-    staticBorders:false
+    staticBorders: false
 map_options:
   disaggregation_controls: true
   minZoom: 5

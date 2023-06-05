@@ -1,7 +1,6 @@
 var indicatorInit = function () {
     if ($('#indicatorData').length) {
         var domData = $('#indicatorData').data();
-
         if (domData.showdata) {
 
             $('.async-loading').each(function (i, obj) {

@@ -5260,6 +5260,7 @@ function createIndicatorDownloadButtons(indicatorDownloads, indicatorId, el) {
   return {
     HIDE_SINGLE_SERIES: HIDE_SINGLE_SERIES,
     HIDE_SINGLE_UNIT: HIDE_SINGLE_UNIT,
+    PROXY_PILL: PROXY_PILL,
     initialiseFields: initialiseFields,
     initialiseUnits: initialiseUnits,
     initialiseSerieses: initialiseSerieses,
@@ -6868,6 +6869,7 @@ function createIndicatorDownloadButtons(indicatorDownloads, indicatorId, el) {
   return {
     HIDE_SINGLE_SERIES: HIDE_SINGLE_SERIES,
     HIDE_SINGLE_UNIT: HIDE_SINGLE_UNIT,
+    PROXY_PILL: PROXY_PILL,
     initialiseFields: initialiseFields,
     initialiseUnits: initialiseUnits,
     initialiseSerieses: initialiseSerieses,

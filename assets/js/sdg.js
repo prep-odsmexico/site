@@ -3867,6 +3867,7 @@ var indicatorView = function (model, options) {
 
   var HIDE_SINGLE_SERIES = true;
 var HIDE_SINGLE_UNIT = true;
+var PROXY_PILL = '<span aria-describedby="proxy-description" class="proxy-pill">' + translations.t("indicator.proxy") + '</span>';
 
   /**
  * @param {Object} args
@@ -5474,6 +5475,7 @@ var indicatorView = function (model, options) {
 
   var HIDE_SINGLE_SERIES = true;
 var HIDE_SINGLE_UNIT = true;
+var PROXY_PILL = '<span aria-describedby="proxy-description" class="proxy-pill">' + translations.t("indicator.proxy") + '</span>';
 
   /**
  * @param {Object} args

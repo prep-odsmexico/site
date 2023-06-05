@@ -2828,6 +2828,8 @@ function getTimeSeriesAttributes(rows) {
   this.compositeBreakdownLabel = options.compositeBreakdownLabel;
   this.precision = options.precision;
   this.dataSchema = options.dataSchema;
+  this.proxy = options.proxy;
+  this.proxySerieses = (this.proxy === 'both') ? options.proxySeries : [];
 
   this.initialiseUnits = function() {
     if (this.hasUnits) {
@@ -3029,7 +3031,8 @@ function getTimeSeriesAttributes(rows) {
 
       this.onSeriesesComplete.notify({
         serieses: this.serieses,
-        selectedSeries: this.selectedSeries
+        selectedSeries: this.selectedSeries,
+        proxySerieses: this.proxySerieses,
       });
     }
 
@@ -3057,6 +3060,8 @@ function getTimeSeriesAttributes(rows) {
         precisionItems: this.precision,
         dataSchema: this.dataSchema,
         chartTitles: this.chartTitles,
+        proxy: this.proxy,
+        proxySerieses: this.proxySerieses,
       });
     }
 
@@ -3119,6 +3124,7 @@ function getTimeSeriesAttributes(rows) {
       indicatorDownloads: this.indicatorDownloads,
       precision: helpers.getPrecision(this.precision, this.selectedUnit, this.selectedSeries),
       timeSeriesAttributes: timeSeriesAttributes,
+      isProxy: this.proxy === 'proxy' || this.proxySerieses.includes(this.selectedSeries),
     });
   };
 };
@@ -4888,6 +4894,8 @@ var indicatorInit = function () {
                         dataSchema: domData.dataschema,
                         compositeBreakdownLabel: domData.compositebreakdownlabel,
                         precision: domData.precision,
+                        proxy: domData.proxy,
+                        proxySeries: domData.proxyseries,
                     });
                     var view = new indicatorView(model, {
                         rootElement: '#indicatorData',

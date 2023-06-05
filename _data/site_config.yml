@@ -238,6 +238,11 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
+progressive_web_app: 
+  enabled: true 
+  name: My SDG App Name 
+  short_name: SDG App 
+  precaching: true 
 remote_data_prefix: 'https://prep-odsmexico.github.io/data/'
 reporting_status:
   title: status.reporting_status

@@ -1,5 +1,5 @@
 {% comment %}
-/**
+/** 
  * Helper functions to be used in indicatorView.js.
  */
 {% endcomment %}

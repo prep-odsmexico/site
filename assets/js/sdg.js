@@ -324,7 +324,12 @@ opensdg.autotrack = function(preset, category, action, label) {
             localeOpts.minimumFractionDigits = this._precision;
             localeOpts.maximumFractionDigits = this._precision;
         }
-        value = value.toLocaleString(opensdg.language, localeOpts);
+        if (this._decimalSeparator) {
+          value = value.toString().replace('.', this._decimalSeparator);
+        }
+        else{
+          value = value.toLocaleString(opensdg.language, localeOpts);
+        }
       }
       return value;
     },

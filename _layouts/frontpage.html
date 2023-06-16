@@ -1,0 +1,59 @@
+{% include head.html %}
+{% include header.html %}
+<div id="main-content" class="container" role="main">
+
+    {% if site.frontpage_introduction_banner %}
+    <div class="site-intro">
+        <h1>{{ site.frontpage_introduction_banner.title | t }}</h1>
+        <div class="lead-copy">{{ site.frontpage_introduction_banner.description | t | markdownify }}</div>
+    </div>
+    {% endif %}
+
+    {% if site.frontpage_goals_grid %}
+    <div class="frontpage-goals-grid">
+
+        {% if site.frontpage_goals_grid.title %}
+        <h2 class="frontpage-goals-grid-title">{{ site.frontpage_goals_grid.title | t }}</h2>
+        {% endif %}
+
+        {% if site.frontpage_goals_grid.description %}
+        <div class="frontpage-goals-grid-description">{{ site.frontpage_goals_grid.description | t | markdownify }}</div>
+        {% endif %}
+
+        {% include components/goal-tiles.html %}
+    </div>
+    {% endif %}
+
+    {% if site.frontpage_cards %}
+    <div class="frontpage-cards">
+    {% for card in site.frontpage_cards %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+
+        {% if remainder == 1 or forloop.first %}
+        <div class="row">
+        {% endif %}
+
+        {% include components/card.html card=card %}
+
+        {% if remainder == 0 or forloop.last %}
+        </div>
+        {% endif %}
+
+    {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+<div id="divContra" style="position:absolute;top:0;width:100%;height:1200px;background-color:#465178;display:block;z-index:20000">
+    <div style="border:1px solid black; width:25%; height:130px; background-color:white;margin:auto;margin-top:15rem;">
+        <div style="display:flex;padding:1rem;">
+            <div style="padding-top: 0.2rem">Contraseña: </div>
+            <div style="padding-left:0.5rem;"><input type="password" id="contra" name="contra" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
+        </div>
+        <div id="errorContra" style="padding-left:6rem;padding-bottom:0.5rem;visibility:hidden;color:#f74646;">Contraseña incorrecta</div>
+        <div style="float: right;padding-right: 1rem;">
+            <button type="button" style="border: 1px solid #38388f;color: #ffffff;background-color: #38388f;border-radius: 0.2rem;" onclick="revisaContra()">Aceptar</button>
+        </div>
+    </div>
+</div>
+{% include footer.html %}

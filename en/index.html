@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230619154939">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230619155741">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -544,19 +544,21 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
     
 
 </div>
-<div id="divContra" style="position:absolute;top:0;width:100%;height:1200px;background-color:#465178;display:block;z-index:20000">
-    <div style="border:1px solid black; width:25%; height:150px; background-color:white;margin:auto;margin-top:15rem;">
-        <div style="display:flex;padding:1rem;">
-            <div style="padding-top: 0.2rem">Usuario: </div>
-            <div style="padding-left:0.5rem;"><input type="text" id="usu" name="usu" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
-            <div style="padding-top: 0.2rem">Contraseña: </div>
-            <div style="padding-left:0.5rem;"><input type="password" id="contra" name="contra" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
+<div id="divContra">
+        <div class="divFlex">
+            <div><img src="/site/assets/img/LogoODS2_es.png"/></div>
+            <div class="divWhite"></div>
+            <div>
+                <div class="padLeft"><input type="text" id="usu" name="usu" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
+                <div class="padTop">Usuario: </div>
+                <div class="padLeft"><input type="password" id="contra" name="contra" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
+                <div class="padTop">Contraseña: </div>
+            </div>
         </div>
-        <div id="errorContra" style="padding-left:6rem;padding-bottom:0.5rem;visibility:hidden;color:#f74646;"></div>
-        <div style="float: right;padding-right: 1rem;">
-            <button type="button" style="border: 1px solid #38388f;color: #ffffff;background-color: #38388f;border-radius: 0.2rem;" onclick="revisaContra()">Aceptar</button>
+        <div id="errorContra"></div>
+        <div class="divBtn">
+            <button type="button" class="btn" onclick="revisaContra()">Aceptar</button>
         </div>
-    </div>
 </div>
 <footer role="contentinfo" style="display:none;">
     <div class="container">
@@ -626,12 +628,12 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230619154939'></script>
+<script src='/site/assets/js/sdg.js?v=20230619155741'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230619154939"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230619155741"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

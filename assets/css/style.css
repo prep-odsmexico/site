@@ -2687,6 +2687,11 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   background-color: transparent;
   color: #ffffff; }
 
+.btnAcepta:hover {
+  border: 0;
+  background-color: transparent;
+  color: #ffffff; }
+
 .btnAcepta:focus {
   color: #ffffff !important;
   outline: 0px solid transparent !important;

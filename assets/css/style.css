@@ -2677,15 +2677,15 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   float: right;
   padding-right: 1rem;
   color: #ffffff;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 25%;
+  height: 35px;
+  padding: 0.2rem 0 0 1.3rem; }
 
 .divBtn:hover {
   background-color: #0093D0;
   color: #ffffff;
-  border-radius: 0.5rem;
-  width: 25%;
-  height: 35px;
-  padding: 0.2rem 0 0 1.3rem; }
+  border-radius: 0.5rem; }
 
 .btnAcepta {
   border: 0;
@@ -2705,3 +2705,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   border: 1px solid #ffffff;
   border-radius: 0.4rem;
   width: -webkit-fill-available; }
+
+.display-flex {
+  display: flex; }

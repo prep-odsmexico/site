@@ -9,6 +9,12 @@
   display:block;
   z-index:20000;
 }
+#errorUsu{
+  padding-left:6rem;
+  padding-bottom:0.5rem;
+  visibility:hidden;
+  color:#f74646;
+}
 #errorContra{
   padding-left:6rem;
   padding-bottom:0.5rem;
@@ -16,12 +22,10 @@
   color:#f74646;
 }
 .divWhite{
-  border:1px solid black;
-  width:25%;
-  height:150px;
+  border:1px solid white;
+  width:1%;
+  height:500px;
   background-color:white;
-  margin:auto;
-  margin-top:15rem;
 }
 .divFlex{
   display:flex;

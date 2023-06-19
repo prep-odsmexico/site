@@ -80,12 +80,12 @@ function myMapColorFunction(indicatorId, goalId) {
 }
 function revisaContra() {
   var contra= document.getElementById("contra").value
-  var usuario= document.getElementById("usu").value;
+  var usu= document.getElementById("usu").value;
   document.getElementById("sContra").innerHTML="";
   document.getElementById("dContra").style.visibility="hidden";
   document.getElementById("sUsu").innerHTML="";
   document.getElementById("dUsu").style.visibility="hidden";
-  if(usuario.trim()==="")
+  if(usu.trim()==="")
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sUsu").innerHTML="Usuario requerido";
@@ -99,9 +99,9 @@ function revisaContra() {
     document.getElementById("dContra").style.visibility="visible";
     return;
   }
-  var result= usucontra.find(({ usuario }) => usuario === usuario);
-  if (result!= "undefined"){
-      if(usuario!=result.usuario){
+  var result= usucontra.find(({ usuario }) => usuario === usu);
+  if (result!= undefined){
+      if(usu!=result.usuario){
         document.getElementById("divContra").style.display="block";
         document.getElementById("sUsu").innerHTML="Usuario incorrecto";
         document.getElementById("dUsu").style.visibility="visible";
@@ -129,5 +129,4 @@ function revisaContra() {
     document.getElementById("dContra").style.visibility="hidden";
   }
 }
-
 document.body.style.overflow = "hidden";

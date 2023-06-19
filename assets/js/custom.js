@@ -80,44 +80,41 @@ function myMapColorFunction(indicatorId, goalId) {
 function revisaContra() {
   var contra= document.getElementById("contra").value
   var usuario= document.getElementById("usu").value;
-  console.log(usuario);
-  console.log(contra);
   document.getElementById("sContra").innerHTML="";
-  document.getElementById("sContra").style.visibility="hidden";
+  document.getElementById("divContra").style.visibility="hidden";
   document.getElementById("sUsu").innerHTML="";
-  document.getElementById("sUsu").style.visibility="hidden";
+  document.getElementById("divUsu").style.visibility="hidden";
   if(usuario.trim()==="")
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sUsu").innerHTML="Usuario requerido";
-    document.getElementById("sUsu").style.visibility="visible";
+    document.getElementById("divUsu").style.visibility="visible";
     return;
   }
   if(contra.trim()==="")
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sContra").innerHTML="Contraseña requerida";
-    document.getElementById("sContra").style.visibility="visible";
+    document.getElementById("divContra").style.visibility="visible";
     return;
   }
   var result= usucontra.find(({ usuario }) => usuario === usuario);
-  console.log(result);
   if (result!= "undefined"){
       if(usuario!=result.usuario){
         document.getElementById("divContra").style.display="block";
         document.getElementById("sUsu").innerHTML="Usuario incorrecto";
-        document.getElementById("sUsu").style.visibility="visible";
+        document.getElementById("divUsu").style.visibility="visible";
       }
       else{
         if(contra!=result.contra){
           document.getElementById("divContra").style.display="block";
           document.getElementById("sContra").innerHTML="Contraseña incorrecta";
-          document.getElementById("sContra").style.visibility="visible";
+          document.getElementById("divContra").style.visibility="visible";
         }
         else{
           document.getElementById("divContra").style.display="none";
-          document.getElementById("sUsu").style.visibility="hidden";
-          document.getElementById("sContra").style.visibility="hidden";
+          document.getElementById("divUsu").style.visibility="hidden";
+          document.getElementById("divContra").style.visibility="hidden";
           document.body.style.overflow = "auto";
         }
       }
@@ -127,8 +124,8 @@ function revisaContra() {
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sUsu").innerHTML="Usuario no registrado";
-    document.getElementById("sUsu").style.visibility="visible";
-    document.getElementById("sContra").style.visibility="hidden";
+    document.getElementById("divUsu").style.visibility="visible";
+    document.getElementById("divContra").style.visibility="hidden";
   }
 }
 

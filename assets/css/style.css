@@ -2672,7 +2672,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   padding-right: 1rem;
   color: #ffffff;
   cursor: pointer;
-  width: 25%;
+  width: 20%;
   height: 35px;
   margin-top: 2rem;
   padding: 0.2rem 0 0 1.3rem; }
@@ -2702,6 +2702,9 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .margAuto {
   margin: auto; }
+
+.margleft-5 {
+  margin-left: -5rem; }
 
 .colorWhite {
   color: #ffffff; }

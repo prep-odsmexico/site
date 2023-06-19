@@ -28,6 +28,9 @@
 .padLeft{
   padding-left:0.5rem;
 }
+.padTop1{
+  pdding-top:1rem;
+}
 .divBtn{
   float: right;
   padding-right: 1rem;
@@ -35,6 +38,7 @@
   cursor:pointer;
   width: 25%;
   height: 35px;
+  margin-top: 2rem;
   padding: 0.2rem 0 0 1.3rem;
 }
 .divBtn:hover{

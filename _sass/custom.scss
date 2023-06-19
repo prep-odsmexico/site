@@ -23,7 +23,7 @@
 }
 .divWhite{
   border:1px solid white;
-  width:1%;
+  width:1px;
   height:500px;
   background-color:white;
 }
@@ -46,4 +46,7 @@
   color: #ffffff;
   background-color: #38388f;
   border-radius: 0.2rem;
+}
+.margAuto{
+  margin:auto;
 }

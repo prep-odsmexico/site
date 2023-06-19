@@ -2701,6 +2701,12 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .width35 {
   width: 35%; }
 
+.width70 {
+  width: 70%; }
+
+.width60 {
+  width: 60%; }
+
 .inputUsuCon {
   border: 1px solid #ffffff;
   border-radius: 0.4rem;

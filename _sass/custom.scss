@@ -46,8 +46,12 @@
   color:#ffffff;
   border-radius: 0.5rem;
 }
-
 .btnAcepta{
+  border: 0;
+  background-color: transparent;
+  color: #ffffff;
+}
+.btnAcepta:hover{
   border: 0;
   background-color: transparent;
   color: #ffffff;

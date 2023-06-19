@@ -50,9 +50,15 @@
             <div class="divWhite"></div>
             <div class="margAuto width35">
                 <div><input type="text" id="usu" name="usu" value="" class="inputUsuCon"  /></div>
-                <div class="padTop colorWhite">Usuario <span id="sUsu" class="errorUsu"></span></div>
+                <div class="display-flex">
+                    <div class="padTop colorWhite">Usuario </div>
+                    <div id="sUsu"><span class="errorUsu"></span></div>
+                </div>
                 <div><input type="password" id="contra" name="contra" value="" class="inputUsuCon" /></div>
-                <div class="padTop colorWhite">Contraseña <span id="sContra" class="errorContra"></span></div>
+                <div class="display-flex">
+                    <div class="padTop colorWhite">Contraseña</div>
+                    <div id="sContra"><span class="errorContra"></span></div>
+                </div>
                 <div class="divBtn">
                     <button type="button" class="btnAcepta" onclick="revisaContra()">Aceptar</button>
                 </div>

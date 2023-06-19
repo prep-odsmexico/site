@@ -1,4 +1,16 @@
 // Add any custom javafuscript here.
+//arreglo de usuarios y contraseñas
+var usucontra=[
+  {
+    "usuario":"sandra.marquez",
+    "contra": "bety"
+  },
+  {
+    "usuario":"sergio.nieto",
+    "contra":"jefe"
+  }
+]
+//colores para el  mapa
 var colors1 = [
   "#c4e1c6",
   "#b0d1b3",
@@ -66,15 +78,41 @@ function myMapColorFunction(indicatorId, goalId) {
   }
 }
 function revisaContra() {
-  var contra= document.getElementById("contra").value;
+  var contra= document.getElementById("contra").value
+  var usuario= document.getElementById("usu").value;
+  console.log(usuario);
   console.log(contra);
-  if (contra=="password"){
-    document.getElementById("divContra").style.display="none";
-    document.getElementById("errorContra").style.visibility="hidden";
+  var result= usucontra.find(({ usuario }) => usuario === usuario);
+  console.log(result);
+  if (result!= "undefined"){
+    if (usuario!=result.usuario && contra!= result.contra ){
+      document.getElementById("divContra").style.display="block";
+      document.getElementById("errorContra").innerHTML="Usuario y contraseña incorrectos";
+      document.getElementById("errorContra").style.visibility="visible";
+    }
+    else {
+      if(usuario!=result.usuario){
+        document.getElementById("divContra").style.display="block";
+        document.getElementById("errorContra").innerHTML="Usuario incorrecto";
+        document.getElementById("errorContra").style.visibility="visible";
+      }
+      else{
+        if(contra!=result.contra){
+          document.getElementById("divContra").style.display="block";
+          document.getElementById("errorContra").innerHTML="Contraseña incorrecta";
+          document.getElementById("errorContra").style.visibility="visible";
+        }
+        else{
+          document.getElementById("divContra").style.display="none";
+          document.getElementById("errorContra").style.visibility="hidden";
+        }
+      }
+    }
   }
-  else {
+  else
+  {
     document.getElementById("divContra").style.display="block";
+    document.getElementById("errorContra").innerHTML="Usuario no registrado";
     document.getElementById("errorContra").style.visibility="visible";
   }
-  
 }

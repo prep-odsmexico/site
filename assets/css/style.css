@@ -2658,10 +2658,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   color: #f74646; }
 
 .divWhite {
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   width: 1px;
   height: 500px;
-  background-color: white; }
+  background-color: #ffffff; }
 
 .divFlex {
   display: flex;
@@ -2676,17 +2676,18 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .divBtn {
   float: right;
   padding-right: 1rem;
-  color: white;
+  color: #ffffff;
   cursor: pointer; }
 
 .divBtn:hover {
-  background-color: #0093D0; }
+  background-color: #0093D0;
+  color: #ffffff; }
 
 .margAuto {
   margin: auto; }
 
 .colorWhite {
-  color: white; }
+  color: #ffffff; }
 
 .width35 {
   width: 35%; }

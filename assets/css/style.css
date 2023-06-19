@@ -2659,7 +2659,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .divWhite {
   border: 1px solid white;
-  width: 1%;
+  width: 1px;
   height: 500px;
   background-color: white; }
 
@@ -2682,3 +2682,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   color: #ffffff;
   background-color: #38388f;
   border-radius: 0.2rem; }
+
+.margAuto {
+  margin: auto; }

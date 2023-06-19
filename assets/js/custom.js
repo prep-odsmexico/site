@@ -82,37 +82,51 @@ function revisaContra() {
   var usuario= document.getElementById("usu").value;
   console.log(usuario);
   console.log(contra);
+  document.getElementById("sContra").innerHTML="";
+  document.getElementById("sContra").style.visibility="hidden";
+  document.getElementById("sUsu").innerHTML="";
+  document.getElementById("sUsu").style.visibility="hidden";
+  if(usuario.trim()==="")
+  {
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("sUsu").innerHTML="Usuario requerido";
+    document.getElementById("sUsu").style.visibility="visible";
+    return;
+  }
+  if(contra.trim()==="")
+  {
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("sContra").innerHTML="Contraseña requerida";
+    document.getElementById("sContra").style.visibility="visible";
+    return;
+  }
   var result= usucontra.find(({ usuario }) => usuario === usuario);
   console.log(result);
   if (result!= "undefined"){
-    if (usuario!=result.usuario && contra!= result.contra ){
-      document.getElementById("divContra").style.display="block";
-      document.getElementById("errorContra").innerHTML="Usuario y contraseña incorrectos";
-      document.getElementById("errorContra").style.visibility="visible";
-    }
-    else {
       if(usuario!=result.usuario){
         document.getElementById("divContra").style.display="block";
-        document.getElementById("errorContra").innerHTML="Usuario incorrecto";
-        document.getElementById("errorContra").style.visibility="visible";
+        document.getElementById("sUsu").innerHTML="Usuario incorrecto";
+        document.getElementById("sUsu").style.visibility="visible";
       }
       else{
         if(contra!=result.contra){
           document.getElementById("divContra").style.display="block";
-          document.getElementById("errorContra").innerHTML="Contraseña incorrecta";
-          document.getElementById("errorContra").style.visibility="visible";
+          document.getElementById("sContra").innerHTML="Contraseña incorrecta";
+          document.getElementById("sContra").style.visibility="visible";
         }
         else{
           document.getElementById("divContra").style.display="none";
-          document.getElementById("errorContra").style.visibility="hidden";
+          document.getElementById("sUsu").style.visibility="hidden";
+          document.getElementById("sContra").style.visibility="hidden";
         }
       }
     }
-  }
+ 
   else
   {
     document.getElementById("divContra").style.display="block";
-    document.getElementById("errorContra").innerHTML="Usuario no registrado";
-    document.getElementById("errorContra").style.visibility="visible";
+    document.getElementById("sUsu").innerHTML="Usuario no registrado";
+    document.getElementById("sUsu").style.visibility="visible";
+    document.getElementById("sContra").style.visibility="hidden";
   }
 }

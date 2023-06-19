@@ -118,6 +118,7 @@ function revisaContra() {
           document.getElementById("divContra").style.display="none";
           document.getElementById("sUsu").style.visibility="hidden";
           document.getElementById("sContra").style.visibility="hidden";
+          document.body.style.overflow = "auto";
         }
       }
     }
@@ -130,3 +131,5 @@ function revisaContra() {
     document.getElementById("sContra").style.visibility="hidden";
   }
 }
+
+document.body.style.overflow = "hidden";

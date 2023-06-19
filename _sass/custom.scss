@@ -10,7 +10,7 @@
   z-index:20000;
 }
 .errorUsuContra{
-  color:#f74646;
+  color:#fbd305;
 }
 .divWhite{
   border:1px solid #ffffff;
@@ -71,12 +71,22 @@
 .width60{
   width:60%;
 }
-.inputUsuCon{
+.inputUsu{
    border: 1px solid #ffffff;
    border-radius: 0.4rem;
    width: -webkit-fill-available;
 }
-.inputUsuCon:focus{
+.inputUsu:focus{
+  background-color: white !important;
+  box-shadow: 0 0 0 3px #0093D0 !important;
+  outline: 1px solid #0093D0 !important;
+}
+.inputCon{
+   border: 1px solid #ffffff;
+   border-radius: 0.4rem;
+   width: -webkit-fill-available;
+}
+.inputCon:focus{
   background-color: white !important;
   box-shadow: 0 0 0 3px #0093D0 !important;
   outline: 1px solid #0093D0 !important;

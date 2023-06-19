@@ -46,18 +46,18 @@
 </div>
 <div id="divContra">
         <div class="divFlex">
-            <div><img src="/site/assets/img/LogoODS2_es.png"/></div>
+            <div class="margAuto"><img src="/site/assets/img/LogoODS2_es.png"/></div>
             <div class="divWhite"></div>
-            <div>
+            <div class="margAuto">
                 <div class="padLeft"><input type="text" id="usu" name="usu" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
-                <div class="padTop">Usuario: </div>
+                <div class="padTop">Usuario <span id="sUsu" class="errorUsu"></span></div>
                 <div class="padLeft"><input type="password" id="contra" name="contra" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
-                <div class="padTop">Contraseña: </div>
+                <div class="padTop">Contraseña <span id="sContra" class="errorContra"></span></div>
+                <div class="divBtn">
+                    <button type="button" class="btn" onclick="revisaContra()">Aceptar</button>
+                </div>
             </div>
         </div>
-        <div id="errorContra"></div>
-        <div class="divBtn">
-            <button type="button" class="btn" onclick="revisaContra()">Aceptar</button>
-        </div>
+        
 </div>
 {% include footer.html %}

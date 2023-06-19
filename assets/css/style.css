@@ -2645,16 +2645,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   display: block;
   z-index: 20000; }
 
-#errorUsu {
-  padding-left: 6rem;
-  padding-bottom: 0.5rem;
-  visibility: hidden;
-  color: #f74646; }
-
-#errorContra {
-  padding-left: 6rem;
-  padding-bottom: 0.5rem;
-  visibility: hidden;
+.errorUsuContra {
   color: #f74646; }
 
 .divWhite {
@@ -2691,6 +2682,14 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   border: 0;
   background-color: transparent;
   color: #ffffff; }
+
+.btnAceptar:focus {
+  color: #ffffff !important;
+  outline: 0px solid transparent !important;
+  background-color: #0077c8 !important;
+  outline-offset: 0 !important;
+  box-shadow: 0 0 #ffdd00, 0 0 #0b0c0c !important;
+  text-decoration: none !important; }
 
 .margAuto {
   margin: auto; }

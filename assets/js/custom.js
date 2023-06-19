@@ -81,21 +81,21 @@ function revisaContra() {
   var contra= document.getElementById("contra").value
   var usuario= document.getElementById("usu").value;
   document.getElementById("sContra").innerHTML="";
-  document.getElementById("divContra").style.visibility="hidden";
+  document.getElementById("dContra").style.visibility="hidden";
   document.getElementById("sUsu").innerHTML="";
-  document.getElementById("divUsu").style.visibility="hidden";
+  document.getElementById("dUsu").style.visibility="hidden";
   if(usuario.trim()==="")
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sUsu").innerHTML="Usuario requerido";
-    document.getElementById("divUsu").style.visibility="visible";
+    document.getElementById("dUsu").style.visibility="visible";
     return;
   }
   if(contra.trim()==="")
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sContra").innerHTML="Contraseña requerida";
-    document.getElementById("divContra").style.visibility="visible";
+    document.getElementById("dContra").style.visibility="visible";
     return;
   }
   var result= usucontra.find(({ usuario }) => usuario === usuario);
@@ -103,18 +103,18 @@ function revisaContra() {
       if(usuario!=result.usuario){
         document.getElementById("divContra").style.display="block";
         document.getElementById("sUsu").innerHTML="Usuario incorrecto";
-        document.getElementById("divUsu").style.visibility="visible";
+        document.getElementById("dUsu").style.visibility="visible";
       }
       else{
         if(contra!=result.contra){
           document.getElementById("divContra").style.display="block";
           document.getElementById("sContra").innerHTML="Contraseña incorrecta";
-          document.getElementById("divContra").style.visibility="visible";
+          document.getElementById("dContra").style.visibility="visible";
         }
         else{
           document.getElementById("divContra").style.display="none";
-          document.getElementById("divUsu").style.visibility="hidden";
-          document.getElementById("divContra").style.visibility="hidden";
+          document.getElementById("dUsu").style.visibility="hidden";
+          document.getElementById("dContra").style.visibility="hidden";
           document.body.style.overflow = "auto";
         }
       }
@@ -124,8 +124,8 @@ function revisaContra() {
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sUsu").innerHTML="Usuario no registrado";
-    document.getElementById("divUsu").style.visibility="visible";
-    document.getElementById("divContra").style.visibility="hidden";
+    document.getElementById("dUsu").style.visibility="visible";
+    document.getElementById("dContra").style.visibility="hidden";
   }
 }
 

@@ -40,13 +40,15 @@
 .divBtn{
   float: right;
   padding-right: 1rem;
+  color:white;
+  cursor:pointer;
 }
-.btn{
-  border: 1px solid #38388f;
-  color: #ffffff;
-  background-color: #38388f;
-  border-radius: 0.2rem;
+.divBtn:hover{
+  background-color: #0093D0;
 }
 .margAuto{
   margin:auto;
+}
+.colorWhite{
+  color:white;
 }

@@ -1,5 +1,6 @@
 // Add any custom javafuscript here.
 //arreglo de usuarios y contraseñas
+
 var usucontra=[
   {
     "usuario":"sandra.marquez",

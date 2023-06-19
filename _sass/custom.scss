@@ -29,7 +29,7 @@
   padding-left:0.5rem;
 }
 .padTop1{
-  pdding-top:1rem;
+  padding-top:1rem;
 }
 .divBtn{
   float: right;
@@ -83,8 +83,9 @@
    border: 1px solid #ffffff;
    border-radius: 0.4rem;
    width: -webkit-fill-available;
+   height: 40px;
 }
-.inputUsu:focus{
+.inputUsu[type="text"]:focus{
   background-color: white !important;
   box-shadow: 0 0 0 3px #0093D0 !important;
   outline: 1px solid #0093D0 !important;
@@ -93,6 +94,7 @@
    border: 1px solid #ffffff;
    border-radius: 0.4rem;
    width: -webkit-fill-available;
+   height: 40px;
 }
 .inputCon:focus{
   background-color: white !important;

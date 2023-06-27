@@ -129,4 +129,7 @@ function revisaContra() {
     document.getElementById("dContra").style.visibility="hidden";
   }
 }
-document.body.style.overflow = "hidden";
+var URLactual = window.location;
+console.log(URLactual);
+if (URLactual.includes("site/")
+  document.body.style.overflow = "hidden";

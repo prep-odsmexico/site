@@ -2651,32 +2651,32 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .divWhite {
   border: 1px solid #ffffff;
-  width: 1px;
-  height: 500px;
+  width: 0.1vw;
+  height: 60vw;
   background-color: #ffffff; }
 
 .divFlex {
   display: flex;
-  padding: 2rem 1rem 1rem 1rem; }
+  padding: 2vw 1vw 1vw 1vw; }
 
 .padTop {
-  padding-top: 0.2rem; }
+  padding-top: 0.2vw; }
 
 .padLeft {
-  padding-left: 0.5rem; }
+  padding-left: 0.5vw; }
 
 .padTop1 {
-  padding-top: 1rem; }
+  padding-top: 1vw; }
 
 .divBtn {
   float: right;
   padding-right: 1rem;
   color: #ffffff;
   cursor: pointer;
-  width: 20%;
-  height: 35px;
-  margin-top: 2rem;
-  padding: 0.2rem 0 0 1.3rem; }
+  width: 8vw;
+  height: 2.5vw;
+  margin-top: 2vw;
+  padding: 0.2vw 0 0 1.3vw; }
 
 .divBtn:hover {
   background-color: #0093D0;
@@ -2705,25 +2705,25 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   margin: auto; }
 
 .margleft-5 {
-  margin-left: -5rem; }
+  margin-left: -5vw; }
 
 .colorWhite {
   color: #ffffff; }
 
 .width35 {
-  width: 35%; }
+  width: 35vw; }
 
 .width70 {
-  width: 70%; }
+  width: 7vw; }
 
 .width60 {
-  width: 60%; }
+  width: 6vw; }
 
 .inputUsu {
   border: 1px solid #ffffff;
   border-radius: 0.4rem;
   width: -webkit-fill-available;
-  height: 40px; }
+  height: 3vw; }
 
 .inputUsu[type="text"]:focus {
   background-color: white !important;
@@ -2734,7 +2734,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   border: 1px solid #ffffff;
   border-radius: 0.4rem;
   width: -webkit-fill-available;
-  height: 40px; }
+  height: 3vw; }
 
 .inputCon:focus {
   background-color: white !important;
@@ -2743,3 +2743,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .display-flex {
   display: flex; }
+
+.imgODS {
+  width: 30vw; }

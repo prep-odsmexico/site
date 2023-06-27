@@ -2714,10 +2714,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   width: 35vw; }
 
 .width70 {
-  width: 7vw; }
+  width: 70vw; }
 
 .width60 {
-  width: 6vw; }
+  width: 60vw; }
 
 .inputUsu {
   border: 1px solid #ffffff;
@@ -2746,3 +2746,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .imgODS {
   width: 30vw; }
+
+.font-1 {
+  font-size: 1.2vw; }

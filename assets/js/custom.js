@@ -117,6 +117,7 @@ function revisaContra() {
           document.getElementById("dUsu").style.visibility="hidden";
           document.getElementById("dContra").style.visibility="hidden";
           document.body.style.overflow = "auto";
+          window.location.href=URLactual.substring(0, URLactual.length-1)) + "?usua=" + usu;
         }
       }
     }
@@ -129,8 +130,12 @@ function revisaContra() {
     document.getElementById("dContra").style.visibility="hidden";
   }
 }
-var URLactual = window.location;
+var URLactual = window.location.href;
 console.log(URLactual);
-//if (URLactual.includes("site/")){
+if (URLactual=="https://prep-odsmexico.github.io/site/"){
   document.body.style.overflow = "hidden";
-//}
+}
+else{
+  window.location.href=URLactual.substring(0, URLactual.length-1)) + "?usua=sandra.marquez";
+}
+

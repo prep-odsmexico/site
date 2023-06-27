@@ -79,6 +79,7 @@ function myMapColorFunction(indicatorId, goalId) {
   }
 }
 function revisaContra() {
+  localStorage.clear();
   var contra= document.getElementById("contra").value
   var usu= document.getElementById("usu").value;
   document.getElementById("sContra").innerHTML="";
@@ -118,6 +119,10 @@ function revisaContra() {
           document.getElementById("dContra").style.visibility="hidden";
           document.body.style.overflow = "auto";
           window.location.href=URLactual.substring(0, URLactual.length-1) + "?usua=" + usu;
+          let storage = {
+              userName: usu,
+            }
+          localStorage.setItem('usuario', JSON.stringify(storage));
         }
       }
     }
@@ -134,8 +139,12 @@ function revisaContra() {
 console.log(URLactual);
 if (URLactual=="https://prep-odsmexico.github.io/site/"){
   document.body.style.overflow = "hidden";
+  localStorage.clear();
 }
 else{
-  window.location.href=URLactual.substring(0, URLactual.length-1) + "?usua=sandra.marquez";
+  let datoUsuario = JSON.parse(localStorage.getItem('usuario')!);
+  if (URLactual!="https://prep-odsmexico.github.io/site" + "?usua=" + datoUsuario.userName){
+    window.location.href=URLactual.substring(0, URLactual.length-1) + "?usua=" + datoUsuario.userName";
+  }
 }
 

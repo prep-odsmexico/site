@@ -131,6 +131,6 @@ function revisaContra() {
 }
 var URLactual = window.location;
 console.log(URLactual);
-if (URLactual.includes("site/"){
+if (URLactual.includes("site/")){
   document.body.style.overflow = "hidden";
 }

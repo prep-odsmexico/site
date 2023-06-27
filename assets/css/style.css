@@ -2646,7 +2646,8 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   z-index: 20000; }
 
 .errorUsuContra {
-  color: #fbd305; }
+  color: #fbd305;
+  white-space: nowrap; }
 
 .divWhite {
   border: 1px solid #ffffff;

@@ -152,7 +152,8 @@ if (URLactual=="https://prep-odsmexico.github.io/site/"){
 }
 else{
   let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
-  console.log(JSON.parse(localStorage.getItem('usuario')));
+  //console.log(JSON.parse(localStorage.getItem('usuario')));
+  document.getElementById("ususesion").innerHTML= datoUsuario;
   document.body.style.overflow = "auto";
 }
 

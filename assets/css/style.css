@@ -2751,4 +2751,29 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   font-size: 1.2vw; }
 
 .display {
-  display: none; }
+  display: none;
+  background-color: #ffffff;
+  border: 1px solid #d9d3d3;
+  border-top: 0;
+  box-shadow: -6px 6px 10px -8px black; }
+
+.divUsuar {
+  position: absolute;
+  left: 75vw;
+  top: 2vw; }
+
+.divUsuCS {
+  font-weight: bold;
+  cursor: pointer; }
+
+.divUsuCS:hover {
+  color: #003768;
+  text-decoration: underline;
+  text-decoration-color: #003768; }
+
+.aCS {
+  color: #000000;
+  text-decoration: none; }
+
+.aCS:hover {
+  background-color: #e9eef1; }

@@ -90,6 +90,7 @@ function opcUsu(){
 
 function revisaContra() {
   localStorage.clear();
+  document.getElementById("ususesion").innerHTML= "";
   var contra= document.getElementById("contra").value
   var usu= document.getElementById("usu").value;
   document.getElementById("sContra").innerHTML="";
@@ -128,10 +129,8 @@ function revisaContra() {
           document.getElementById("dUsu").style.visibility="hidden";
           document.getElementById("dContra").style.visibility="hidden";
           document.body.style.overflow = "auto";
-          let storage = {
-              userName: usu,
-            }
           localStorage.setItem('usuario', JSON.stringify(usu));
+          document.getElementById("ususesion").innerHTML= usu;
         }
       }
     }
@@ -149,6 +148,7 @@ console.log(URLactual);
 if (URLactual=="https://prep-odsmexico.github.io/site/"){
   document.body.style.overflow = "hidden";
   localStorage.clear();
+  document.getElementById("ususesion").innerHTML= "";
 }
 else{
   let datoUsuario = JSON.parse(localStorage.getItem('usuario'));

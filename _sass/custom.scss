@@ -122,9 +122,10 @@
   box-shadow: -6px 6px 10px -8px black;
 }
 .divUsuar{
-	position: absolute;
+  position: absolute;
   left: 75vw;
   top: 2vw;
+  display:flex;
 }
 .divUsuCS{
     font-weight: bold;

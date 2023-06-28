@@ -121,7 +121,7 @@ function revisaContra() {
           let storage = {
               userName: usu,
             }
-          localStorage.setItem('usuario', JSON.stringify(storage));
+          localStorage.setItem('usuario', JSON.stringify(usu));
         }
       }
     }
@@ -142,6 +142,7 @@ if (URLactual=="https://prep-odsmexico.github.io/site/"){
 }
 else{
   let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
+  console.log(JSON.parse(localStorage.getItem('usuario')));
   document.body.style.overflow = "auto";
 }
 

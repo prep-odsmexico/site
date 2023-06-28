@@ -118,7 +118,6 @@ function revisaContra() {
           document.getElementById("dUsu").style.visibility="hidden";
           document.getElementById("dContra").style.visibility="hidden";
           document.body.style.overflow = "auto";
-          //window.location.href=URLactual.substring(0, URLactual.length-1) + "?usua=" + usu;
           let storage = {
               userName: usu,
             }
@@ -144,8 +143,5 @@ if (URLactual=="https://prep-odsmexico.github.io/site/"){
 else{
   let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
   document.body.style.overflow = "auto";
-  //if (URLactual!="https://prep-odsmexico.github.io/site" + "?usua=" + datoUsuario.userName){
-  //  window.location.href=URLactual.substring(0, URLactual.length-1) + "?usua=" + datoUsuario.userName;
- // }
 }
 

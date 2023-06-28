@@ -2764,12 +2764,15 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .divUsuCS {
   font-weight: bold;
+  display: flex; }
+
+.aUsu {
   cursor: pointer; }
 
-.divUsuCS:hover {
-  color: #003768;
+.aUsu:hover {
+  color: #0077c8;
   text-decoration: underline;
-  text-decoration-color: #003768; }
+  text-decoration-color: #0077c8; }
 
 .aCS {
   color: #000000;

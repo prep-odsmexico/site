@@ -78,6 +78,16 @@ function myMapColorFunction(indicatorId, goalId) {
       break;
   }
 }
+function opcUsu(){
+  if(document.getElementById("cs").style.display==="block")
+  {
+    document.getElementById("cs").style.display="none";
+  }
+  else{
+     document.getElementById("cs").style.display="block";
+  }
+}
+
 function revisaContra() {
   localStorage.clear();
   var contra= document.getElementById("contra").value

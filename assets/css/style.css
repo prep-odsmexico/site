@@ -2749,3 +2749,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .font-1 {
   font-size: 1.2vw; }
+
+.display {
+  display: none; }

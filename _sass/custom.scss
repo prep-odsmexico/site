@@ -131,17 +131,26 @@
     display:flex;
 }
 .aUsu{
-    cursor: pointer;
+  cursor: pointer;
+  color:#000000;
 }
 .aUsu:hover{
   color: #0077c8;
   text-decoration: underline;
   text-decoration-color:#0077c8;
 }
+.divaCS{
+  background-color: #ffffff;
+}
+.divaCS:hover{
+  background-color: #e9eef1;
+}
 .aCS{
-color: #000000;
-    text-decoration: none;
+  color: #000000 !important;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: normal;
 }
 .aCS:hover{
-   background-color: #e9eef1;
+  text-decoration: none;
 }

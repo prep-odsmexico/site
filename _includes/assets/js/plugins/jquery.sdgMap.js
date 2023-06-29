@@ -94,6 +94,8 @@
     this.viewHelpers = options.viewHelpers;
     this.modelHelpers = options.modelHelpers;
     this.chartTitles = options.chartTitles;
+    this.proxy = options.proxy;
+    this.proxySerieses = options.proxySerieses;
     this.startValues = options.startValues;
 
     // Require at least one geoLayer.
@@ -139,7 +141,10 @@
         newTitle = this.modelHelpers.getChartTitle(currentTitle, this.chartTitles, currentUnit, currentSeries);
       }
       if (newTitle) {
-        $('#map-heading').text(newTitle);
+        if (this.proxy === 'proxy' || this.proxySerieses.includes(currentSeries)) {
+            newTitle += ' ' + this.viewHelpers.PROXY_PILL;
+        }
+        $('#map-heading').html(newTitle);
       }
     },
 
@@ -288,7 +293,12 @@
             localeOpts.minimumFractionDigits = this._precision;
             localeOpts.maximumFractionDigits = this._precision;
         }
-        value = value.toLocaleString(opensdg.language, localeOpts);
+        if (this._decimalSeparator) {
+          value = value.toString().replace('.', this._decimalSeparator);
+        }
+        else{
+          value = value.toLocaleString(opensdg.language, localeOpts);
+        }
       }
       return value;
     },

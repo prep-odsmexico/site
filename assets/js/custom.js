@@ -144,7 +144,7 @@ function revisaContra() {
   }
 }
 
-if(URLactual.includes("prep"){
+if(URLactual.includes("prep")){
   if (URLactual=="https://prep-odsmexico.github.io/site/"){
     document.body.style.overflow = "hidden";
     localStorage.clear();

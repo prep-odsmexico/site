@@ -276,4 +276,3 @@ validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
 decimal_separator: '.'
-usuario: ''

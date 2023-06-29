@@ -8,7 +8,7 @@ var usucontra=[
   },
   {
     "usuario":"sergio.nieto",
-    "contra":"jefe"
+    "contra":"bombón"
   }
 ]
 //colores para el  mapa
@@ -144,7 +144,7 @@ function revisaContra() {
   }
 }
 
-if(URLactual.includes("prep")){
+if(!URLactual.includes("prod")){
   if (URLactual=="https://prep-odsmexico.github.io/site/"){
     document.body.style.overflow = "hidden";
     localStorage.clear();

@@ -154,7 +154,7 @@ if(URLactual.includes("prep")){
     document.getElementById("dContra").style.visibility="hidden";
     document.getElementById("sUsu").innerHTML="";
     document.getElementById("dUsu").style.visibility="hidden";
-    document.getElementById("dUsuar").style.display="none";
+    document.getElementById("dUsuar").style.display="block";
   }
   else{
     let datoUsuario = JSON.parse(localStorage.getItem('usuario'));

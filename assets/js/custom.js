@@ -8,7 +8,7 @@ var usucontra=[
   },
   {
     "usuario":"sergio.nieto",
-    "contra":"jefe"
+    "contra":"bombón"
   }
 ]
 //colores para el  mapa
@@ -144,16 +144,28 @@ function revisaContra() {
   }
 }
 
-console.log(URLactual);
-if (URLactual=="https://prep-odsmexico.github.io/site/"){
-  document.body.style.overflow = "hidden";
-  localStorage.clear();
-  document.getElementById("ususesion").innerHTML= "";
+if(!URLactual.includes("prod")){
+  if (URLactual=="https://prep-odsmexico.github.io/site/"){
+    document.body.style.overflow = "hidden";
+    localStorage.clear();
+    document.getElementById("ususesion").innerHTML= "";
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("sContra").innerHTML="";
+    document.getElementById("dContra").style.visibility="hidden";
+    document.getElementById("sUsu").innerHTML="";
+    document.getElementById("dUsu").style.visibility="hidden";
+    document.getElementById("dUsuar").style.display="block";
+  }
+  else{
+    let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
+    //console.log(JSON.parse(localStorage.getItem('usuario')));
+    document.getElementById("ususesion").innerHTML= datoUsuario;
+    document.body.style.overflow = "auto";
+    document.getElementById("dUsuar").style.display="block";
+  }
 }
 else{
-  let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
-  //console.log(JSON.parse(localStorage.getItem('usuario')));
-  document.getElementById("ususesion").innerHTML= datoUsuario;
-  document.body.style.overflow = "auto";
+  document.getElementById("divContra").style.display="none";
+  document.getElementById("dUsuar").style.display="none";
 }
 

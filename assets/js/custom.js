@@ -131,6 +131,12 @@ function revisaContra() {
           document.body.style.overflow = "auto";
           localStorage.setItem('usuario', JSON.stringify(usu));
           document.getElementById("ususesion").innerHTML= usu;
+          let datos={"usuario":usu};
+          /*fetch ("",{method:"POST", body:JSON.stringify(datos), headers:{"Content-Type":"application/json"}
+          })
+            .then(res => res.json())
+            .then(res => conole.log("Respuesta: ", res));
+            .catch(err => console.error("Error: ",err));*/
         }
       }
     }

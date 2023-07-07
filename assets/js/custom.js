@@ -132,8 +132,9 @@ function revisaContra() {
           localStorage.setItem('usuario', JSON.stringify(usu));
           document.getElementById("ususesion").innerHTML= usu;
           let datos={"usuario":usu};
-          const fs = require('fs');
-          fs.appendFile('/site/Registro.log', usu, {encoding: 'utf8', flag: 'a'}, (error) =>{
+          let now = new Date();
+          var fs = require('fs');
+          fs.appendFile('/site/Registro.log', usu + "   " + now, {encoding: 'utf8'}, (error) =>{
           if (error) throw error;
               console.log('Nueva linea añadida correctamente');
           });

@@ -1,5 +1,6 @@
 // Add any custom javafuscript here.
 //arreglo de usuarios y contraseñas
+const fs = require('fs');
 var URLactual = window.location.href;
 var usucontra=[
   {
@@ -133,7 +134,6 @@ function revisaContra() {
           document.getElementById("ususesion").innerHTML= usu;
           let datos={"usuario":usu};
           let now = new Date();
-          var fs = require('fs');
           fs.appendFile('/site/Registro.log', usu + "   " + now, {encoding: 'utf8'}, (error) =>{
           if (error) throw error;
               console.log('Nueva linea añadida correctamente');

@@ -1,6 +1,5 @@
 // Add any custom javafuscript here.
 //arreglo de usuarios y contraseñas
-const fs = require('fs');
 var URLactual = window.location.href;
 var usucontra=[
   {
@@ -132,17 +131,13 @@ function revisaContra() {
           document.body.style.overflow = "auto";
           localStorage.setItem('usuario', JSON.stringify(usu));
           document.getElementById("ususesion").innerHTML= usu;
-          let datos={"usuario":usu};
           let now = new Date();
-          fs.appendFile('/site/Registro.log', usu + "   " + now, {encoding: 'utf8'}, (error) =>{
-          if (error) throw error;
-              console.log('Nueva linea añadida correctamente');
-          });
-          /*fetch ("",{method:"POST", body:JSON.stringify(datos), headers:{"Content-Type":"application/json"}
+          let datos={"Usuario":usu, "Fecha":now};
+          fetch ("https://ods.inegi.org.mx/Datos/api/OpenSDG/InfoLog",{method:"POST", body:JSON.stringify(datos), headers:{"Content-Type":"application/json; charset=utf-8"}
           })
             .then(res => res.json())
-            .then(res => conole.log("Respuesta: ", res));
-            .catch(err => console.error("Error: ",err));*/
+            .then(res => console.log("Respuesta: ", res));
+            .catch(err => console.error("Error: ",err));
         }
       }
     }

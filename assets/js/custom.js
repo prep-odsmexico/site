@@ -133,12 +133,21 @@ function revisaContra() {
           document.getElementById("ususesion").innerHTML= usu;
           let now = new Date();
           let datos={"Usuario":usu, "Fecha":now};
-          fetch ("https://ods.inegi.org.mx/Datos/api/OpenSDG/InfoLog",{method:"POST", body:JSON.stringify(datos), headers:{"Content-Type":"application/json; charset=utf-8"}
-          })
-            .then(res => res.json())
-            .then(res => console.log("Respuesta: ", res));
-            .catch(err => console.error("Error: ",err));
-        }
+          try {
+              const response = await fetch("https://ods.inegi.org.mx/Datos/api/OpenSDG/InfoLog", {
+                method: "POST", 
+                headers: {
+                  "Content-Type": "application/json; charset=utf-8",
+                },
+                body: JSON.stringify(datos),
+              });
+          
+              const result = await response.json();
+              console.log("Success:", result);
+            } catch (error) {
+              console.error("Error:", error);
+            }
+         }
       }
     }
  

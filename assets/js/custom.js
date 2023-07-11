@@ -134,7 +134,7 @@ function revisaContra() {
           let now = new Date();
           let datos={"Usuario":usu, "Fecha":now};
           try {
-              const response = await fetch("https://ods.inegi.org.mx/Datos/api/OpenSDG/InfoLog", {
+              const response = await fetch("https://ods.org.mx/api/OpenSDG/InfoLog", {
                 method: "POST", 
                 headers: {
                   "Content-Type": "application/json; charset=utf-8",

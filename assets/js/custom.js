@@ -89,6 +89,7 @@ function opcUsu(){
 }
 
 function revisaContra() {
+  
   localStorage.clear();
   document.getElementById("ususesion").innerHTML= "";
   var contra= document.getElementById("contra").value
@@ -133,20 +134,19 @@ function revisaContra() {
           document.getElementById("ususesion").innerHTML= usu;
           let now = new Date();
           let datos={"Usuario":usu, "Fecha":now};
-          try {
-              const response = await fetch("https://ods.org.mx/api/OpenSDG/InfoLog", {
-                method: "POST", 
-                headers: {
-                  "Content-Type": "application/json; charset=utf-8",
-                },
-                body: JSON.stringify(datos),
-              });
-          
-              const result = await response.json();
-              console.log("Success:", result);
-            } catch (error) {
-              console.error("Error:", error);
+          const options = {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json; charset=utf-8"
+              },
+              body: JSON.stringify(datos)
             }
+           fetch("https://ods.org.mx/api/OpenSDG/InfoLog", options)
+            .then(response => response.text())
+            .then(data => {
+              const json = JSON.parse(data);
+              console.log(json);
+            });
          }
       }
     }

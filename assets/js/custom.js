@@ -9,6 +9,14 @@ var usucontra=[
   {
     "usuario":"sergio.nieto",
     "contra":"bombón"
+  },
+  {
+    "usuario":"edith.lopez",
+    "contra":"clau"
+  },
+  {
+    "usuario":"angelica.valdivia",
+    "contra":"angval"
   }
 ]
 //colores para el  mapa

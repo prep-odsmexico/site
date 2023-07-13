@@ -141,7 +141,7 @@ function revisaContra() {
           localStorage.setItem('usuario', JSON.stringify(usu));
           document.getElementById("ususesion").innerHTML= usu;
           let now = new Date();
-          let datos={"Usuario":usu, "Fecha":now};
+          let datos={"Usuario":usu};
           const options = {
               method: "POST",
               headers: {

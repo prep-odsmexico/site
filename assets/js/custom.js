@@ -12,11 +12,11 @@ var usucontra=[
   },
   {
     "usuario":"edith.lopez",
-    "contra":"clau"
+    "contra":"claulop25"
   },
   {
     "usuario":"angelica.valdivia",
-    "contra":"angval"
+    "contra":"angval30"
   }
 ]
 //colores para el  mapa

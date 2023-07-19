@@ -9,6 +9,14 @@ var usucontra=[
   {
     "usuario":"sergio.nieto",
     "contra":"bombón"
+  },
+  {
+    "usuario":"edith.lopez",
+    "contra":"claulop25"
+  },
+  {
+    "usuario":"angelica.valdivia",
+    "contra":"angval30"
   }
 ]
 //colores para el  mapa
@@ -89,6 +97,7 @@ function opcUsu(){
 }
 
 function revisaContra() {
+  
   localStorage.clear();
   document.getElementById("ususesion").innerHTML= "";
   var contra= document.getElementById("contra").value
@@ -131,7 +140,22 @@ function revisaContra() {
           document.body.style.overflow = "auto";
           localStorage.setItem('usuario', JSON.stringify(usu));
           document.getElementById("ususesion").innerHTML= usu;
-        }
+          let now = new Date();
+          let datos={"Usuario":usu};
+          const options = {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json; charset=utf-8"
+              },
+              body: JSON.stringify(datos)
+            }
+           fetch("https://ods.org.mx/api/OpenSDG/InfoLog", options)
+            .then(response => response.text())
+            .then(data => {
+              const json = JSON.parse(data);
+             // console.log(json);
+            });
+         }
       }
     }
  

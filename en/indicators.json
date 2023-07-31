@@ -1127,7 +1127,7 @@
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-5-2/",
@@ -1143,7 +1143,7 @@
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-a-1/",
@@ -1183,7 +1183,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-2-1/",
@@ -1191,7 +1191,7 @@
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-3-1/",
@@ -1223,7 +1223,7 @@
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-1-1/",
@@ -1231,18 +1231,34 @@
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-2-1/",
           "status": "notstarted"
         },
         {
+          "id": "8-2-1(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-2-1(2)/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-3-1",
-          "title": "Proportion of informal employment in total employment, by sector and sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-3-1(2)/",
           "status": "notstarted"
         },
         {
@@ -1271,10 +1287,50 @@
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1d/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-2(2)/",
           "status": "notstarted"
         },
         {
@@ -1286,8 +1342,32 @@
           "status": "notstarted"
         },
         {
+          "id": "8-6-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-1c/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-7-1/",
@@ -1295,7 +1375,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-8-1/",
@@ -1311,7 +1391,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-9-1/",
@@ -1326,8 +1406,24 @@
           "status": "notstarted"
         },
         {
+          "id": "8-10-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-10-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-10-1-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-10-2/",
@@ -1359,7 +1455,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-1-1/",
@@ -1374,6 +1470,22 @@
           "status": "notstarted"
         },
         {
+          "id": "9-1-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-1-2-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-1-2-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-1",
           "title": "Manufacturing value added as a proportion of GDP and per capita",
           "description": "",
@@ -1382,11 +1494,35 @@
           "status": "notstarted"
         },
         {
+          "id": "9-2-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-2-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-2-1-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-2-2(2)/",
           "status": "notstarted"
         },
         {
@@ -1407,7 +1543,7 @@
         },
         {
           "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-4-1/",
@@ -1415,7 +1551,7 @@
         },
         {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-5-1/",
@@ -1423,7 +1559,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-5-2/",
@@ -1439,7 +1575,7 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-b-1/",
@@ -1471,15 +1607,23 @@
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-2-1/",
           "status": "notstarted"
         },
         {
+          "id": "10-2-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-2-1a/",
+          "status": "notstarted"
+        },
+        {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-3-1/",
@@ -1487,7 +1631,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-1/",
@@ -1577,13 +1721,69 @@
   },
   {
     "goal": {
+      "id": "10n",
+      "title": "global_goals.10n-title",
+      "indicators": [
+        
+        {
+          "id": "10n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10n-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10n-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10n-3-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10r",
+      "title": "global_goals.10r-title",
+      "indicators": [
+        
+        {
+          "id": "10r-4-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10r-4-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10r-4-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10r-4-1b/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "11",
       "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
       "indicators": [
         
         {
           "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-1-1/",
@@ -1591,7 +1791,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-2-1/",
@@ -1599,7 +1799,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-3-1/",
@@ -1607,7 +1807,7 @@
         },
         {
           "id": "11-3-2",
-          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-3-2/",
@@ -1615,7 +1815,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-4-1/",
@@ -1623,7 +1823,7 @@
         },
         {
           "id": "11-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-5-1/",
@@ -1654,6 +1854,14 @@
           "status": "notstarted"
         },
         {
+          "id": "11-6-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-6-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-6-2",
           "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
           "description": "",
@@ -1663,7 +1871,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-7-1/",
@@ -1699,6 +1907,70 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/11-b-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11n",
+      "title": "global_goals.11n-title",
+      "indicators": [
+        
+        {
+          "id": "11n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11n-2-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11r",
+      "title": "global_goals.11r-title",
+      "indicators": [
+        
+        {
+          "id": "11r-2-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11r-2-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11r-2-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11r-2-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11r-2-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11r-2-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11r-2-1d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11r-2-1d/",
           "status": "notstarted"
         }]
     }
@@ -1766,6 +2038,14 @@
           "status": "notstarted"
         },
         {
+          "id": "12-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/12-5-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-6-1",
           "title": "Number of companies publishing sustainability reports",
           "description": "",
@@ -1799,7 +2079,7 @@
         },
         {
           "id": "12-b-1",
-          "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/12-b-1/",
@@ -1817,13 +2097,29 @@
   },
   {
     "goal": {
+      "id": "12n",
+      "title": "global_goals.12n-title",
+      "indicators": [
+        
+        {
+          "id": "12n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/12n-1-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "13",
       "title": "Take urgent action to combat climate change and its impacts",
       "indicators": [
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-1-1/",
@@ -1889,6 +2185,22 @@
   },
   {
     "goal": {
+      "id": "13r",
+      "title": "global_goals.13r-title",
+      "indicators": [
+        
+        {
+          "id": "13r-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13r-3-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "14",
       "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
       "indicators": [
@@ -1927,7 +2239,7 @@
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/14-5-1/",
@@ -1951,7 +2263,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/14-a-1/",
@@ -1977,13 +2289,37 @@
   },
   {
     "goal": {
+      "id": "14r",
+      "title": "global_goals.14r-title",
+      "indicators": [
+        
+        {
+          "id": "14r-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/14r-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14r-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/14r-5-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "15",
       "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
       "indicators": [
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-1-1/",
@@ -1991,7 +2327,7 @@
         },
         {
           "id": "15-1-2",
-          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-1-2/",
@@ -2015,7 +2351,7 @@
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-4-1/",
@@ -2023,7 +2359,7 @@
         },
         {
           "id": "15-4-2",
-          "title": "Mountain Green Cover Index",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-4-2/",
@@ -2031,7 +2367,7 @@
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-5-1/",
@@ -2091,6 +2427,46 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/15-c-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15n",
+      "title": "global_goals.15n-title",
+      "indicators": [
+        
+        {
+          "id": "15n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/15n-2-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15r",
+      "title": "global_goals.15r-title",
+      "indicators": [
+        
+        {
+          "id": "15r-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/15r-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15r-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/15r-1b/",
           "status": "notstarted"
         }]
     }
@@ -2779,6 +3155,166 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/5n-3-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6n",
+      "title": "global_goals.6n-title",
+      "indicators": [
+        
+        {
+          "id": "6n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/6n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/6n-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6n-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/6n-2-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7n",
+      "title": "global_goals.7n-title",
+      "indicators": [
+        
+        {
+          "id": "7n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/7n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/7n-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7n-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/7n-3-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8n",
+      "title": "global_goals.8n-title",
+      "indicators": [
+        
+        {
+          "id": "8n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8n-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8n-3-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-3-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8n-3-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-3-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8n-3-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-3-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8n-3-1d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-3-1d/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8n-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8n-4-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8r",
+      "title": "global_goals.8r-title",
+      "indicators": [
+        
+        {
+          "id": "8r-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8r-6-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "9n",
+      "title": "global_goals.9n-title",
+      "indicators": [
+        
+        {
+          "id": "9n-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9n-3-1/",
           "status": "notstarted"
         }]
     }

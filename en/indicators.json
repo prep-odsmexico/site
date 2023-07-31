@@ -14,6 +14,14 @@
           "status": "complete"
         },
         {
+          "id": "1-1-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-1-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "1-2-1",
           "title": "1.2.1 Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad",
           "description": "",
@@ -39,11 +47,11 @@
         },
         {
           "id": "1-2-1-a",
-          "title": "Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-2-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-2",
@@ -51,6 +59,46 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/1-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-2-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-1(1)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-1(1)/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-1(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-1(2)/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2(1)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-2(1)/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-2-2(2)/",
           "status": "notstarted"
         },
         {
@@ -71,7 +119,7 @@
         },
         {
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-4-2/",
@@ -119,7 +167,7 @@
         },
         {
           "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-a-2/",
@@ -158,8 +206,16 @@
           "status": "complete"
         },
         {
+          "id": "2-1-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/2-1-2-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-1/",
@@ -167,7 +223,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-2/",
@@ -179,6 +235,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-2(1)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/2-2-2(1)/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/2-2-2(2)/",
           "status": "notstarted"
         },
         {
@@ -271,7 +343,7 @@
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-1-2/",
@@ -279,7 +351,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "Under‐5 mortality rate",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-2-1/",
@@ -295,7 +367,7 @@
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-3-1/",
@@ -303,7 +375,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-3-2/",
@@ -311,7 +383,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-3-3/",
@@ -327,7 +399,7 @@
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-3-5/",
@@ -335,7 +407,7 @@
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-4-1/",
@@ -347,6 +419,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/3-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-4-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-4-2-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-4-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-4-2-b/",
           "status": "notstarted"
         },
         {
@@ -375,7 +463,7 @@
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-7-1/",
@@ -387,6 +475,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/3-7-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-7-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-7-2-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-7-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-7-2-b/",
           "status": "notstarted"
         },
         {
@@ -430,6 +534,30 @@
           "status": "notstarted"
         },
         {
+          "id": "3-9-2a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-9-2a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-3a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-9-3a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-3b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-9-3b/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-a-1",
           "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
           "description": "",
@@ -463,7 +591,7 @@
         },
         {
           "id": "3-c-1",
-          "title": "Health worker density and distribution",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-c-1/",
@@ -503,7 +631,7 @@
         },
         {
           "id": "4-1-2",
-          "title": "Completion rate (primary education, lower secondary education, upper secondary education)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-1-2/",
@@ -511,7 +639,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-2-1/",
@@ -519,7 +647,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-2-2/",
@@ -527,7 +655,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-3-1/",
@@ -535,7 +663,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-4-1/",
@@ -558,6 +686,14 @@
           "status": "notstarted"
         },
         {
+          "id": "4-6-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-6-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-7-1",
           "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
           "description": "",
@@ -574,6 +710,70 @@
           "status": "notstarted"
         },
         {
+          "id": "4-a-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-d1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-d1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-d2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-d2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-e/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-f",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-f/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-g",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-g/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-b-1",
           "title": "Volume of official development assistance flows for scholarships by sector and type of study",
           "description": "",
@@ -587,6 +787,30 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/4-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-c-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-c-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-c-1-c/",
           "status": "notstarted"
         }]
     }
@@ -614,11 +838,43 @@
           "status": "notstarted"
         },
         {
+          "id": "5-2-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-2-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-2-1-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-2-2",
           "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-2-2-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-2-2-b/",
           "status": "notstarted"
         },
         {
@@ -638,11 +894,51 @@
           "status": "notstarted"
         },
         {
+          "id": "5-3-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-3-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-3-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-3-1b/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-4-1",
           "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-4-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-4-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-4-1c/",
           "status": "notstarted"
         },
         {
@@ -654,8 +950,48 @@
           "status": "notstarted"
         },
         {
+          "id": "5-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-5-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-5-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-5-1-c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1-d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-5-1-d/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-5-1-e/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-5-2/",
@@ -663,7 +999,7 @@
         },
         {
           "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-6-1/",
@@ -694,8 +1030,24 @@
           "status": "notstarted"
         },
         {
+          "id": "5-a-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-a-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-a-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5-a-1b/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-b-1/",
@@ -759,7 +1111,7 @@
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-4-2/",
@@ -767,7 +1119,7 @@
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-5-1/",
@@ -2147,6 +2499,286 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/17-19-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "1n",
+      "title": "global_goals.1n-title",
+      "indicators": [
+        
+        {
+          "id": "1n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1n-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1n-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1n-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1n-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1n-3-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1n-3-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1n-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1n-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1n-3-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1n-3-3/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "2n",
+      "title": "global_goals.2n-title",
+      "indicators": [
+        
+        {
+          "id": "2n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/2n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/2n-2-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "3n",
+      "title": "global_goals.3n-title",
+      "indicators": [
+        
+        {
+          "id": "3n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3n-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3n-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3n-1-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3n-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3n-1-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3n-1-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3n-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3n-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3n-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3n-4-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "3r",
+      "title": "global_goals.3r-title",
+      "indicators": [
+        
+        {
+          "id": "3r-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3r-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3r-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3r-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3r-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3r-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3r-7-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3r-7-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3r-7-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3r-7-b/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4n",
+      "title": "global_goals.4n-title",
+      "indicators": [
+        
+        {
+          "id": "4n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4n-2-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4r",
+      "title": "global_goals.4r-title",
+      "indicators": [
+        
+        {
+          "id": "4r-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4r-3-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "5n",
+      "title": "global_goals.5n-title",
+      "indicators": [
+        
+        {
+          "id": "5n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5n-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5n-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5n-1-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5n-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5n-1-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5n-1-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5n-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5n-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/5n-3-1/",
           "status": "notstarted"
         }]
     }

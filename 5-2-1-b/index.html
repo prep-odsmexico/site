@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 5.2.1.b -
         
-         - Indicadores para los Objetivos de Desarrollo Sostenible
+        5.2.1.b Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por grupos de edad según tipo de violencia - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230731211216">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230731212807">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 5.2.1.b
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">5.2.1.b Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por grupos de edad según tipo de violencia</span>
                     </h1>
                 </div>
             </div>
@@ -446,12 +446,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_5-2-1-b'
   data-id="5-2-1-b"
-  data-country="México"
-  data-charttitle=""
+  data-country="Nacional"
+  data-charttitle="5.2.1.b Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por grupos de edad según tipo de violencia"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Porcentaje¬Percentage"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="Line"
   data-graphtypes="[]"
   data-geocoderegex=""
@@ -470,7 +470,279 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/5-2-1-b.csv" class="btn btn-primary btn-download" download='indicator_5-2-1-b.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            5.2.1.b Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por grupos de edad según tipo de violencia
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Instituto Nacional de Estadística y Geografía (INEGI), Dirección General de Estadísticas de Gobierno, Seguridad Pública y Justicia (DGEGSPJ). Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (ENDIREH) 2011, 2016 y 2021.</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd>Excepto las estimaciones con notas /a, /b, /c y /d, las estimaciones presentadas en este cuadro tienen un coeficiente de variación (%) en el rango de (0,15), por lo que su nivel de precisión es clasificado como Alto.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Instituto Nacional de Estadística y Geografía (INEGI), Dirección General de Estadísticas de Gobierno, Seguridad Pública y Justicia (DGEGSPJ). Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (ENDIREH) 2011, 2016 y 2021.</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd>Excepto las estimaciones con notas /a, /b, /c y /d, las estimaciones presentadas en este cuadro tienen un coeficiente de variación (%) en el rango de (0,15), por lo que su nivel de precisión es clasificado como Alto.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,88 +850,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 5. Lograr la igualdad de género y empoderar a todas las mujeres y las niñas</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 5.2 Eliminar todas las formas de violencia contra todas las mujeres y las niñas en los ámbitos público y privado, incluidas la trata y la explotación sexual y otros tipos de explotación</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>5.2.1.b Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por grupos de edad según tipo de violencia</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>Es el resultado de dividir el número de mujeres y niñas del grupo de edad e que experimentaron algún evento de violencia física, sexual o psicológica por parte de un compañero intimo actual o anterior en los últimos 12 meses, entre el número de mujeres y niñas del grupo de edad e que han tenido pareja, multiplicado por cien.</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -683,33 +934,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Centro de atención a usuarios INEGI<br />  Horario de lunes a domingo de 8:00 a 23:00 horas (tiempo del centro de México).<br />Avenida Héroe de Nacozari Sur 2301<br />Fraccionamiento Jardines del Parque, 20276,<br />Aguascalientes, Aguascalientes, Aguascalientes,<br />Entre Calle INEGI y Avenida del Lago, Avenida Paseo de las Garzas.<br />Nacional sin costo: 800 111 46 34<br />Internacional: (código internacional) + (52)+(449) 910 53 00 Ext. 5301<br />atencion.usuarios@inegi.org.mx<br /><br />Alejandra Ríos Cázares<br />  Directora General Adjunta de Desarrollo, Análisis e Indicadores de Gobierno<br />Av. Patriotismo 711. Colonia San Juan, Alcaldía Benito Juárez, CDMX<br />5552781000, extensión 1698<br />alejandra.riosc@inegi.org.mx<br /><br />Eloina Meneses Mendoza<br />  Directora de Desarrollo de Información Gubernamental<br />Av. Patriotismo 711. Colonia San Juan, Alcaldía Benito Juárez, CDMX<br />5552781000, extensión 1779<br />eloina.meneses@inegi.org.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -743,6 +980,74 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>Porcentaje de mujeres y niñas de 15 años y más que declararon haber experimentado al menos un incidente de violencia física, sexual o psicológica por parte de un compañero íntimo actual o anterior, durante los 12 meses anteriores a la entrevista.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>octubre 2027</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -768,6 +1073,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>Para el diseño, seguimiento y evaluación de políticas públicas sobre prevención, atención, sanción y erradicación de la violencia contra las mujeres, alineadas con los instrumentos de planeación nacional:¬Programa Sectorial de Bienestar:¬Objetivo prioritario 5. Contribuir a una cultura para la paz para incidir en la disminución de la violencia en comunidades y territorios¬Estrategia prioritaria 5.3 Contribuir a una cultura para la paz y disminuir las violencias contra las mujeres para lograr su bienestar¬¬Programa Sectorial de Gobernación:¬Objetivo prioritario 3: Garantizar, promover y proteger los derechos humanos de las personas mediante políticas públicas y mecanismos que aseguren el ejercicio pleno de sus derechos. ¬Estrategia prioritaria 3.3 Garantizar el derecho de las mujeres a una vida libre de violencia, a través de la construcción de medidas que modifiquen los estereotipos y conductas que atentan contra la vida y la dignidad, así como asegurar su acceso a la justicia.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -775,6 +1096,99 @@ data-event-label="Change to indicator.sources tab"
       
         
           
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <p>Los 12 meses anteriores a la encuesta corresponde a octubre de 2010 a octubre de 2011 para la ENDIREH 2011, de octubre de 2015 a octubre de 2016 para la ENDIREH 2016 y octubre de 2020 a octubre de 2021 para la ENDIREH 2021.¬¬Se consideran los siguientes ítems sobre la violencia de la pareja actual o última, por tipo de violencia.¬¬ENDIREH 2011) Violencia física, incluye las siguientes agresiones: “La ha empujado o le ha jalado el cabello”; “La ha amarrado”; “La ha pateado”; “Le ha aventado algún objeto”; “La ha golpeado con las manos o con algún objeto”; “La ha tratado de ahorcar o asfixiar”; “La ha agredido con cuchillo o navaja”; “Le ha disparado con un arma”.¬¬ENDIREH 2016 y 2021) Violencia física, incluye las siguientes agresiones: “La ha empujado o le ha jalado el cabello”; “La ha amarrado”; “La ha pateado”; “Le ha aventado algún objeto”; “La ha abofeteado o cacheteado”; “La ha golpeado con el puño o con algún objeto”; “La ha tratado de ahorcar o asfixiar”; “La ha agredido con cuchillo o navaja”; “Le ha disparado con un arma de fuego”.¬¬ENDIREH 2011) Violencia emocional, se consideran las siguientes agresiones: “La ha avergonzado, menospreciado o humillado (le ha dicho que es fea o la ha comparado con otras mujeres”; “La ha ignorado, no la ha tomado en cuenta o no le ha brindado cariño”; “Le ha dicho que usted lo engaña”; “Le ha hecho sentir miedo”; “La ha amenazado con irse, dañarla, quitarle a los hijos o correrla de la casa”; “La ha encerrado, le ha prohibido salir o que la visiten”; “La ha vigilado o espiado”; “La ha amenazado con algún arma (cuchillo, navaja, pistola o rifle)”; “La ha amenazado con matarla, matarse él o matar a los niños”; “Le ha destruido, tirado o escondido cosas de usted o del hogar”; “Le ha dejado de hablar”; “Ha hecho que los hijos o parientes se pongan contra usted”; “Se ha enojado mucho porque no está listo el quehacer, porque la comida no está como él quiere o cree que usted no cumplió con sus obligaciones”.¬¬ENDIREH 2016 y 2021) Violencia emocional, se consideran las siguientes agresiones: “La ha avergonzado, ofendido, menospreciado o humillado (le ha dicho que es fea o la ha comparado con otras mujeres)”; “La ha ignorado, no la toma en cuenta o no le brinda cariño”; “Le ha dicho que usted lo engaña”; “Le ha hecho sentir miedo”; “La ha amenazado con dejarla/abandonarla, dañarla, quitarle a los(as) hijos(as) o correrla de la casa”; “La ha encerrado, le ha prohibido salir o que la visiten”; “La ha vigilado, espiado, la ha seguido cuando sale de su casa o se le aparece de manera sorpresiva”; “La ha amenazado con algún arma (cuchillo, navaja, pistola o rifle) o con quemarla”; “La ha amenazado con matarla, matarse él o matar a los niños(as)”; “Le ha destruido, tirado o escondido cosas de usted o del hogar”; “Le ha dejado de hablar”; “Ha hecho que los hijos(as) o parientes se pongan en su contra”; “Se ha enojado mucho porque no está listo el quehacer, porque la comida no está como él quiere o cree que usted no cumplió con sus obligaciones”; “La llama o le manda mensajes por teléfono todo el tiempo, para saber dónde y con quién está y qué está haciendo”; “Le revisa su correo o celular y le exige que le dé las contraseñas”.¬¬ENDIREH 2011) Violencia sexual, se consideran las siguientes agresiones: “Le ha exigido tener relaciones sexuales, aunque usted no quiera”; “Cuando tienen relaciones sexuales la ha obligado a hacer cosas que a usted no le gustan”; “Ha usado su fuerza física para obligarla a tener relaciones sexuales”.¬¬ENDIREH 2016 y 2021) Violencia sexual, se consideran las siguientes agresiones: “Le ha exigido con amenazas o chantajes tener relaciones sexuales, aunque usted no quiera”; “Cuando tienen relaciones sexuales la ha obligado a hacer cosas que a usted no le gustan”; “Ha usado su fuerza física para obligarla a tener relaciones sexuales”; “La ha obligado a tener relaciones sexuales sin protección”; “La ha obligado a mirar escenas o actos sexuales o pornográficos (fotos, revistas, videos o películas pornográficas)”.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
+          
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/5.2.1.b_es.zip">Datos para el cálculo</a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
+          
+            Jul 31, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1034,6 +1448,218 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Instituto Nacional de Estadística y Geografía (INEGI), Dirección General de Estadísticas de Gobierno, Seguridad Pública y Justicia (DGEGSPJ). Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (ENDIREH) 2011, 2016 y 2021.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Quinquenal</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1143,12 +1769,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230731211216'></script>
+<script src='/site/assets/js/sdg.js?v=20230731212807'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230731211216"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230731212807"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

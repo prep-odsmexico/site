@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230731211216">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230731212807">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,84 +519,492 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_GOAL', "Objetivo 1. Poner fin a la pobreza en todas sus formas y en todo el mundo");
+        var propertyEditor = editor.getEditor('root.SDG_GOAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_GOAL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_TARGET', "1n.1 Pobreza multidimensional por grupos en condiciones de desventaja (desagregación por personas indígenas, adultos mayores, personas con discapacidad, niños y niñas (menores de 18 años) y primera infancia (0 a 5 años) basada en el enfoque de derechos");
+        var propertyEditor = editor.getEditor('root.SDG_TARGET');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_TARGET');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "1n.1.1 Porcentaje de la población en situación de pobreza");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_SERIES_DESCR', "Este indicador resulta de identificar a la población de referencia que cuenta con al menos una carencia social y que su ingreso es insuficiente para satisfacer sus necesidades alimentarias y no alimentarias, dividir dicho número de personas entre la población de referencia total y multiplicar el cociente por 100.");
+        var propertyEditor = editor.getEditor('root.SDG_SERIES_DESCR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_SERIES_DESCR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('META_LAST_UPDATE', "");
+        var propertyEditor = editor.getEditor('root.META_LAST_UPDATE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: META_LAST_UPDATE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.META_LAST_UPDATE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_RELATED_INDICATORS', "");
+        var propertyEditor = editor.getEditor('root.SDG_RELATED_INDICATORS');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_RELATED_INDICATORS');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_ORGANISATION', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_ORGANISATION');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_ORGANISATION');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_ORGANISATION'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_NAME', "Alida Marcela Gutiérrez Landeros<br>  Coordinadora General de Análisis de la Pobreza<br>Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br>(55) 54-81-72-00, ext. 70075<br>amgutierrez@coneval.org.mx<br><br>David Antonio Rojas Rosey<br>  Director Ejecutivo de Medición de Pobreza y Seguimiento de Indicadores<br>Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br>(55) 54-81-72-00, ext. 70100<br>drojas@coneval.org.mx<br><br>");
+        var propertyEditor = editor.getEditor('root.CONTACT_NAME');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_NAME');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_NAME'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('ORGANISATION_UNIT', "");
+        var propertyEditor = editor.getEditor('root.ORGANISATION_UNIT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ORGANISATION_UNIT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ORGANISATION_UNIT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_FUNCT', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_FUNCT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_FUNCT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_FUNCT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_PHONE', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_PHONE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_PHONE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_PHONE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_MAIL', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_MAIL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_MAIL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_MAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_EMAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Es el porcentaje de la población de referencia que tiene al menos una carencia social (rezago educativo, acceso a los servicios de salud, acceso a la seguridad social, calidad y espacios de la vivienda, servicios básicos en la vivienda y acceso a la alimentación nutritiva y de calidad) y su ingreso es insuficiente para adquirir los bienes y servicios que requiere para satisfacer sus necesidades alimentarias y no alimentarias (línea de pobreza por ingresos).");
+        var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: STAT_CONC_DEF');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "Porcentaje");
+        var propertyEditor = editor.getEditor('root.UNIT_MEASURE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UNIT_MEASURE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UNIT_MEASURE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CLASS_SYSTEM', "");
+        var propertyEditor = editor.getEditor('root.CLASS_SYSTEM');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CLASS_SYSTEM');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CLASS_SYSTEM'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "");
+        var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SOURCE_TYPE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SOURCE_TYPE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COLL_METHOD', "");
+        var propertyEditor = editor.getEditor('root.COLL_METHOD');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COLL_METHOD');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COLL_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FREQ_COLL', "Segundo semestre de 2023 */");
+        var propertyEditor = editor.getEditor('root.FREQ_COLL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FREQ_COLL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FREQ_COLL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('REL_CAL_POLICY', "");
+        var propertyEditor = editor.getEditor('root.REL_CAL_POLICY');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: REL_CAL_POLICY');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REL_CAL_POLICY'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_SOURCE', "");
+        var propertyEditor = editor.getEditor('root.DATA_SOURCE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_SOURCE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_SOURCE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COMPILING_ORG', "");
+        var propertyEditor = editor.getEditor('root.COMPILING_ORG');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COMPILING_ORG');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPILING_ORG'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('INST_MANDATE', "");
+        var propertyEditor = editor.getEditor('root.INST_MANDATE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: INST_MANDATE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.INST_MANDATE'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('RATIONALE', "El Artículo 81 de la Ley General de Desarrollo Social establece que el Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL) tiene por objeto normar y coordinar la evaluación de las políticas y programas de desarrollo social que ejecuten las dependencias públicas y establecer los lineamientos y criterios para la definición, identificación y medición de la pobreza, garantizando la transparencia, objetividad y rigor técnico en dicha actividad. Además, el 16 de junio de 2010 se publicó en el Diario Oficial de la Federación (DOF) los Lineamientos y criterios generales para la definición, identificación y medición de la pobreza. Por otra parte, la medición de la pobreza a nivel nacional se considera en las metas de los ODS. Por lo anterior, se propone la medición multidimensional de la pobreza como instrumento para dar seguimiento a las metas nacionales de la Agenda 2030.¬¬A diferencia de las mediciones de las agendas globales, en este caso la propuesta es la desagregación por grupos de población en situación de vulnerabilidad. Si bien estas desagregaciones se pueden ampliar; es importante tener consideraciones al respecto. Se reconoce la importancia de la incorporación de la desagregación del indicador para personas afromexicanas, migrantes y refugiadas; sin embargo, metodológicamente en estos momentos no es factible su inclusión en el contexto de metas nacionales al no contar con información disponible.¬¬Sin embargo, con el fin de aportar elementos que permitan una mejor identificación de las problemáticas económicas y sociales que afectan a segmentos específicos de la población, el CONEVAL estimó información de pobreza para determinados grupos poblacionales.¬");
+        var propertyEditor = editor.getEditor('root.RATIONALE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: RATIONALE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.RATIONALE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('REC_USE_LIM', "");
+        var propertyEditor = editor.getEditor('root.REC_USE_LIM');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: REC_USE_LIM');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP', "");
+        var propertyEditor = editor.getEditor('root.DATA_COMP');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_VALIDATION', "1. El 30 de octubre de 2018, se publicó en el DOF los Lineamientos y criterios generales para la definición, identificación y medición de la pobreza, los cuales prevén una actualización de indicadores y umbrales de acuerdo a las dinámicas de la sociedad mexicana y el marco normativo que la gobierna. EL CONEVAL presentó la actualización de la medición multidimensional de la pobreza 2020 en agosto de 2021, en este contexto, se propone que estas cifras (2016 - 2020) sean los referentes para la actualización de las metas nacionales.¬¬2. Población indígena: de acuerdo con los criterios del Instituto Nacional de los Pueblos Indígenas (INPI), se considera población indígena a todas las personas que forman parte de un hogar indígena, donde el jefe(a) del hogar, su cónyuge y/o alguno de los ascendientes (madre o padre, madrastra o padrastro, abuelo(a), bisabuelo(a), tatarabuelo(a), suegro(a)) declaró ser hablante de lengua indígena. Además, se incluye a personas que declararon hablar alguna lengua indígena y que no forman parte de estos hogares. Disponible en: https://www.gob.mx/inpi/documentos/indicadores-de-la-poblacion-indigena (consultado en enero del 2023).¬¬3. Discapacidad: para el periodo 2010-2014, se considera persona con discapacidad a quien manifiesta tener alguna dificultad para desempeñar sus actividades cotidianas.¬¬A partir de 2020, la ENIGH capta el grado de dificultad que la población tiene para realizar algunas actividades, por lo que, en seguimiento a las recomendaciones del Grupo Washington, se identifica a la población con presencia de discapacidad como aquella que reportó \"\"no puedo hacerlo” o \"\"lo hace con mucha dificultad\"\" en al menos alguna de las siguientes actividades: caminar, subir o bajar usando sus piernas; ver (aunque use lentes); mover o usar brazos o manos; aprender, recordar o concentrarse; escuchar (aunque use aparato auditivo); bañarse, vestirse o comer; hablar o comunicarse (por ejemplo, entender o ser entendido por otros); realizar sus actividades diarias por problemas emocionales o mentales (con autonomía e independencia). Para más información se sugiere consultar \"\"Disability Measurement and Monitoring using the Washington Group Disability Questions\"\". (consultado el 2 de agosto de 2021). Disponible en: <a target=\"_blank\" class=\"liga3\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/732254/Disability-Measurement-Monitoring-Washington-Group-_Disability-Questions.pdf\"> https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/732254/Disability-Measurement-Monitoring-Washington-Group-_Disability-Questions.pdf</a> ¬¬Para 2016 y 2018 no se cuenta con esta información, por lo cual no está el dato disponible en estos años.¬¬4. Se definen como localidades rurales aquellas cuya población es menor a 2,500 habitantes, mientras que, las localidades urbanas son aquellas con 2,500 habitantes o más.¬¬5. En este indicador se considera el uso de tiempo promedio que las personas dedicaron a cuidar, atender sin pago y de manera exclusiva a niños, ancianos, enfermos, discapacitados y el tiempo promedio que las personas dedicaron a los quehaceres del hogar.¬¬6. Se define como población analfabeta a todas las personas de 3 años o más que declararon no saber leer ni escribir.¬¬*/ La actualización del indicador está sujeta a la publicación de los microdatos por parte de INEGI.¬");
+        var propertyEditor = editor.getEditor('root.DATA_VALIDATION');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_VALIDATION');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_VALIDATION'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DOC_METHOD', "");
+        var propertyEditor = editor.getEditor('root.DOC_METHOD');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DOC_METHOD');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DOC_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_MGMNT', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_MGMNT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_MGMNT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_MGMNT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_ASSURE', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_ASSURE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_ASSURE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSURE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_ASSMNT', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_ASSMNT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_ASSMNT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSMNT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COVERAGE', "Nacional");
+        var propertyEditor = editor.getEditor('root.COVERAGE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COVERAGE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COVERAGE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COMPARABILITY', "");
+        var propertyEditor = editor.getEditor('root.COMPARABILITY');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COMPARABILITY');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('OTHER_DOC', "<a href='https://agenda2030.mx/docs/files/csv/zip/1n.1.1_es.zip'>Datos para el cálculo</a>");
+        var propertyEditor = editor.getEditor('root.OTHER_DOC');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: OTHER_DOC');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_updated_date'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2023-07-31");
+        var propertyEditor = editor.getEditor('root.national_metadata_updated_date');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_updated_date');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_updated_date'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
@@ -738,12 +1146,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230731211216'></script>
+<script src='/site/assets/js/sdg.js?v=20230731212807'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230731211216"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230731212807"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

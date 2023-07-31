@@ -2743,7 +2743,7 @@
         
         {
           "id": "16-1-1",
-          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-1/",
@@ -2766,8 +2766,32 @@
           "status": "notstarted"
         },
         {
+          "id": "16-1-3-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-1-3-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-1-3-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-1-3-c/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-4/",
@@ -2799,15 +2823,39 @@
         },
         {
           "id": "16-3-1",
-          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-1/",
           "status": "notstarted"
         },
         {
+          "id": "16-3-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-3-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-3-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-3-1-c/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-3-2",
-          "title": "Unsentenced detainees as a proportion of overall prison population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-2/",
@@ -2839,7 +2887,7 @@
         },
         {
           "id": "16-5-1",
-          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-5-1/",
@@ -2847,7 +2895,7 @@
         },
         {
           "id": "16-5-2",
-          "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-5-2/",
@@ -2855,7 +2903,7 @@
         },
         {
           "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-6-1/",
@@ -2871,11 +2919,19 @@
         },
         {
           "id": "16-6-2-a",
-          "title": "global_indicators.16-6-2-a-title",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-6-2-a/",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-6-2-b/",
+          "status": "notstarted"
         },
         {
           "id": "16-7-1",
@@ -2894,6 +2950,22 @@
           "status": "complete"
         },
         {
+          "id": "16-7-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-7-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-7-1c/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-8-1",
           "title": "Proportion of members and voting rights of developing countries in international organizations",
           "description": "",
@@ -2907,6 +2979,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/16-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-9-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-9-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-9-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-9-1b/",
           "status": "notstarted"
         },
         {
@@ -2935,10 +3023,130 @@
         },
         {
           "id": "16-b-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-2-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-2-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-2-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-2-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-1-c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-1-d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-1-d/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-1-e/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-1-f",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-1-f/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-n-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-n-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-r-3a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-r-3a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-r-3b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-r-3b/",
           "status": "notstarted"
         }]
     }
@@ -2951,7 +3159,7 @@
         
         {
           "id": "17-1-1",
-          "title": "Total government revenue as a proportion of GDP, by source",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-1-1/",
@@ -2959,7 +3167,7 @@
         },
         {
           "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-1-2/",
@@ -2991,7 +3199,7 @@
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-4-1/",
@@ -3007,7 +3215,7 @@
         },
         {
           "id": "17-6-1",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-6-1/",
@@ -3023,10 +3231,18 @@
         },
         {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-8-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-8-1-a/",
           "status": "notstarted"
         },
         {
@@ -3131,6 +3347,46 @@
           "description": "",
           "keywords": "",
           "href": "/site/17-19-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-n-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-n-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-n-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-n-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-n-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-n-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-n-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-n-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-r-19-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-r-19-a/",
           "status": "notstarted"
         }]
     }

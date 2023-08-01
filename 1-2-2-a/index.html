@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 1.2.2.a -
         
-         - Indicadores para los Objetivos de Desarrollo Sostenible
+        1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230801150622">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230801151459">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 1.2.2.a
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico</span>
                     </h1>
                 </div>
             </div>
@@ -446,16 +446,16 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-2-2-a'
   data-id="1-2-2-a"
-  data-country="México"
-  data-charttitle=""
+  data-country="Entidad federativa y municipio o demarcación territorial."
+  data-charttitle="1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Porcentaje"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="Line"
   data-graphtypes="[]"
   data-geocoderegex=""
-  data-showmap="false"
+  data-showmap="true"
   data-startvalues="[]"
   data-graphlimits="[]"
   data-stackeddisaggregation=""
@@ -470,7 +470,368 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/1-2-2-a.csv" class="btn btn-primary btn-download" download='indicator_1-2-2-a.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        map
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-mapview"
+          data-bs-target="#mapview"
+          aria-controls="mapview"
+          data-no-disagg="true"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+
+        
+      >Mapa</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>• Para datos estatales estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.• Para datos municipales estimaciones del CONEVAL con base en el MCS-ENIGH 2010, la muestra del Censo de Población y Vivienda 2010, el Modelo Estadístico 2015 para la continuidad del MCS-ENIGH, la Encuesta Intercensal 2015, el Modelo Estadístico 2020 para la continuidad del MCS-ENIGH y la muestra del Censo de Población y Vivienda 2020, INEGI.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Dirección Ejecutiva de Análisis Territorial y Estadística (DEATE) y Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Entidad federativa y municipio o demarcación territorial.</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>La referencia temporal total del indicador comprende<br>  • Nacional y entidad federativa 2016-2020. <br>  • Municipio o demarcación territorial 2010-2020<br>  <br>  Para estimaciones estatales<br>  1. Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.<br>  <br>  Para estimaciones municipales <br>  1. La población presentada en estos cuadros tiene un propósito exclusivamente estadístico está calibrada para que, en las estimaciones de pobreza, la suma de la población municipal sea igual a la población de cada entidad federativa reportada con base en la información del MCS-ENIGH 2010, MEC del MCS-ENIGH 2015 o MEC del MCS-ENIGH 2020 publicados. Por lo anterior, estas cifras de población podrían diferir de las reportadas por el INEGI o CONAPO a nivel municipal.<br>  2. En 2015 para los municipios de Buenaventura (08010), Carichí (08012), Santa Isabel (08024), Temósachic (08063), Urique (08065) en Chihuahua; San Nicolás de los Ranchos (21138) en Puebla; Matías Romero Avendaño (20057), Santa María Chimalapa (20407) , San Francisco Chindúa (20140), Santa María Petapa (20427) en Oaxaca y Gral. Plutarco Elías Calles (26070) en Sonora no se puede generar estimaciones de los indicadores debido a que no se dispone de la información en la Encuesta Intercensal 2015, como lo especifica el INEGI  en <a target="_blank" class="liga3" href="http//internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/promo/eic_2015_presentacion.pdf"> http//internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/promo/eic_2015_presentacion.pdf</a><br>   3. En 2020 para los municipios de Seybaplaya (04012) en Campeche, Honduras de la Sierra (07125) en Chiapas y La Magdalena Tlaltelulco (29048) en Tlaxcala no se puede generar estimaciones de los indicadores debido a que la muestra del Censo de Población y Vivienda 2020 es insuficiente, como lo especifica el INEGI  en <a target="_blank" class="liga3" href="https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_Resultados_complementarios_EUM.pdf"> https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_Resultados_complementarios_EUM.pdf</a><br>   4. Los municipios de San Quintín (02006) en Baja California; Seybaplaya (04012) en Campeche; El Parral (07122), Emiliano Zapata (07123), Mezcalapa (07124), Capitán Luis Ángel Vidal (07120), Rincón Chamula San Pedro (07121) y Honduras de la Sierra (07125) en Chiapas; Coatetelco (17034), Xoxocotla (17035) y Hueyapan en Morelos; Bacalar (23010) y Puerto Morelos (23011) en Quintana Roo son de nueva creación, como lo especifica el INEGI en <a target="_blank" class="liga3" href="https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_CPV_nuevos_municipios_a.pdf"> https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_CPV_nuevos_municipios_a.pdf</a>, por lo cual pueden no tener estimaciones 2010, 2015 o 2020.<br>  5. ND hace referencia a los municipios que, por ser de nueva creación o por no poseer información suficiente, no cuenta con estimación en algún año.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>• Para datos estatales estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.• Para datos municipales estimaciones del CONEVAL con base en el MCS-ENIGH 2010, la muestra del Censo de Población y Vivienda 2010, el Modelo Estadístico 2015 para la continuidad del MCS-ENIGH, la Encuesta Intercensal 2015, el Modelo Estadístico 2020 para la continuidad del MCS-ENIGH y la muestra del Censo de Población y Vivienda 2020, INEGI.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Dirección Ejecutiva de Análisis Territorial y Estadística (DEATE) y Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Entidad federativa y municipio o demarcación territorial.</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>La referencia temporal total del indicador comprende<br>  • Nacional y entidad federativa 2016-2020. <br>  • Municipio o demarcación territorial 2010-2020<br>  <br>  Para estimaciones estatales<br>  1. Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.<br>  <br>  Para estimaciones municipales <br>  1. La población presentada en estos cuadros tiene un propósito exclusivamente estadístico está calibrada para que, en las estimaciones de pobreza, la suma de la población municipal sea igual a la población de cada entidad federativa reportada con base en la información del MCS-ENIGH 2010, MEC del MCS-ENIGH 2015 o MEC del MCS-ENIGH 2020 publicados. Por lo anterior, estas cifras de población podrían diferir de las reportadas por el INEGI o CONAPO a nivel municipal.<br>  2. En 2015 para los municipios de Buenaventura (08010), Carichí (08012), Santa Isabel (08024), Temósachic (08063), Urique (08065) en Chihuahua; San Nicolás de los Ranchos (21138) en Puebla; Matías Romero Avendaño (20057), Santa María Chimalapa (20407) , San Francisco Chindúa (20140), Santa María Petapa (20427) en Oaxaca y Gral. Plutarco Elías Calles (26070) en Sonora no se puede generar estimaciones de los indicadores debido a que no se dispone de la información en la Encuesta Intercensal 2015, como lo especifica el INEGI  en <a target="_blank" class="liga3" href="http//internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/promo/eic_2015_presentacion.pdf"> http//internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/promo/eic_2015_presentacion.pdf</a><br>   3. En 2020 para los municipios de Seybaplaya (04012) en Campeche, Honduras de la Sierra (07125) en Chiapas y La Magdalena Tlaltelulco (29048) en Tlaxcala no se puede generar estimaciones de los indicadores debido a que la muestra del Censo de Población y Vivienda 2020 es insuficiente, como lo especifica el INEGI  en <a target="_blank" class="liga3" href="https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_Resultados_complementarios_EUM.pdf"> https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_Resultados_complementarios_EUM.pdf</a><br>   4. Los municipios de San Quintín (02006) en Baja California; Seybaplaya (04012) en Campeche; El Parral (07122), Emiliano Zapata (07123), Mezcalapa (07124), Capitán Luis Ángel Vidal (07120), Rincón Chamula San Pedro (07121) y Honduras de la Sierra (07125) en Chiapas; Coatetelco (17034), Xoxocotla (17035) y Hueyapan en Morelos; Bacalar (23010) y Puerto Morelos (23011) en Quintana Roo son de nueva creación, como lo especifica el INEGI en <a target="_blank" class="liga3" href="https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_CPV_nuevos_municipios_a.pdf"> https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_CPV_nuevos_municipios_a.pdf</a>, por lo cual pueden no tener estimaciones 2010, 2015 o 2020.<br>  5. ND hace referencia a los municipios que, por ser de nueva creación o por no poseer información suficiente, no cuenta con estimación en algún año.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="mapview" class="map">
+          
+<h4 id="map-heading" class="map-title">1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/site/assets/img/loading.gif" alt="Cargando mapa" />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>• Para datos estatales estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.• Para datos municipales estimaciones del CONEVAL con base en el MCS-ENIGH 2010, la muestra del Censo de Población y Vivienda 2010, el Modelo Estadístico 2015 para la continuidad del MCS-ENIGH, la Encuesta Intercensal 2015, el Modelo Estadístico 2020 para la continuidad del MCS-ENIGH y la muestra del Censo de Población y Vivienda 2020, INEGI.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Dirección Ejecutiva de Análisis Territorial y Estadística (DEATE) y Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Entidad federativa y municipio o demarcación territorial.</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>La referencia temporal total del indicador comprende<br>  • Nacional y entidad federativa 2016-2020. <br>  • Municipio o demarcación territorial 2010-2020<br>  <br>  Para estimaciones estatales<br>  1. Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.<br>  <br>  Para estimaciones municipales <br>  1. La población presentada en estos cuadros tiene un propósito exclusivamente estadístico está calibrada para que, en las estimaciones de pobreza, la suma de la población municipal sea igual a la población de cada entidad federativa reportada con base en la información del MCS-ENIGH 2010, MEC del MCS-ENIGH 2015 o MEC del MCS-ENIGH 2020 publicados. Por lo anterior, estas cifras de población podrían diferir de las reportadas por el INEGI o CONAPO a nivel municipal.<br>  2. En 2015 para los municipios de Buenaventura (08010), Carichí (08012), Santa Isabel (08024), Temósachic (08063), Urique (08065) en Chihuahua; San Nicolás de los Ranchos (21138) en Puebla; Matías Romero Avendaño (20057), Santa María Chimalapa (20407) , San Francisco Chindúa (20140), Santa María Petapa (20427) en Oaxaca y Gral. Plutarco Elías Calles (26070) en Sonora no se puede generar estimaciones de los indicadores debido a que no se dispone de la información en la Encuesta Intercensal 2015, como lo especifica el INEGI  en <a target="_blank" class="liga3" href="http//internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/promo/eic_2015_presentacion.pdf"> http//internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/promo/eic_2015_presentacion.pdf</a><br>   3. En 2020 para los municipios de Seybaplaya (04012) en Campeche, Honduras de la Sierra (07125) en Chiapas y La Magdalena Tlaltelulco (29048) en Tlaxcala no se puede generar estimaciones de los indicadores debido a que la muestra del Censo de Población y Vivienda 2020 es insuficiente, como lo especifica el INEGI  en <a target="_blank" class="liga3" href="https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_Resultados_complementarios_EUM.pdf"> https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_Resultados_complementarios_EUM.pdf</a><br>   4. Los municipios de San Quintín (02006) en Baja California; Seybaplaya (04012) en Campeche; El Parral (07122), Emiliano Zapata (07123), Mezcalapa (07124), Capitán Luis Ángel Vidal (07120), Rincón Chamula San Pedro (07121) y Honduras de la Sierra (07125) en Chiapas; Coatetelco (17034), Xoxocotla (17035) y Hueyapan en Morelos; Bacalar (23010) y Puerto Morelos (23011) en Quintana Roo son de nueva creación, como lo especifica el INEGI en <a target="_blank" class="liga3" href="https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_CPV_nuevos_municipios_a.pdf"> https//www.inegi.org.mx/contenidos/programas/ccpv/2020/doc/Censo2020_CPV_nuevos_municipios_a.pdf</a>, por lo cual pueden no tener estimaciones 2010, 2015 o 2020.<br>  5. ND hace referencia a los municipios que, por ser de nueva creación o por no poseer información suficiente, no cuenta con estimación en algún año.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,88 +939,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 1. Poner fin a la pobreza en todas sus formas y en todo el mundo</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 1.2 De aquí a 2030, reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>Este indicador resulta de identificar a la población de referencia que cuenta con al menos una carencia social y que su ingreso es insuficiente para satisfacer sus necesidades alimentarias y no alimentarias, dividir dicho número de personas entre la población de referencia total y multiplicar el cociente por 100.</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -683,33 +1023,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Alida Marcela Gutiérrez Landeros<br />  Coordinadora General de Análisis de la Pobreza<br />Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br />(55) 54-81-72-00, ext. 70075<br />amgutierrez@coneval.org.mx<br /><br />David Antonio Rojas Rosey<br />  Director Ejecutivo de Medición de Pobreza y Seguimiento de Indicadores<br />Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br />(55) 54-81-72-00, ext. 70100<br />drojas@coneval.org.mx<br /><br />Jesus Emanuel Paredes Romero<br />  Director Ejecutivo de Análisis Territorial y Estadística<br />Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br />(55) 54-81-72-00, ext. 70081<br />jparedes@coneval.org.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -743,6 +1069,74 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>Es el porcentaje de la población de referencia que tiene al menos una carencia social y su ingreso es insuficiente para adquirir los bienes y servicios que requiere para satisfacer sus necesidades alimentarias y no alimentarias (Línea de Pobreza por Ingresos).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>Cifras estatales: Segundo semestre 2023 <em>/ Cifras municipales: Diciembre, 2026</em>/</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -768,6 +1162,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>Este indicador está ligado a la Meta 1.2 de reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales. Permite dar seguimiento a la evolución de la pobreza en México a través del tiempo, como insumo para la generación de estrategias, políticas y acciones de combate a la pobreza.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -775,6 +1185,101 @@ data-event-label="Change to indicator.sources tab"
       
         
           
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <ol>
+  <li>La referencia temporal total del indicador comprende:<br />- Nacional y entidad federativa: 2016-2020. <br />- Municipio o demarcación territorial: 2010-2020<br /><br />Para los datos a nivel estatal:<br /><br />2. El CONEVAL, en cumplimiento con las disposiciones establecidas en los Lineamientos y criterios generales para la definición, identificación y medición de pobreza, publicados en el Diario Oficial de la Federación (DOF) el 30 de octubre de 2018, actualizó la Metodología para la medición de la pobreza, se consideraron los cambios normativos y de carácter técnico. Lo anterior, con la finalidad de que las mediciones a efectuar ofrecieran continuidad y comparabilidad a lo largo del tiempo para evaluar la política social, y pudieran consolidarse entre la ciudadanía. De esta manera el proceso de actualización de la Metodología para la medición multidimensional de la pobreza en México responde a dos elementos centrales: primero, cambios normativos aprobados por el Poder Legislativo a partir de 2010 y, segundo, cambios técnicos producto del proceso de investigación y profundización en las dimensiones de la pobreza realizado por el CONEVAL. <br />Los cambios normativos atañen a los indicadores de rezago educativo, acceso a la alimentación y grado de accesibilidad carretera pavimentada, debido a lo siguiente: a) rezago educativo, el 9 de febrero de 2012 se publicó en el DOF la reforma al artículo 3° de la Constitución Política de los Estados Unidos Mexicanos, en la que se considera como obligatoria a la educación media superior; b) acceso a la alimentación nutritiva y de calidad, el 1° de junio de 2016 se reformó la fracción VII del artículo 36 de la LGDS para agregar el carácter nutritivo y de calidad al acceso a la alimentación y, c) grado de accesibilidad carretera pavimentada. el 7 de noviembre de 2013 se adicionó la fracción IX al Artículo 36 de la LGDS para incluir el indicador de accesibilidad a carretera pavimentada como parte de la medición de pobreza. Para mayor información consultar: Metodología para medición multidimensional de la pobreza en México. Tercera edición. Disponible en: <a target="_blank" class="liga3" href="https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf">https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf</a><br /><br />3. Datos de CONEVAL sobre la pobreza multidimensional:<br />Medición de la pobreza. <a target="_blank" class="liga3" href="https://www.coneval.org.mx/Medicion/Paginas/PobrezaInicio.aspx">https://www.coneval.org.mx/Medicion/Paginas/PobrezaInicio.aspx</a><br />Metodología para la medición multidimensional de la pobreza en México. <a target="_blank" class="liga3" href="https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf">https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf</a><br /><br />4. Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.<br /><br />5. El total de población presentada en estas estimaciones es para fines de la medición de pobreza, por lo que puede diferir con las cifras de población total reportadas por el INEGI o CONAPO.<br /><br />Para datos a nivel municipal:<br /><br />1. La población presentada (total)  tiene un propósito exclusivamente estadístico: está calibrada para que, en las estimaciones de pobreza, la suma de la población municipal sea igual a la población de cada entidad federativa reportada con base en la información del MCS-ENIGH 2010, MEC del MCS-ENIGH 2015 o MEC del MCS-ENIGH 2020 publicados. Por lo anterior, estas cifras de población podrían diferir de las reportadas por el INEGI o CONAPO a nivel municipal.<br /><br />2. Las estimaciones municipales de pobreza han sido ajustadas a la información reportada a nivel estatal en el MCS-ENGH 2010, en el MEC del MCS-ENIGH  2015 y en el MEC del MCS-ENIGH 2020 publicada por INEGI, de acuerdo con la Metodología para la medición multidimensional de la pobreza establecida por el CONEVAL.<br /><br />3. En 2015 para los municipios  de Buenaventura (08010), Carichí (08012), Santa Isabel (08024), Temósachic (08063), Urique (08065) en Chihuahua; San Nicolás de los Ranchos (21138) en Puebla; Matías Romero Avendaño (20057), Santa María Chimalapa (20407), San Francisco Chindúa (20140), Santa María Petapa (20427) en Oaxaca y Gral. Plutarco Elías Calles (26070) en Sonora no se puede generar estimaciones de los indicadores debido a que no se dispone de la información en la Encuesta Intercensal 2015 de acuerdo con INEGI.<br /><br />4. En 2020 para los municipios de Seybaplaya (04012) en Campeche, Honduras de la Sierra (07125) en Chiapas y La Magdalena Tlaltelulco (29048) en Tlaxcala no se puede generar estimaciones de los indicadores debido a que la muestra del Censo de Población y Vivienda 2020 no es suficiente para generar estimaciones de acuerdo con INEGI.<br /><br />5. Los municipios de San Quintín (02006) en Baja California; Seybaplaya (04012) en Campeche; El Parral (07122), Emiliano Zapata (07123), Mezcalapa (07124), Capitán Luis Ángel Vidal (07120), Rincón Chamula San Pedro (07121) y Honduras de la Sierra (07125) en Chiapas; Coatetelco (17034), Xoxocotla (17035) y Hueyapan en Morelos; Bacalar (23010) y Puerto Morelos (23011) en Quintana Roo son de reciente creación, por lo cual pueden no tener estimaciones en 2010, 2015 o 2020.<br /><br />6. Para más información sobre la medición de pobreza a escala municipal, puede consultar el documento metodológico en: <a target="_blank" class="liga3" href="https://www.coneval.org.mx/Medicion/Documents/Pobreza_municipal/2020/Metodologia_pobreza_municipal_2020.pdf">https://www.coneval.org.mx/Medicion/Documents/Pobreza_municipal/2020/Metodologia_pobreza_municipal_2020.pdf</a><br /><br /><sup>*/</sup> La actualización del indicador está sujeta a la publicación de los microdatos por parte de INEGI.</li>
+</ol>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Entidad federativa y municipio o demarcación territorial.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
+          
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/1.2.2.a_es.zip">Datos para el cálculo</a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
+          
+            Aug 01, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1034,6 +1539,218 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>• Para datos estatales estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.• Para datos municipales estimaciones del CONEVAL con base en el MCS-ENIGH 2010, la muestra del Censo de Población y Vivienda 2010, el Modelo Estadístico 2015 para la continuidad del MCS-ENIGH, la Encuesta Intercensal 2015, el Modelo Estadístico 2020 para la continuidad del MCS-ENIGH y la muestra del Censo de Población y Vivienda 2020, INEGI.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Dirección Ejecutiva de Análisis Territorial y Estadística (DEATE) y Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Entidad federativa Bienal. Municipio o demarcación territorial Quinquenal</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Entidad federativa y municipio o demarcación territorial.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1127,6 +1844,15 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
 
 
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://cdn.jsdelivr.net/gh/torfsen/leaflet.zoomhome@master/dist/leaflet.zoomhome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1143,12 +1869,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230801150622'></script>
+<script src='/site/assets/js/sdg.js?v=20230801151459'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230801150622"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230801151459"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -1319,19 +1319,19 @@
         },
         {
           "id": "6-5-1",
-          "title": "",
+          "title": "6.5.1. Grado de implementación de la gestión integrada de los recursos hídricos",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-2",
-          "title": "",
+          "title": "6.5.2. Proporción de la superficie de cuencas transfronterizas sujetas a arreglos operacionales para la cooperación en materia de aguas",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-5-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-6-1",
@@ -1343,11 +1343,11 @@
         },
         {
           "id": "6-a-1",
-          "title": "",
+          "title": "6.a.1. Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno.",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-a-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-b-1",
@@ -1359,27 +1359,27 @@
         },
         {
           "id": "6-n-1-1",
-          "title": "",
+          "title": "6n.1.1 Porcentaje de la población que tiene acceso al agua entubada diariamente así como al saneamiento",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-n-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-n-2-1",
-          "title": "",
+          "title": "6n.2.1 Grado de presión sobre el recurso hídrico de las zonas centro y norte del país",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-n-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-n-2-2",
-          "title": "",
+          "title": "6n.2.2 Rendimiento de cultivos básicos en zonas con infraestructura de riego",
           "description": "",
           "keywords": "",
           "href": "/site/en/6-n-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

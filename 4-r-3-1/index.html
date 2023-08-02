@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 4.r.3.1 -
         
-         - Indicadores para los Objetivos de Desarrollo Sostenible
+        4r.3.1 Tasa bruta de matrícula de educación superior, desglosada por sexo - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230802161408">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230802164957">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 4.r.3.1
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">4r.3.1 Tasa bruta de matrícula de educación superior, desglosada por sexo</span>
                     </h1>
                 </div>
             </div>
@@ -446,12 +446,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_4-r-3-1'
   data-id="4-r-3-1"
-  data-country="México"
-  data-charttitle=""
+  data-country="Nacional"
+  data-charttitle="4r.3.1 Tasa bruta de matrícula de educación superior, desglosada por sexo"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Porcentaje"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="Line"
   data-graphtypes="[]"
   data-geocoderegex=""
@@ -470,7 +470,273 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/4-r-3-1.csv" class="btn btn-primary btn-download" download='indicator_4-r-3-1.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            4r.3.1 Tasa bruta de matrícula de educación superior, desglosada por sexo
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>Incluye las modalidades escolarizada y no escolarizada de educación superior, sin posgrado.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>Incluye las modalidades escolarizada y no escolarizada de educación superior, sin posgrado.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,88 +844,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 4. Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 4.3 De aquí a 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formación técnica, profesional y superior de calidad, incluida la enseñanza universitaria</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>4r.3.1 Tasa bruta de matrícula de educación superior, desglosada por sexo</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>Se calcula como la relación entre el número total de matriculados en el nivel licenciatura entre la población del grupo de edad típico correspondiente a este nivel (18 a 22 años). El resultado se multiplica por 100.¬¬Los datos usualmente son recogidos por los ministerios de educación de los países o compilados de encuestas y censos.¬</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -683,33 +928,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>César Morón Rojas<br />Director General de Planeación, Programación y Estadística Educativa<br />Av. Universidad 1200, Colonia Xoco, 3330, Benito Juárez, Ciudad de México<br />55 3601 2511, ext. 54760<br />cesar.mr@nube.sep.gob.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -743,6 +974,74 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>Proporción de alumnos matriculados en el nivel terciario de enseñanza, independiente de su edad, dentro de la población que corresponde oficialmente a ese nivel de enseñanza. Se refiere a la inscripción total en educación superior, sin considerar posgrado, en las modalidades escolarizada y no escolarizada.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>30 de octubre 2023</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -768,6 +1067,22 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>Muestra el porcentaje de la población que asiste a la enseñanza de educación superior. Es un indicador del nivel de atención educativa.<br /><br />Sirve de base para el diseño y aplicación de estrategias orientadas a elevar la matriculación en educación superior de la población.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -775,6 +1090,109 @@ data-event-label="Change to indicator.sources tab"
       
         
           
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <p>Las tasas de matriculación mayores a 100 se presentan en diversos países, generalmente debido a que el indicador se construye a partir de dos fuentes de información diferentes, los registros de la matrícula escolar y las estimaciones del número de niños y niñas en edad escolar. Para el caso específico de México, los registros de matrícula escolar se obtienen año con año, mientras que las estimaciones de población se generan a partir de los censos de población que se realizan cada 10 años y se ajustan con los conteos de población y vivienda que se llevan a cabo entre los años censales.<br /><br />Las cifras están sujetas a modificación cada vez que se genere una nueva actualización de las proyecciones de población por parte del CONAPO, siendo las más actuales las de septiembre de 2018.<br /><br />Proyecciones de población a mitad de año.<br /><br />Nota: Incluye las modalidades escolarizada y no escolarizada de nivel superior, sin considerar posgrado.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
+          
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/4r.3.1_es.zip">Datos para el cálculo</a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Datos actualizados por última vez </th>
+        <td>
+          
+            Aug 01, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
+          
+            Aug 02, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1143,12 +1561,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230802161408'></script>
+<script src='/site/assets/js/sdg.js?v=20230802164957'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230802161408"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230802164957"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

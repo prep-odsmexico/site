@@ -31,11 +31,11 @@
         },
         {
           "id": "1-2-1-a",
-          "title": "",
+          "title": "1.2.1.a Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -47,11 +47,11 @@
         },
         {
           "id": "1-2-2-a",
-          "title": "",
+          "title": "1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-1(1)",
@@ -63,27 +63,27 @@
         },
         {
           "id": "1-2-1(2)",
-          "title": "",
+          "title": "1.2.1(2) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2008 - 2014)",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1(2)/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2(1)",
-          "title": "",
+          "title": "1.2.2(1) Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, de acuerdo con las definiciones nacionales (2016 - 2020)",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2(1)/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2(2)",
-          "title": "",
+          "title": "1.2.2(2) Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, de acuerdo con las definiciones nacionales (2008 - 2014)",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2(2)/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-3-1",
@@ -103,19 +103,19 @@
         },
         {
           "id": "1-4-2",
-          "title": "",
+          "title": "1.4.2 Proporción del total de la población adulta con derechos seguros de tenencia de la tierra que posee documentación reconocida legalmente al respecto, desglosada por sexo y tipo de tenencia",
           "description": "",
           "keywords": "",
           "href": "/site/1-4-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-1",
-          "title": "",
+          "title": "1.5.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/1-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
@@ -151,59 +151,59 @@
         },
         {
           "id": "1-a-2",
-          "title": "",
+          "title": "1.a.2 Proporción del gasto público total en servicios esenciales (educación, salud y protección social)",
           "description": "",
           "keywords": "",
           "href": "/site/1-a-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-n-1-1",
-          "title": "",
+          "title": "1n.1.1 Porcentaje de la población en situación de pobreza",
           "description": "",
           "keywords": "",
           "href": "/site/1-n-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-n-2-2",
-          "title": "",
+          "title": "1n.2.2 Proporción de la población menor a un año de edad con esquema básico completo de vacunación",
           "description": "",
           "keywords": "",
           "href": "/site/1-n-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-n-3-1",
-          "title": "",
+          "title": "1n.3.1 Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos",
           "description": "",
           "keywords": "",
           "href": "/site/1-n-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-n-3-1-a",
-          "title": "",
+          "title": "1n.3.1.a Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos, por desglose geográfico",
           "description": "",
           "keywords": "",
           "href": "/site/1-n-3-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-n-3-2",
-          "title": "",
+          "title": "1n.3.2 Porcentaje de población ocupada con hijos(as) de seis años o menos que tiene acceso a guarderías como prestación laboral",
           "description": "",
           "keywords": "",
           "href": "/site/1-n-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-n-3-3",
-          "title": "",
+          "title": "1n.3.3 Porcentaje de la población que presenta carencia por acceso a la seguridad social",
           "description": "",
           "keywords": "",
           "href": "/site/1-n-3-3/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

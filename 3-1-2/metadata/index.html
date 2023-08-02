@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230802155414">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230802161408">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -579,84 +579,504 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_GOAL', "Objetivo 3. Garantizar una vida sana y promover el bienestar de todos a todas las edades");
+        var propertyEditor = editor.getEditor('root.SDG_GOAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_GOAL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_TARGET', "Meta 3.1 De aquí a 2030, reducir la tasa mundial de mortalidad materna a menos de 70 por cada 100,000 nacidos vivos");
+        var propertyEditor = editor.getEditor('root.SDG_TARGET');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_TARGET');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "3.1.2 Proporción de partos atendidos por personal sanitario capacitado");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_SERIES_DESCR', "Este indicador resulta de dividir el número de partos atendidos por personal calificado en un determinado año, entre el total de partos atendidos en el mismo periodo, multiplicado por 100.");
+        var propertyEditor = editor.getEditor('root.SDG_SERIES_DESCR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_SERIES_DESCR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('META_LAST_UPDATE', "Mayo de 2015");
+        var propertyEditor = editor.getEditor('root.META_LAST_UPDATE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: META_LAST_UPDATE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.META_LAST_UPDATE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_RELATED_INDICATORS', "");
+        var propertyEditor = editor.getEditor('root.SDG_RELATED_INDICATORS');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_RELATED_INDICATORS');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_ORGANISATION', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_ORGANISATION');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_ORGANISATION');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_ORGANISATION'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_NAME', "Delfino Campos Díaz<br>Director de Evaluación del Desempeño de los Sistemas de Salud<br>Avenida Paseo de la Reforma 450 <br>Colonia Juárez, 06600<br>Cuauhtémoc, Cuauhtémoc, Ciudad de México<br>55 6392 2300, ext. 52681<br>delfino.campos@salud.gob.mx<br><br>");
+        var propertyEditor = editor.getEditor('root.CONTACT_NAME');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_NAME');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_NAME'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('ORGANISATION_UNIT', "");
+        var propertyEditor = editor.getEditor('root.ORGANISATION_UNIT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ORGANISATION_UNIT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ORGANISATION_UNIT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_FUNCT', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_FUNCT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_FUNCT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_FUNCT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_PHONE', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_PHONE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_PHONE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_PHONE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_MAIL', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_MAIL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_MAIL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_MAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_EMAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Es el porcentaje de partos con asistencia de personal calificado para ofrecer la necesaria supervisión, atención y asesoramiento a las mujeres durante el embarazo, el parto y el posparto con respecto al total de partos atendidos durante un periodo determinado.");
+        var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: STAT_CONC_DEF');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "Porcentaje");
+        var propertyEditor = editor.getEditor('root.UNIT_MEASURE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UNIT_MEASURE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UNIT_MEASURE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CLASS_SYSTEM', "");
+        var propertyEditor = editor.getEditor('root.CLASS_SYSTEM');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CLASS_SYSTEM');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CLASS_SYSTEM'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "");
+        var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SOURCE_TYPE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SOURCE_TYPE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COLL_METHOD', "");
+        var propertyEditor = editor.getEditor('root.COLL_METHOD');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COLL_METHOD');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COLL_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FREQ_COLL', "No definida");
+        var propertyEditor = editor.getEditor('root.FREQ_COLL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FREQ_COLL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FREQ_COLL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('REL_CAL_POLICY', "");
+        var propertyEditor = editor.getEditor('root.REL_CAL_POLICY');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: REL_CAL_POLICY');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REL_CAL_POLICY'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_SOURCE', "");
+        var propertyEditor = editor.getEditor('root.DATA_SOURCE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_SOURCE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_SOURCE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COMPILING_ORG', "");
+        var propertyEditor = editor.getEditor('root.COMPILING_ORG');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COMPILING_ORG');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPILING_ORG'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('INST_MANDATE', "");
+        var propertyEditor = editor.getEditor('root.INST_MANDATE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: INST_MANDATE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.INST_MANDATE'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('RATIONALE', "Permite conocer el número de mujeres atendidas por médicos en el momento del parto, lo cual implica una mayor calidad en la atención y con ello menos riesgo de fallecer por una causa materna. Un bajo nivel de este indicador mostraría la necesidad de contar con un mayor número de médicos gineco-obstetras, clínicas de salud y mejorar la atención durante el embarazo.");
+        var propertyEditor = editor.getEditor('root.RATIONALE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: RATIONALE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.RATIONALE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('REC_USE_LIM', "");
+        var propertyEditor = editor.getEditor('root.REC_USE_LIM');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: REC_USE_LIM');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP', "");
+        var propertyEditor = editor.getEditor('root.DATA_COMP');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_VALIDATION', "Las Naciones Unidas mencionan que el indicador puede expresarse como el número de nacimientos en presencia de personal de salud capacitado con respecto al total de nacimientos. <br><br>Se entiende por personal calificado (sanitario capacitado) a aquellas personas debidamente capacitadas y que tienen equipo y medicamentos adecuados. No se incluyen los asistentes de tipo tradicional, aun cuando hayan recibido un breve curso de capacitación. <br><br>Para 1990 a 2010, debido al registro tardío en los nacimientos registrados en la base de datos del INEGI, se utiliza el número de nacimientos ocurridos y registrados en el año n, más los nacimientos ocurridos en el año n pero registrados en el año n+1 y n+2 (reconstrucción de nacimientos). <br><br>A partir de 2011 se utilizan los nacidos vivos ocurridos del Subsistema de Información sobre Nacimientos (SINAC) que capta la información a través del certificado de nacimiento y ha logrado una mejora en su cobertura, proporciona información de manera oportuna, con diferentes desagregaciones y mide el hecho vital al momento de la ocurrencia del mismo. Además, la Junta de Gobierno del INEGI determinó, el 23 de mayo de 2013, al SINAC en el marco del sector salud como Información de Interés Nacional, y, por tanto, es oficial y de uso obligatorio para el cálculo de los indicadores que se incluyan en el Catálogo Nacional de Indicadores. Sin embargo, cabe destacar que en las siguientes entidades: Baja California, Colima, Chiapas, Chihuahua, Guerrero, Hidalgo, México, Nayarit, Oaxaca, San Luis Potosí, Sinaloa, Sonora, Veracruz y Yucatán, aún falta mejorar la cobertura del SINAC, por lo cual las cifras se corrigen a través de un factor de ajuste por entidad federativa, que se obtiene a partir de la tendencia de las diferencias porcentuales entre los nacimientos estimados del CONAPO y los nacidos vivos ocurridos del SINAC. <br><br>El cálculo del indicador a nivel entidad federativa se hace por entidad de ocurrencia del parto.<br><br>Este indicador forma parte del Catálogo Nacional de Indicadores (CNI).<br>");
+        var propertyEditor = editor.getEditor('root.DATA_VALIDATION');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_VALIDATION');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_VALIDATION'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DOC_METHOD', "");
+        var propertyEditor = editor.getEditor('root.DOC_METHOD');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DOC_METHOD');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DOC_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_MGMNT', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_MGMNT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_MGMNT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_MGMNT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_ASSURE', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_ASSURE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_ASSURE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSURE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_ASSMNT', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_ASSMNT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_ASSMNT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSMNT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COVERAGE', "Nacional y entidad federativa");
+        var propertyEditor = editor.getEditor('root.COVERAGE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COVERAGE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COVERAGE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COMPARABILITY', "");
+        var propertyEditor = editor.getEditor('root.COMPARABILITY');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COMPARABILITY');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('OTHER_DOC', "<a href=\"https://agenda2030.mx/docs/files/csv/zip/3.1.2_es.zip\">Datos para el cálculo</a>");
+        var propertyEditor = editor.getEditor('root.OTHER_DOC');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: OTHER_DOC');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_updated_date', "2023-08-01");
+        var propertyEditor = editor.getEditor('root.national_data_updated_date');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_updated_date');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_updated_date'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2023-08-02");
+        var propertyEditor = editor.getEditor('root.national_metadata_updated_date');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_updated_date');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_updated_date'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
@@ -798,12 +1218,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230802155414'></script>
+<script src='/site/assets/js/sdg.js?v=20230802161408'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230802155414"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230802161408"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

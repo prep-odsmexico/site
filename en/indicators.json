@@ -2735,11 +2735,11 @@
         
         {
           "id": "16-1-1",
-          "title": "",
+          "title": "16.1.1 Número de defunciones por homicidio por cada 100 000 habitantes, desglosado por sexo y edad",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-2",
@@ -2759,35 +2759,35 @@
         },
         {
           "id": "16-1-3-a",
-          "title": "",
+          "title": "16.1.3.a Proporción de la población que ha sufrido violencia física en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-1-3-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-3-b",
-          "title": "",
+          "title": "16.1.3.b Proporción de la población que ha sufrido violencia psicológica en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-1-3-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-3-c",
-          "title": "",
+          "title": "16.1.3.c Proporción de la población que ha sufrido violencia sexual en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-1-3-c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-4",
-          "title": "",
+          "title": "16.1.4. Proporción de la población que se siente segura al caminar sola por la noche en su zona de residencia",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-1-4/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-1",
@@ -2815,43 +2815,43 @@
         },
         {
           "id": "16-3-1",
-          "title": "",
+          "title": "16.3.1 Proporción de víctimas de violencia en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-1-a",
-          "title": "",
+          "title": "16.3.1.a Proporción de víctimas de violencia física en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-3-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-1-b",
-          "title": "",
+          "title": "16.3.1.b Proporción de víctimas de violencia psicológica en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-3-1-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-1-c",
-          "title": "",
+          "title": "16.3.1.c Proporción de víctimas de violencia sexual en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-3-1-c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-2",
-          "title": "",
+          "title": "16.3.2 Proporción de detenidos que no han sido condenados en el conjunto de la población reclusa total",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-3",
@@ -2879,27 +2879,27 @@
         },
         {
           "id": "16-5-1",
-          "title": "",
+          "title": "16.5.1. Proporción de personas que han tenido al menos un contacto con un funcionario público y que han pagado un soborno a un funcionario público, o a las que un funcionario público les ha pedido un soborno, durante los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-5-2",
-          "title": "",
+          "title": "16.5.2 Proporción de negocios que han tenido al menos un contacto con un funcionario público y que han pagado un soborno a un funcionario público, o a los que un funcionario público les ha pedido un  soborno, durante los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-5-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-6-1",
-          "title": "",
+          "title": "16.6.1 Gastos primarios del gobierno como proporción del presupuesto aprobado original, desglosados por sector (o por códigos presupuestarios o elementos similares)",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-6-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-6-2",
@@ -2911,19 +2911,19 @@
         },
         {
           "id": "16-6-2-a",
-          "title": "",
+          "title": "16.6.2.a Satisfacción con el servicio de educación pública obligatoria",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-6-2-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-6-2-b",
-          "title": "",
+          "title": "16.6.2.b Satisfacción con el servicio de educación pública universitaria",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-6-2-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-7-1",
@@ -2935,27 +2935,27 @@
         },
         {
           "id": "16-7-2",
-          "title": "",
+          "title": "16.7.2. Proporción de la población que considera que la adopción de decisiones es inclusiva y participativa",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-7-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-7-1b",
-          "title": "",
+          "title": "16.7.1b Proporciones de plazas en las instituciones nacionales y locales, entre ellas la administración pública",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-7-1b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-7-1c",
-          "title": "",
+          "title": "16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-7-1c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-8-1",
@@ -2975,19 +2975,19 @@
         },
         {
           "id": "16-9-1a",
-          "title": "",
+          "title": "16.9.1a Porcentaje de hijos sobrevivientes menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil por edad según sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-9-1a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-9-1b",
-          "title": "",
+          "title": "16.9.1b Porcentaje de hijos sobrevivientes menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil por entidad federativa y edad",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-9-1b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-10-1",
@@ -3015,131 +3015,131 @@
         },
         {
           "id": "16-b-1",
-          "title": "",
+          "title": "16.b.1. Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos.",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-1-1",
-          "title": "",
+          "title": "16n.1.1 Prevalencia delictiva en personas de 18 años y más",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-1-2",
-          "title": "",
+          "title": "16n.1.2 Prevalencia delictiva en unidades económicas",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-2-1",
-          "title": "",
+          "title": "16n.2.1 Porcentaje de personas de 18 años y más que identifica a la policía estatal y manifiesta que le genera confianza",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-2-2",
-          "title": "",
+          "title": "16n.2.2 Porcentaje de personas de 18 años y más que identifica a los Ministerios Públicos y Procuradurías y manifiesta que les generan confianza",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-2-3",
-          "title": "",
+          "title": "16n.2.3 Porcentaje de delitos ocurridos y denunciados donde el trato recibido al momento de la denuncia, por parte del Ministerio Público, fue calificado como bueno o excelente",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-2-3/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-2-4",
-          "title": "",
+          "title": "16n.2.4 Porcentaje de la población de 18 años y más que tiene mucha o algo de confianza en jueces",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-2-4/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-1-a",
-          "title": "",
+          "title": "16n.3.1.a Porcentaje de la población de 18 años y más satisfecha con el servicio de calles y avenidas",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-1-b",
-          "title": "",
+          "title": "16n.3.1.b Porcentaje de la población de 18 años y más satisfecha con el servicio de parques y jardines públicos",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-1-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-1-c",
-          "title": "",
+          "title": "16n.3.1.c Porcentaje de la población de 18 años y más satisfecha con el servicio de agua potable",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-1-c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-1-d",
-          "title": "",
+          "title": "16n.3.1.d Porcentaje de la población de 18 años y más satisfecha con el servicio de drenaje y alcantarillado",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-1-d/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-1-e",
-          "title": "",
+          "title": "16n.3.1.e Porcentaje de la población de 18 años y más satisfecha con el servicio de alumbrado público",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-1-e/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-1-f",
-          "title": "",
+          "title": "16n.3.1.f Porcentaje de la población de 18 años y más satisfecha con el servicio de recolección de basura",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-1-f/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-n-3-2",
-          "title": "",
+          "title": "16n.3.2 Confianza en el Gobierno Federal",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-n-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-r-3a",
-          "title": "",
+          "title": "16r.3a Tasa de ocupación carcelaria federal",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-r-3a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-r-3b",
-          "title": "",
+          "title": "16r.3b Tasa de ocupación carcelaria estatal",
           "description": "",
           "keywords": "",
           "href": "/site/en/16-r-3b/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -3151,19 +3151,19 @@
         
         {
           "id": "17-1-1",
-          "title": "",
+          "title": "17.1.1 Total de los ingresos del gobierno como proporción del PIB, desglosado por fuente",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-1-2",
-          "title": "",
+          "title": "17.1.2 Proporción del presupuesto nacional financiado por impuestos internos",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-2-1",
@@ -3183,19 +3183,19 @@
         },
         {
           "id": "17-3-2",
-          "title": "",
+          "title": "17.3.2 Volumen de las remesas (en dólares de los Estados Unidos) como proporción del PIB total",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-4-1",
-          "title": "",
+          "title": "17.4.1 Servicio de la deuda como proporción de las exportaciones de bienes y servicios",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-5-1",
@@ -3207,11 +3207,11 @@
         },
         {
           "id": "17-6-1",
-          "title": "",
+          "title": "17.6.1 Accesos del servicio fijo de Internet por cada 100 habitantes, desglosados por velocidad",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-6-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-7-1",
@@ -3223,19 +3223,19 @@
         },
         {
           "id": "17-8-1",
-          "title": "",
+          "title": "17.8.1 Proporción de personas que usan internet, por entidad federativa y principales ciudades",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-8-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-8-1-a",
-          "title": "",
+          "title": "17.8.1.a Proporción de personas que usan Internet, dentro y fuera del hogar",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-8-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-9-1",
@@ -3343,43 +3343,43 @@
         },
         {
           "id": "17-n-1-1",
-          "title": "",
+          "title": "17n.1.1 Autonomía fiscal de gobiernos subnacionales (ingresos propios como proporción de los ingresos totales de estados)",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-n-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-n-2-1",
-          "title": "",
+          "title": "17n.2.1 Porcentaje de indicadores globales y regionales para los que se encuentra información pública en la plataforma de indicadores",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-n-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-n-4-1",
-          "title": "",
+          "title": "17n.4.1 Crecimiento de los puestos de trabajo ocupados totales del sector de la cultura",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-n-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-n-4-2",
-          "title": "",
+          "title": "17n.4.2 Crecimiento real del valor agregado bruto del sector de la cultura",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-n-4-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-r-19-a",
-          "title": "",
+          "title": "17r.19.a Porcentaje del presupuesto público que representa a) la oficina nacional de estadística, b) el sistema estadístico nacional, c) el instituto geográfico nacional y d) el sistema geográfico nacional",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-r-19-a/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   }]

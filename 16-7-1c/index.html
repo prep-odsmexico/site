@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 16.7.1c -
         
-         - Indicadores para los Objetivos de Desarrollo Sostenible
+        16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230803221443">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230803224845">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 16.7.1c
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial</span>
                     </h1>
                 </div>
             </div>
@@ -446,17 +446,17 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_16-7-1c'
   data-id="16-7-1c"
-  data-country="México"
-  data-charttitle=""
+  data-country="Nacional y entidad federativa"
+  data-charttitle="16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Ratio"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="Line"
   data-graphtypes="[]"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="[]"
+  data-startvalues="[{&quot;field&quot;:&quot;Entidad federativa&quot;,&quot;value&quot;:&quot;Poder judicial de la federación&quot;},{&quot;field&quot;:&quot;Sexo&quot;,&quot;value&quot;:&quot;Total&quot;},{&quot;field&quot;:&quot;Grupos de edad en plazas del Poder judicial&quot;,&quot;value&quot;:&quot;Total&quot;}]"
   data-graphlimits="[]"
   data-stackeddisaggregation=""
   data-graphannotations="[]"
@@ -470,7 +470,273 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/16-7-1c.csv" class="btn btn-primary btn-download" download='indicator_16-7-1c.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>• Instituto Nacional de Estadística y Geografía (INEGI), Censo Nacional de Impartición de Justicia Federal 2020 a 2021.• Instituto Nacional de Estadística y Geografía (INEGI), Censo Nacional de Impartición de Justicia Estatal 2020 a 2021.• Consejo Nacional de Población (CONAPO), Proyecciones de la Población de México y de las Entidades Federativas 2016-2050.</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional y entidad federativa</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>• Instituto Nacional de Estadística y Geografía (INEGI), Censo Nacional de Impartición de Justicia Federal 2020 a 2021.• Instituto Nacional de Estadística y Geografía (INEGI), Censo Nacional de Impartición de Justicia Estatal 2020 a 2021.• Consejo Nacional de Población (CONAPO), Proyecciones de la Población de México y de las Entidades Federativas 2016-2050.</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional y entidad federativa</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,88 +844,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 16. Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 16.7. Garantizar la adopción en todos los niveles de decisiones inclusivas, participativas y representativas que respondan a las necesidades</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>Número de jueces(as), magistrados(as) y secretarios(as) pertenecientes al grupo poblacional de interés (sexo, rangos de edad) entre el total de jueces(as), magistrados(as) y secretarios(as) en el Poder Judicial; entre el número de personas pertenecientes al grupo poblacional de interés en edad de trabajar entre la población nacional total en edad de trabajar.</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -683,33 +928,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Centro de atención a usuarios INEGI<br />Horario de lunes a domingo de 8:00 a 23:00 horas (tiempo del centro de México).<br />Avenida Héroe de Nacozari Sur 2301<br />Fraccionamiento Jardines del Parque, 20276,<br />Aguascalientes, Aguascalientes, Aguascalientes,<br />Entre Calle INEGI y Avenida del Lago, Avenida Paseo de las Garzas.<br />Nacional sin costo: 800 111 46 34<br />Internacional: (código internacional) + (52)+(449) 910 53 00 Ext. 5301<br />atencion.usuarios@inegi.org.mx<br /><br />Óscar Jaimes Bello<br />Director General de Estadísticas de Gobierno, Seguridad Pública y Justicia<br />Av. Patriotismo 711. Colonia San Juan, delegación Benito Juárez, CDMX.<br />52781000, Ext:1592<br />oscar.jaimes@inegi.org.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -743,6 +974,174 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>Jueces(as), magistrados(as) y secretarios(as) en el grupo de interés poblacional (sexo, rangos de edad) como proporción del total de los servidores públicos, entre el grupo de interés poblacional (sexo, rangos de edad) en edad de trabajar como proporción de la población total  en edad de trabajar.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Ratio</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Fuentes de datos </th>
+        <td>
+          
+            <p>Numerador:• Censo Nacional de Impartición de Justicia Estatal 2020-2021.<a target="_blank" class="liga3" href="https://www.inegi.org.mx/programas/cnije/2021/"> https://www.inegi.org.mx/programas/cnije/2021/</a>• Censo Nacional de Impartición de Justicia Federal 2020-2021. <a target="_blank" class="liga3" href="https://www.inegi.org.mx/programas/cnijf/2021/"> https://www.inegi.org.mx/programas/cnijf/2021/</a>Denominador:• Consejo Nacional de Población  (CONAPO), Proyecciones de la Población de México y de las Entidades Federativas 2016-2050. <a target="_blank" class="liga3" href="https://datos.gob.mx/busca/dataset/proyecciones-de-la-poblacion-de-mexico-y-de-las-entidades-federativas-2016-2050"> https://datos.gob.mx/busca/dataset/proyecciones-de-la-poblacion-de-mexico-y-de-las-entidades-federativas-2016-2050</a><br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>Segundo semestre de 2023</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Proveedores de datos </th>
+        <td>
+          
+            <p>UNDP (2018), Disability Inclusive Development in UNDP. <a target="_blank" class="liga3" href=" https://www.undp.org/sites/g/files/zskgke326/files/publications/UNDP-Disability-GN-Summary-accessible.pdf"> https://www.undp.org/sites/g/files/zskgke326/files/publications/UNDP-Disability-GN-Summary-accessible.pdf</a><br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Compiladores de datos </th>
+        <td>
+          
+            <p>Instituto Nacional de Estadística y Geografía (INEGI). Dirección General de Estadísticas de Gobierno, Seguridad Pública y Justicia.<br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>Para que la toma de decisiones por parte del poder judicial sea receptiva, inclusiva, participativa y representativa en todos los niveles, como lo exige la meta 16.7, es importante garantizar la diversidad en los puestos clave en los tribunales a nivel nacional y local. La diversidad en los cargos judiciales hace que la toma de decisiones por parte del poder judicial sea más legítima a los ojos de los ciudadanos y las ciudadanas y más receptiva a las preocupaciones de toda la población.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <p>Los ratios de estos indicadores pueden variar respecto a los ratios disponibles en la página de los Objetivos de Desarrollo Sostenible de la División de Estadísticas de las Naciones Unidas  (https://unstats.un.org/sdgs/) debido a que las agencias internacionales utilizan sus propias estimaciones de población.<br /><br />La población en edad de trabajar utilizada para el denominador comprende las personas de 18 a 70 años, rango en el que se concentró 99% de la población ocupada en las instituciones públicas en  el cuarto trimestre de 2020, de acuerdo con la Encuesta Nacional de Ocupación y Empleo del mismo periodo.<br /><br />El personal considerado en el poder judicial corresponde a los puestos de mininstros(as), magistrados(as), jueces(as), secretarios(as) y secretarios(as) de estudio y cuenta o proyectistas en los ámbitos federal y estatal y en los diversos niveles de tribunales: Suprema Corte de Justicia de la Nación, Tribunal Electoral del Poder Judicial de la Federación, Tribunales Unitarios, Tribunales Colegiados y Juzgados.<br /><br />Un ratio mayor a uno (&gt;1) significa que la representación del grupo poblacional de interés en el servicio público es mayor que en el total de la población en edad de trabajar.<br /><br />Un ratio de uno (1) significa que  la representación del grupo poblacional de interés en el servicio público es igual que en el total de la población en edad de trabajar.<br /><br />Un ratio menor a uno (&lt;1) significa que  la representación del grupo poblacional de interés en el servicio público es menor que en el total de la población en edad de trabajar.<br /><br />Un ratio de 0 significa que  no existe representación del grupo poblacional de interés en el servicio público.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -763,18 +1162,70 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Nacional y entidad federativa</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
           
-      
-      
-      
-        
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/16.7.1c_es.zip">Datos para el cálculo</a></p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Datos actualizados por última vez </th>
+        <td>
+          
+            Aug 02, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
+          
+            Aug 03, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1034,6 +1485,218 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>• Instituto Nacional de Estadística y Geografía (INEGI), Censo Nacional de Impartición de Justicia Federal 2020 a 2021.• Instituto Nacional de Estadística y Geografía (INEGI), Censo Nacional de Impartición de Justicia Estatal 2020 a 2021.• Consejo Nacional de Población (CONAPO), Proyecciones de la Población de México y de las Entidades Federativas 2016-2050.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Anual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Nacional y entidad federativa</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1143,12 +1806,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230803221443'></script>
+<script src='/site/assets/js/sdg.js?v=20230803224845'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230803221443"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230803224845"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230803183229">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230803192320">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -985,7 +985,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Descripción </th>
         <td>
           
-            <p>El valor nacional de este indicador se calcula sobre la base de tres componentes:¬1. Recursos renovables totales de agua dulce (TRWR): expresados como la suma de (a) los  recursos hídricos renovables internos (IRWR) y (b) los recursos hídricos renovables externos (ERWR).  Se consideran en este apartado el escurrimiento natural medio superficial, las entradas y salidas de agua superficial de y hacia otros países, y la recarga de agua subterránea. ¬2. La extracción total de agua dulce (TFWW), es el volumen de agua dulce extraída de su fuente (ríos, lagos, acuíferos) para la agricultura, las industrias, y los servicios. Se toman en cuenta los volúmenes concesionados de agua registrados en el Registro Público de Derechos de Agua (Repda) e integrados en el Sistema Nacional de Información del Agua (SINA) con corte al 31 de diciembre de cada año.¬3. Requisitos de caudales ambientales (EFR) se definen como la cantidad y duración de los caudales de agua dulce y de los niveles necesarios para sostener los ecosistemas acuáticos; en este caso se consideran, el caudal ecológico en los sistemas de cuencas y la descarga natural comprometida en acuíferos. ¬Los datos son obtenidos de las publicaciones de las disponibilidades de aguas superficiales y aguas subterráneas en el Diario Oficial de la Federación, a partir de los registros administrativos de la Subdirección General Técnica de la Conagua, así como de los registros del Sistema Nacional de Información del Agua.</p>
+            <p>El valor nacional de este indicador se calcula sobre la base de tres componentes:<br />1. Recursos renovables totales de agua dulce (TRWR): expresados como la suma de (a) los  recursos hídricos renovables internos (IRWR) y (b) los recursos hídricos renovables externos (ERWR).  Se consideran en este apartado el escurrimiento natural medio superficial, las entradas y salidas de agua superficial de y hacia otros países, y la recarga de agua subterránea. <br />2. La extracción total de agua dulce (TFWW), es el volumen de agua dulce extraída de su fuente (ríos, lagos, acuíferos) para la agricultura, las industrias, y los servicios. Se toman en cuenta los volúmenes concesionados de agua registrados en el Registro Público de Derechos de Agua (Repda) e integrados en el Sistema Nacional de Información del Agua (SINA) con corte al 31 de diciembre de cada año.<br />3. Requisitos de caudales ambientales (EFR) se definen como la cantidad y duración de los caudales de agua dulce y de los niveles necesarios para sostener los ecosistemas acuáticos; en este caso se consideran, el caudal ecológico en los sistemas de cuencas y la descarga natural comprometida en acuíferos. <br />Los datos son obtenidos de las publicaciones de las disponibilidades de aguas superficiales y aguas subterráneas en el Diario Oficial de la Federación, a partir de los registros administrativos de la Subdirección General Técnica de la Conagua, así como de los registros del Sistema Nacional de Información del Agua.</p>
 
           
         </td>
@@ -1104,8 +1104,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Fuentes de datos </th>
+        <td>
           
+            <p>Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT). Comisión Nacional del Agua (CONAGUA). Gerencia de Planificación Hídrica. Sistema Nacional de Información del Agua (SINA), con información del Registro Público de Derechos del Agua (Repda) y publicaciones de las disponibilidades de agua superficial  y subterránea de la Subdirección General Técnica, en el Diario Oficial de la Federación el 16-jul-2016 (Agua superficial) y 04-ene-2018 (Agua Subterránea), así como del 17-sep-2020 de aguas subterráneas y 21-sep-2020 de aguas superficiales.<br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1135,13 +1146,35 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Proveedores de datos </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Comisión Nacional del Agua (Conagua). Programa Nacional Hídrico 2020-2024<br /></p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Compiladores de datos </th>
+        <td>
+          
+            <p>Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT). Comisión Nacional del Agua (CONAGUA). Gerencia de Planificación Hídrica. Sistema Nacional de Información del Agua (SINA).<br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1274,7 +1307,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Metadatos actualizados por última vez </th>
         <td>
           
-            Aug 02, 2023
+            Aug 03, 2023
           
         </td>
         </tr>
@@ -1924,12 +1957,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230803183229'></script>
+<script src='/site/assets/js/sdg.js?v=20230803192320'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230803183229"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230803192320"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

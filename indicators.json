@@ -2335,11 +2335,11 @@
         },
         {
           "id": "12-5-1-a",
-          "title": "",
+          "title": "12.5.1.a Porcentaje de residuos sólidos urbanos recolectados reciclables",
           "description": "",
           "keywords": "",
           "href": "/site/12-5-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-6-1",
@@ -2375,11 +2375,11 @@
         },
         {
           "id": "12-b-1",
-          "title": "",
+          "title": "12.b.1 Implementación de herramientas contables estándar para supervisar los aspectos económicos y ambientales de la sostenibilidad del turismo",
           "description": "",
           "keywords": "",
           "href": "/site/12-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-c-1",
@@ -2391,11 +2391,11 @@
         },
         {
           "id": "12-n-1-1",
-          "title": "",
+          "title": "12n.1.1 Porcentaje de municipios con disposición adecuada de residuos sólidos urbanos",
           "description": "",
           "keywords": "",
           "href": "/site/12-n-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -2407,11 +2407,11 @@
         
         {
           "id": "13-1-1",
-          "title": "",
+          "title": "13.1.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/13-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
@@ -2471,11 +2471,11 @@
         },
         {
           "id": "13-r-3-1",
-          "title": "",
+          "title": "13r.3.1 Emisiones de gases de efecto invernadero, desglosadas por sector (actividad económica)",
           "description": "",
           "keywords": "",
           "href": "/site/13-r-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -2519,11 +2519,11 @@
         },
         {
           "id": "14-5-1",
-          "title": "",
+          "title": "14.5.1 Cobertura de las zonas protegidas en relación con las zonas marinas",
           "description": "",
           "keywords": "",
           "href": "/site/14-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-6-1",
@@ -2543,11 +2543,11 @@
         },
         {
           "id": "14-a-1",
-          "title": "",
+          "title": "14.a.1 Proporción del Presupuesto Federal para Investigación Científica y Desarrollo Experimental asignado a la Secretaría de Marina",
           "description": "",
           "keywords": "",
           "href": "/site/14-a-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-b-1",
@@ -2567,19 +2567,19 @@
         },
         {
           "id": "14-r-2",
-          "title": "",
+          "title": "14r.2 Área de manglares",
           "description": "",
           "keywords": "",
           "href": "/site/14-r-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-r-5-1",
-          "title": "",
+          "title": "14r.5.1 Cobertura de las zonas protegidas en relación con las zonas marinas",
           "description": "",
           "keywords": "",
           "href": "/site/14-r-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

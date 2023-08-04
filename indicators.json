@@ -398,6 +398,22 @@
           "status": "notstarted"
         },
         {
+          "id": "2-n1-1",
+          "title": "global_indicators.2-n1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-n1-1/",
+          "status": "complete"
+        },
+        {
+          "id": "2-n2-1",
+          "title": "global_indicators.2-n2-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-n2-1/",
+          "status": "complete"
+        },
+        {
           "id": "2-n-1-1",
           "title": "",
           "description": "",

@@ -142,22 +142,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-8-2",
-          "title": "global_indicators.1-8-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-8-2/",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-3",
-          "title": "1.8.3 Porcentaje de la población que presenta carencia por acceso a la seguridad social",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-8-3/",
-          "status": "complete"
-        },
-        {
           "id": "1-a-1",
           "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
           "description": "",
@@ -211,6 +195,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/1-n3-2/",
+          "status": "complete"
+        },
+        {
+          "id": "1-n3-3",
+          "title": "1.n3.3 Porcentaje de la población que presenta carencia por acceso a la seguridad social",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-n3-3/",
           "status": "complete"
         },
         {

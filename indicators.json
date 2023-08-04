@@ -327,11 +327,11 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "2.3.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica",
           "description": "",
           "keywords": "",
           "href": "/site/2-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-2",
@@ -399,11 +399,11 @@
         },
         {
           "id": "2-n-1-1",
-          "title": "2n.1.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-n-2-1",

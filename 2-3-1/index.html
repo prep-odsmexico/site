@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 2.3.1 -
         
-        Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size - Indicadores para los Objetivos de Desarrollo Sostenible
+        2.3.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230804164239">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230804172033">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 2.3.1
                         
-                        <span class="lead-copy">Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size</span>
+                        <span class="lead-copy">2.3.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica</span>
                     </h1>
                 </div>
             </div>
@@ -446,31 +446,291 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-3-1'
   data-id="2-3-1"
-  data-country="México"
-  data-charttitle="Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size"
-  data-charttitles="null"
-  data-measurementunit=""
+  data-country="Nacional"
+  data-charttitle="2.3.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica"
+  data-charttitles="[]"
+  data-measurementunit="Porcentaje"
   data-xaxislabel=""
-  data-showdata="false"
-  data-graphtype="line"
-  data-graphtypes="null"
+  data-showdata="true"
+  data-graphtype="Line"
+  data-graphtypes="[]"
   data-geocoderegex=""
-  data-showmap=""
-  data-startvalues="null"
-  data-graphlimits="null"
+  data-showmap="false"
+  data-startvalues="[]"
+  data-graphlimits="[]"
   data-stackeddisaggregation=""
-  data-graphannotations="null"
+  data-graphannotations="[]"
   data-graphtargetlines="null"
-  data-graphseriesbreaks="null"
+  data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
   data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
-  data-precision="null"
+  data-precision="[]"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/2-3-1.csv" class="btn btn-primary btn-download" download='indicator_2-3-1.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            2.3.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,88 +838,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 2. Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 2.3 Acceso a una alimentación nutritiva y de calidad</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>2.3.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>Para los menores de cinco años de edad, el estado nutrición se evaluó mediante índices antropométricos construidos a partir de las mediciones de peso, talla y edad. Los índices antropométricos fueron transformados a puntajes Z usando la norma de referencia de la Organización Mundial de la Salud (OMS) de 2006. Se clasificó con bajo peso, baja talla y emaciación, a los niños cuyo puntaje Z fue menor a -2 en peso para edad, longitud o talla para edad y peso para longitud o talla, respectivamente. Se incluyeron como datos válidos los siguientes intervalos de valores por cada indicador antropométrico: entre -6.0 y +5.0 puntos Z del peso para la edad; entre -6.0 y +6.0 puntos Z de la talla para la edad y entre -5.0 y +5.0 puntos Z del peso para la talla, respecto de la media de la población de referencia antes mencionada. Cuando el puntaje Z de alguno de los indicadores se ubicó fuera del intervalo de datos válidos, se eliminó la serie de puntajes Z de todos los indicadores para dicho individuo.</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -683,33 +922,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Centro de atención a usuarios INEGI<br />Horario de lunes a domingo de 8:00 a 23:00 horas (tiempo del centro de México).<br />Avenida Héroe de Nacozari Sur 2301<br />Fraccionamiento Jardines del Parque, 20276,<br />Aguascalientes, Aguascalientes, Aguascalientes,<br />Entre Calle INEGI y Avenida del Lago, Avenida Paseo de las Garzas.<br />Nacional sin costo: 800 111 46 34<br />Internacional: (código internacional) + (52)+(449) 910 53 00 Ext. 5301<br />atencion.usuarios@inegi.org.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -743,6 +968,163 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>Mide el porcentaje de la población menor de 5 años presenta algún tipo de desnutrición, comparado con la talla estándar recomendada para la edad.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Fuentes de datos </th>
+        <td>
+          
+            <p>Programa Especial para el Desarrollo Integral de la Primera Infancia 2020-2024 con información de la Encuesta Nacional de Salud y Nutrición<br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>No definida</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Compiladores de datos </th>
+        <td>
+          
+            <p>Instituto Nacional de Estadística y Geografía (INEGI). <a target="_blank" class="liga3" href="https://www.inegi.org.mx/">https://www.inegi.org.mx/ </a><br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>El Artículo 4o de la Constitución Política de los Estados Unidos Mexicanos establecer que “Toda persona tiene derecho a la alimentación nutritiva, suficiente y de calidad. El estado lo garantizará”. Sin embargo, no todas las personas tienen acceso efectivo a este derecho. <br /><br />En 2016, el 12% de las niñas y niños menores de 5 años presentaron algún tipo de desnutrición, esto  puede afectar el desarrollo físico y mental de las niñas y los niños, lo cual tiene efectos de por vida.  <br /><br />La desnutrición infantil tiene grandes consecuencias en el desarrollo físico y cognitivo de un niño. La desnutrición infantil tiene 4 tipos: desnutrición crónica, desnutrición aguda moderada, desnutrición aguda grave y, carencia de vitaminas y minerales. En este caso, el indicador refiere a la desnutrición crónica, que cuando se sufre, se tiene retraso en el crecimiento; es decir, tiene una talla baja para su edad comparado con un estándar internacional.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <p>Aunque se cuenta con la ENSANUT 2018, los resultados generales no reportan el indicador. Es posible realizar el cálculo o una aproximación del indicador, pero al no ser una cifra reportada oficialmente se sugiere esperar al procesamiento de la información del indicador. La estimación de la meta se realizó considerando los reportes previos de la ENSANUT, estos son de 1988, 1999, 2006, 2012. <br />Se plantea un escenario retador en la que se reduzca el porcentaje de población menor de 5 años con algún tipo de desnutrición crónica.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -763,18 +1145,60 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
+          
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/2n.1.1_es.zip">Datos para el cálculo</a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
           
+            Aug 04, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1179,6 +1603,8 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -1196,12 +1622,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230804164239'></script>
+<script src='/site/assets/js/sdg.js?v=20230804172033'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230804164239"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230804172033"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

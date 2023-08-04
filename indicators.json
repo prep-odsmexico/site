@@ -142,22 +142,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-6-1",
-          "title": "global_indicators.1-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-6-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-7-1",
-          "title": "1.7.1 Proporción de la población menor a un año de edad con esquema básico completo de vacunación",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-7-1/",
-          "status": "complete"
-        },
-        {
           "id": "1-8-1",
           "title": "1.8.1 Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos",
           "description": "",
@@ -211,6 +195,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/1-n1-1/",
+          "status": "complete"
+        },
+        {
+          "id": "1-n2-2",
+          "title": "1.n2.2 Proporción de la población menor a un año de edad con esquema básico completo de vacunación",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-n2-2/",
           "status": "complete"
         },
         {

@@ -143,7 +143,7 @@
         },
         {
           "id": "1-8-2",
-          "title": "1.8.2 Porcentaje de población ocupada con hijos(as) de seis años o menos que tiene acceso a guarderías como prestación laboral",
+          "title": "global_indicators.1-8-2-title",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-8-2/",
@@ -203,6 +203,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/1-n3-1-a/",
+          "status": "complete"
+        },
+        {
+          "id": "1-n3-2",
+          "title": "1.n3.2 Porcentaje de población ocupada con hijos(as) de seis años o menos que tiene acceso a guarderías como prestación laboral",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/1-n3-2/",
           "status": "complete"
         },
         {

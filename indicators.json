@@ -142,22 +142,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-8-1",
-          "title": "1.8.1 Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-8-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-1-a",
-          "title": "1.8.1.a Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos, por desglose geográfico",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-8-1-a/",
-          "status": "complete"
-        },
-        {
           "id": "1-8-2",
           "title": "1.8.2 Porcentaje de población ocupada con hijos(as) de seis años o menos que tiene acceso a guarderías como prestación laboral",
           "description": "",
@@ -203,6 +187,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/1-n2-2/",
+          "status": "complete"
+        },
+        {
+          "id": "1-n3-1",
+          "title": "1.n3.1 Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-n3-1/",
+          "status": "complete"
+        },
+        {
+          "id": "1-n3-1-a",
+          "title": "1.n3.1.a Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos, por desglose geográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-n3-1-a/",
           "status": "complete"
         },
         {

@@ -511,10 +511,18 @@
         },
         {
           "id": "3-3-r-1",
-          "title": "global_indicators.3-3-r-1-title",
+          "title": "3.3.r.1 Tasa de prevalencia del VIH/SIDA entre la población de 15 a 49 años",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-3-r-1/",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-r-2",
+          "title": "3.3.r.2 Mortalidad por VIH/SIDA, desglosada por sexo",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-3-r-2/",
           "status": "complete"
         },
         {
@@ -775,19 +783,19 @@
         },
         {
           "id": "3-r-3-1",
-          "title": "3r.3.1 Tasa de prevalencia del VIH/SIDA entre la población de 15 a 49 años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-r-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-r-3-2",
-          "title": "3r.3.2 Mortalidad por VIH/SIDA, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-r-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-r-7-1",

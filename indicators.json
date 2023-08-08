@@ -615,10 +615,18 @@
         },
         {
           "id": "3-7-r-1",
-          "title": "global_indicators.3-7-r-1-title",
+          "title": "3.7.r.1 Necesidad insatisfecha de métodos anticonceptivos en mujeres en edad fértil (15 a 49 años) sexualmente activas",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-r-1/",
+          "status": "complete"
+        },
+        {
+          "id": "3-7-r-a",
+          "title": "3.7.r.a Porcentaje del último hijo nacido vivo en el periodo de 2013 a 2018, tenido a la edad de 15 a 29 años, que no fue planificado",
+          "description": "",
+          "keywords": "",
+          "href": "/site/3-7-r-a/",
           "status": "complete"
         },
         {
@@ -807,19 +815,19 @@
         },
         {
           "id": "3-r-7-1",
-          "title": "3r.7.1 Necesidad insatisfecha de métodos anticonceptivos en mujeres en edad fértil (15 a 49 años) sexualmente activas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-r-7-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-r-7-a",
-          "title": "3r.7.a Porcentaje del último hijo nacido vivo en el periodo de 2013 a 2018, tenido a la edad de 15 a 29 años, que no fue planificado",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-r-7-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-r-7-b",

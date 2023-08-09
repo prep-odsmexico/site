@@ -630,6 +630,14 @@
           "status": "complete"
         },
         {
+          "id": "3-7-r-b",
+          "title": "global_indicators.3-7-r-b-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/3-7-r-b/",
+          "status": "complete"
+        },
+        {
           "id": "3-8-1",
           "title": "Coverage of essential health services",
           "description": "",
@@ -831,7 +839,7 @@
         },
         {
           "id": "3-r-7-b",
-          "title": "3r.7.b Porcentaje de mujeres de 15 a 19 años que son madres",
+          "title": "3.7.r.b Porcentaje de mujeres de 15 a 19 años que son madres",
           "description": "",
           "keywords": "",
           "href": "/site/3-r-7-b/",

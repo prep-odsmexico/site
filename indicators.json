@@ -223,15 +223,23 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-2/",
           "status": "notstarted"
         },
         {
+          "id": "2-1-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-1-2-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-1/",
@@ -239,7 +247,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-2/",
@@ -251,6 +259,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/2-2-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-2(1)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-2-2(1)/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-2-2(2)/",
           "status": "notstarted"
         },
         {
@@ -323,6 +347,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/2-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-n2-1/",
           "status": "notstarted"
         }]
     }

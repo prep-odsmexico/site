@@ -375,27 +375,27 @@
         
         {
           "id": "3-1-1",
-          "title": "",
+          "title": "3.1.1 Razón de mortalidad materna",
           "description": "",
           "keywords": "",
           "href": "/site/3-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
-          "title": "",
+          "title": "3.1.2 Proporción de partos atendidos por personal sanitario capacitado",
           "description": "",
           "keywords": "",
           "href": "/site/3-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-1",
-          "title": "",
+          "title": "3.2.1 Tasa de mortalidad de niños menores de 5 años",
           "description": "",
           "keywords": "",
           "href": "/site/3-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
@@ -407,27 +407,27 @@
         },
         {
           "id": "3-3-1",
-          "title": "",
+          "title": "3.3.1 Número de nuevas infecciones por el VIH por cada 1.000 habitantes no infectados, desglosado por sexo, edad y poblaciones clave",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
-          "title": "",
+          "title": "3.3.2 Incidencia de tuberculosis pulmonar (por cada 100 mil habitantes)",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
-          "title": "",
+          "title": "3.3.3 Incidencia de paludismo (por cada 100 mil habitantes)",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-3/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
@@ -439,35 +439,35 @@
         },
         {
           "id": "3-3-5",
-          "title": "",
+          "title": "3.3.5 Proporción de tratamientos otorgados a casos confirmados de paludismo, para la prevención, control y eliminación de la transmisión del Plasmodium Vivax",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-5/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-r-1",
-          "title": "",
+          "title": "3.3.r.1 Tasa de prevalencia del VIH/SIDA entre la población de 15 a 49 años",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-r-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-r-2",
-          "title": "",
+          "title": "3.3.r.2 Mortalidad por VIH/SIDA, desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-r-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-1",
-          "title": "",
+          "title": "3.4.1 Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
           "description": "",
           "keywords": "",
           "href": "/site/3-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
@@ -479,19 +479,19 @@
         },
         {
           "id": "3-4-2-a",
-          "title": "",
+          "title": "3.4.2.a Tasa de mortalidad por suicidio",
           "description": "",
           "keywords": "",
           "href": "/site/3-4-2-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2-b",
-          "title": "",
+          "title": "3.4.2.b Número de muertes por suicidio (personas con residencia habitual fuera de México o no especificada)",
           "description": "",
           "keywords": "",
           "href": "/site/3-4-2-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-1",
@@ -519,11 +519,11 @@
         },
         {
           "id": "3-7-1",
-          "title": "",
+          "title": "3.7.1 Porcentaje de mujeres en edad fértil (15 a 49 años) unidas con demanda satisfecha de métodos anticonceptivos modernos",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
@@ -535,43 +535,43 @@
         },
         {
           "id": "3-7-2-a",
-          "title": "",
+          "title": "3.7.2.a Tasa de fecundidad en niñas y adolescentes (de 10 a 14 años) por cada 1 000 niñas y adolescentes en ese grupo de edad",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-2-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2-b",
-          "title": "",
+          "title": "3.7.2.b Tasa de fecundidad en adolescentes (de 15 a 19 años) por cada 1 000 mujeres de ese grupo de edad",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-2-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-r-1",
-          "title": "",
+          "title": "3.7.r.1 Necesidad insatisfecha de métodos anticonceptivos en mujeres en edad fértil (15 a 49 años) sexualmente activas",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-r-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-r-a",
-          "title": "",
+          "title": "3.7.r.a Porcentaje del último hijo nacido vivo en el periodo de 2013 a 2018, tenido a la edad de 15 a 29 años, que no fue planificado",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-r-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-r-b",
-          "title": "",
+          "title": "3.7.r.b Porcentaje de mujeres de 15 a 19 años que son madres",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-r-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
@@ -615,27 +615,27 @@
         },
         {
           "id": "3-9-2a",
-          "title": "",
+          "title": "3.9.2a Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))",
           "description": "",
           "keywords": "",
           "href": "/site/3-9-2a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-3a",
-          "title": "",
+          "title": "3.9.3a Tasa de mortalidad atribuida a intoxicaciones involuntarias",
           "description": "",
           "keywords": "",
           "href": "/site/3-9-3a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-3b",
-          "title": "",
+          "title": "3.9.3b Defunciones atribuidas a intoxicaciones involuntarias, según la residencia habitual fuera de México o no especificada",
           "description": "",
           "keywords": "",
           "href": "/site/3-9-3b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-a-1",
@@ -671,11 +671,11 @@
         },
         {
           "id": "3-c-1",
-          "title": "",
+          "title": "3.c.1 Densidad y distribución del personal sanitario",
           "description": "",
           "keywords": "",
           "href": "/site/3-c-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-1",
@@ -695,51 +695,51 @@
         },
         {
           "id": "3-n1-1",
-          "title": "",
+          "title": "3.n1.1 Porcentaje de la población que presenta carencia por acceso a los servicios de salud",
           "description": "",
           "keywords": "",
           "href": "/site/3-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-n1-2",
-          "title": "",
+          "title": "3.n1.2 Porcentaje de población que tardaría menos de dos horas en llegar a un hospital en caso de una emergencia",
           "description": "",
           "keywords": "",
           "href": "/site/3-n1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-n1-3",
-          "title": "",
+          "title": "3.n1.3 Porcentaje de población derechohabiente que no gastó en servicios médicos la última vez que recibió atención médica",
           "description": "",
           "keywords": "",
           "href": "/site/3-n1-3/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-n1-4",
-          "title": "",
+          "title": "3.n1.4 Porcentaje de hogares con gasto catastrófico en salud",
           "description": "",
           "keywords": "",
           "href": "/site/3-n1-4/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-n3-1",
-          "title": "",
+          "title": "3.n3.1 Tasa de fecundidad en niñas de 10 a 14 años",
           "description": "",
           "keywords": "",
           "href": "/site/3-n3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-n4-1",
-          "title": "",
+          "title": "3.n4.1 Porcentaje de la población con sobrepeso y obesidad",
           "description": "",
           "keywords": "",
           "href": "/site/3-n4-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

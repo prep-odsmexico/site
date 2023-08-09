@@ -159,7 +159,7 @@
         },
         {
           "id": "1-n1-1",
-          "title": "1-n1-1 Porcentaje de la población en situación de pobreza",
+          "title": "1.n1.1 Porcentaje de la población en situación de pobreza",
           "description": "",
           "keywords": "",
           "href": "/site/1-n1-1/",
@@ -631,7 +631,7 @@
         },
         {
           "id": "3-7-r-b",
-          "title": "global_indicators.3-7-r-b-title",
+          "title": "3.7.r.b Porcentaje de mujeres de 15 a 19 años que son madres",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-r-b/",
@@ -758,12 +758,20 @@
           "status": "notstarted"
         },
         {
+          "id": "3-n1-1",
+          "title": "3.n1.1 Porcentaje de la población que presenta carencia por acceso a los servicios de salud",
+          "description": "",
+          "keywords": "",
+          "href": "/site/3-n1-1/",
+          "status": "complete"
+        },
+        {
           "id": "3-n-1-1",
-          "title": "3n.1.1 Porcentaje de la población que presenta carencia por acceso a los servicios de salud",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-n-1-2",
@@ -839,11 +847,11 @@
         },
         {
           "id": "3-r-7-b",
-          "title": "3.7.r.b Porcentaje de mujeres de 15 a 19 años que son madres",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-r-7-b/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },

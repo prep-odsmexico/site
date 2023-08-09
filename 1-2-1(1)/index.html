@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 1.2.1(1) -
         
-         - Indicadores para los Objetivos de Desarrollo Sostenible
+        1.2.1(1) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2016 - 2020) - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230809211716">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230809212913">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 1.2.1(1)
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">1.2.1(1) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2016 - 2020)</span>
                     </h1>
                 </div>
             </div>
@@ -446,12 +446,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-2-1(1)'
   data-id="1-2-1(1)"
-  data-country="México"
-  data-charttitle=""
+  data-country="Nacional"
+  data-charttitle="1.2.1(1) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2016 - 2020)"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Porcentaje"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="Line"
   data-graphtypes="[]"
   data-geocoderegex=""
@@ -470,7 +470,279 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/1-2-1(1).csv" class="btn btn-primary btn-download" download='indicator_1-2-1(1).csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            1.2.1(1) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2016 - 2020)
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>- Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+        <dt>Nota(s) y/o llamada(s):</dt>
+        <dd><br>Nota <br>- Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.</dd>
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,103 +850,83 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 1. Poner fin a la pobreza en todas sus formas y en todo el mundo</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 1.2 De aquí a 2030, reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>1.2.1(1) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2016 - 2020)</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>Este indicador resulta de identificar a la población de referencia que cuenta con un ingreso corriente total per cápita inferior al valor monetario de la línea de pobreza por ingresos (canasta alimentaria más la canasta no alimentaria), dividir dicho número de personas entre la población de referencia total y multiplicar el cociente por 100.</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Actualización de metadatos </th>
+        <td>
           
-      
-      
-      
+            <p>Septiembre de 2015</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -693,33 +945,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Alida Marcela Gutiérrez Landeros<br />Coordinadora General de Análisis de la Pobreza<br />Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br />(55) 54-81-72-00, ext. 70075<br />amgutierrez@coneval.org.mx<br /><br />David Antonio Rojas Rosey<br />Director Ejecutivo de Medición de Pobreza y Seguimiento de Indicadores<br />Insurgentes Sur Num.810, Colonia Del Valle, C.P. 03100, Benito Juárez, Ciudad de México<br />(55) 54-81-72-00, ext. 70100<br />drojas@coneval.org.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -753,6 +991,176 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>Es el porcentaje de la población de referencia que tiene un ingreso corriente total per cápita inferior al valor monetario de la línea de pobreza por ingresos (canasta alimentaria más la canasta no alimentaria).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Fuentes de datos </th>
+        <td>
+          
+            <p>Instituto Nacional de Estadística y Geografía (INEGI). Encuesta Nacional de Ingresos y Gastos en los Hogares (ENIGH) 2016, 2018 y 2020; con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.<br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>Segundo semestre 2023 */</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Proveedores de datos </th>
+        <td>
+          
+            <p>Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL). <a target="_blank" class="liga3" href="http://www.coneval.org.mx/">http://www.coneval.org.mx/.</a><br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Compiladores de datos </th>
+        <td>
+          
+            <p>Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL). <a target="_blank" class="liga3" href="http://www.coneval.org.mx/">http://www.coneval.org.mx/.</a><br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>Este indicador está ligado a la Meta 1.2 de reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones de acuerdo con las definiciones nacionales. Permite dar seguimiento a la evolución de la población que carece de un ingreso suficiente para satisfacer sus necesidades alimentarias y no alimentarias, como insumo para la generación de estrategias, políticas y acciones de generación de ingreso.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <ol>
+  <li>Metodología para la construcción de las Líneas de Pobreza por Ingresos en México: Esta metodología se basa en los patrones de gasto de los hogares para aproximar el consumo de energía y micronutrientes de la población. Posteriormente, se ubica un estrato poblacional de referencia en el cual el consumo de energía coincide con las recomendaciones nutricionales. Una vez ubicado el estrato poblacional de referencia, se delimita el patrón de consumo de alimentos de acuerdo con criterios de mayor participación en el gasto y mayor frecuencia. De forma adicional, se determina la cantidad de alimentos que satisfagan requerimientos nutricionales de vitaminas, minerales y proteínas. El valor monetario de dicha canasta se obtiene del gasto reportado por el estrato de referencia y dicho valor se actualiza con el Índice Nacional de Precios al Consumidor (INPC).<br /><br />2. Una vez que se tiene el umbral de referencia, se define el indicador de ingreso que se utiliza en la medición de la pobreza. El ingreso corriente total per cápita considera los ingresos corrientes monetarios y no monetarios de los integrantes de un hogar. Al sumar todos los ingresos de todos miembros del hogar y dividirlos entre el tamaño de este, ajustado por adulto equivalente y economías de escala, se obtiene el ingreso corriente total per cápita ajustado.<br /><br />3. Para mayor detalle consultar: <br /><br />Construcción de las Líneas de Pobreza por Ingresos. Documento Metodológico. <a target="_blank" class="liga3" href="https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Lineas_pobreza.pdf">https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Lineas_pobreza.pdf</a><br /><br />Datos de CONEVAL sobre la pobreza multidimensional:<br />Medición de pobreza.<br /><a target="_blank" class="liga3" href="https://www.coneval.org.mx/Medicion/Paginas/PobrezaInicio.aspx">https://www.coneval.org.mx/Medicion/Paginas/PobrezaInicio.aspx</a><br />Metodología para la medición multidimensional de la pobreza en México. <a target="_blank" class="liga3" href="https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf">https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf</a><br /><br />4. Se utilizan las bases de datos que publicó el INEGI con los nuevos factores de expansión construidos con base en el Marco de Muestreo de Viviendas y los resultados del Censo de Población y Vivienda 2020.<br /><br />5. El total de la población presentada es para fines de la medición de pobreza, por lo que puede diferir con las cifras de población total reportadas por el INEGI o CONAPO.<br /><br /><sup>*/</sup> La actualización del indicador está sujeta a la publicación de los microdatos por parte de INEGI.</li>
+</ol>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -773,8 +1181,70 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
+          
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/1.2.1(1)_es.zip">Datos para el cálculo</a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Datos actualizados por última vez </th>
+        <td>
+          
+            Aug 09, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
+          
+            Aug 09, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1034,6 +1504,218 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Estimaciones del CONEVAL con base en la ENIGH 2016, 2018 y 2020.Dirección Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores (DEMPSI), Coordinación General de Análisis de la Pobreza (CGAP), Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Bienal</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1143,12 +1825,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230809211716'></script>
+<script src='/site/assets/js/sdg.js?v=20230809212913'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230809211716"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230809212913"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

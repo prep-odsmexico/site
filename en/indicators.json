@@ -766,6 +766,14 @@
           "status": "complete"
         },
         {
+          "id": "3-n1-2",
+          "title": "global_indicators.3-n1-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/3-n1-2/",
+          "status": "complete"
+        },
+        {
           "id": "3-n-1-1",
           "title": "",
           "description": "",
@@ -775,7 +783,7 @@
         },
         {
           "id": "3-n-1-2",
-          "title": "3n.1.2 Porcentaje de población que tardaría menos de dos horas en llegar a un hospital en caso de una emergencia",
+          "title": "3.n1.2 Porcentaje de población que tardaría menos de dos horas en llegar a un hospital en caso de una emergencia",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-n-1-2/",

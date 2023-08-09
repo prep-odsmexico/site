@@ -767,7 +767,7 @@
         },
         {
           "id": "3-n1-2",
-          "title": "global_indicators.3-n1-2-title",
+          "title": "3.n1.2 Porcentaje de población que tardaría menos de dos horas en llegar a un hospital en caso de una emergencia",
           "description": "",
           "keywords": "",
           "href": "/site/3-n1-2/",
@@ -775,10 +775,18 @@
         },
         {
           "id": "3-n1-3",
-          "title": "global_indicators.3-n1-3-title",
+          "title": "3.n1.3 Porcentaje de población derechohabiente que no gastó en servicios médicos la última vez que recibió atención médica",
           "description": "",
           "keywords": "",
           "href": "/site/3-n1-3/",
+          "status": "complete"
+        },
+        {
+          "id": "3-n1-4",
+          "title": "3.n1.4 Porcentaje de hogares con gasto catastrófico en salud",
+          "description": "",
+          "keywords": "",
+          "href": "/site/3-n1-4/",
           "status": "complete"
         },
         {
@@ -791,27 +799,27 @@
         },
         {
           "id": "3-n-1-2",
-          "title": "3.n1.2 Porcentaje de población que tardaría menos de dos horas en llegar a un hospital en caso de una emergencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-n-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-n-1-3",
-          "title": "3n.1.3 Porcentaje de población derechohabiente que no gastó en servicios médicos la última vez que recibió atención médica",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-n-1-3/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-n-1-4",
-          "title": "3n.1.4 Porcentaje de hogares con gasto catastrófico en salud",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-n-1-4/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-n-3-1",

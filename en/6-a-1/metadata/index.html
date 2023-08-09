@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230809172613">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230809174307">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -579,492 +579,84 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_GOAL', "Objetivo 6. Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos");
-        var propertyEditor = editor.getEditor('root.SDG_GOAL');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_GOAL');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_TARGET', "Meta 6.a. De aquí a 2030, ampliar la cooperación internacional y el apoyo prestado a los países en desarrollo para la creación de capacidad en actividades y programas relativos al agua y el saneamiento, como los de captación de agua, desalinización, uso eficiente de los recursos hídricos, tratamiento de aguas residuales, reciclado y tecnologías de reutilización.");
-        var propertyEditor = editor.getEditor('root.SDG_TARGET');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_TARGET');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "6.a.1. Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno.");
-        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_INDICATOR');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_SERIES_DESCR', "Para determinar el valor del indicador se consulta la información del portal de la OCDE en el apartado de datos, seleccionando la opción de \"Desarrollo\"; se toman los datos reportados en los Flujos basados en proyectos individuales (CRS), dentro del apartado del sistema de reporte de acreedores CRS. Para el caso del indicador, se selecciona la información reportada a precios corrientes dentro del Sector 140: I.4. Abastecimiento de agua y saneamiento. Esta información puede ser consultada en el siguiente vínculo de internet: https://stats.oecd.org/Index.aspx;<br><br>Adicionalmente, se hace la conversión de las cifras que están en dólares a pesos mexicanos; para lo cual, se toma el precio promedio del dólar para cada uno de los años de análisis, dicha información es consultada del Sistema de información económica del Banco de México (Banxico): https://www.banxico.org.mx/SieInternet/. <br><br>Posteriormente, se considera la información de inversión aplicada por el Gobierno Mexicano, a través de la Comisión Nacional del Agua (CONAGUA) relacionada con agua potable, drenaje y saneamiento (rubros de agua potable, alcantarillado, saneamiento, mejora de eficiencias y otros), para esto, se consulta el Sistema Nacional de Información del Agua (SINA) que concentra la información generada por la Subdirección General de Agua Potable, Drenaje y Sanemiento de la CONAGUA. Esta información puede consultarse en: http://sina.conagua.gob.mx/sina/tema.php?tema=presupuestoInvertido&ver=reporte&o=3&n=nacional.<br><br>Con las cifras homologadas a pesos mexicanos, se procede a hacer el cálculo del indicador, que es la proporción entre los desembolsos totales de la Asistencia Oficial para el Desarrollo (AOD) relacionados con el agua y el saneamiento considerados en el presupuesto del gobierno.");
-        var propertyEditor = editor.getEditor('root.SDG_SERIES_DESCR');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_SERIES_DESCR');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('META_LAST_UPDATE', "");
-        var propertyEditor = editor.getEditor('root.META_LAST_UPDATE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: META_LAST_UPDATE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.META_LAST_UPDATE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_RELATED_INDICATORS', "");
-        var propertyEditor = editor.getEditor('root.SDG_RELATED_INDICATORS');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_RELATED_INDICATORS');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CONTACT_ORGANISATION', "");
-        var propertyEditor = editor.getEditor('root.CONTACT_ORGANISATION');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CONTACT_ORGANISATION');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_ORGANISATION'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CONTACT_NAME', "Gerencia de Planificación Hídrica<br>Subgerencia del Sistema Nacional de Información del Agua<br>Insurgentes Sur Num. 2416. Piso 4; Colonia Copilco El Bajo, 04340. Coyoacán, Ciudad de México<br>+52 55 5174 4000, ext. 2112 y 4458<br>sina@conagua.gob.mx<br><br>Gerencia de Cooperación Internacional<br>Dirección de Área de Evaluación de Programas y Proyectos<br>Insurgentes Sur Num. 2416. Piso 9; Colonia Copilco El Bajo, 04340. Coyoacán, Ciudad de México<br>+52 55 5174 4000, ext. 1313<br>internacional@conagua.gob.mx<br><br>");
-        var propertyEditor = editor.getEditor('root.CONTACT_NAME');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CONTACT_NAME');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_NAME'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('ORGANISATION_UNIT', "");
-        var propertyEditor = editor.getEditor('root.ORGANISATION_UNIT');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: ORGANISATION_UNIT');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ORGANISATION_UNIT'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CONTACT_FUNCT', "");
-        var propertyEditor = editor.getEditor('root.CONTACT_FUNCT');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CONTACT_FUNCT');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_FUNCT'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CONTACT_PHONE', "");
-        var propertyEditor = editor.getEditor('root.CONTACT_PHONE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CONTACT_PHONE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_PHONE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CONTACT_MAIL', "");
-        var propertyEditor = editor.getEditor('root.CONTACT_MAIL');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CONTACT_MAIL');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_MAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_EMAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Es la cantidad de asistencia oficial para el desarrollo relacionada con el agua y el saneamiento, que forma parte de un plan de gasto coordinado por el gobierno, medida como la proporción entre los desembolsos totales de la Asistencia Oficial para el Desarrollo (AOD) relacionados con el agua y el saneamiento considerados en el presupuesto del gobierno.");
-        var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: STAT_CONC_DEF');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "Porcentaje");
-        var propertyEditor = editor.getEditor('root.UNIT_MEASURE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: UNIT_MEASURE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UNIT_MEASURE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CLASS_SYSTEM', "");
-        var propertyEditor = editor.getEditor('root.CLASS_SYSTEM');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CLASS_SYSTEM');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CLASS_SYSTEM'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT). Comisión Nacional del Agua (CONAGUA). Gerencia de Planificación Hídrica. Sistema Nacional de Información del Agua (SINA), a partir de los registros reportados por la Subdirección General de Agua Potable, Drenaje y Saneamiento de la CONAGUA e integrados en el SINA, y de los registros reportados por la Organización para el Crecimiento y Desarrollo Económico (OCDE) consultados en https://stats.oecd.org/Index.aspx.<br>");
-        var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SOURCE_TYPE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SOURCE_TYPE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('COLL_METHOD', "");
-        var propertyEditor = editor.getEditor('root.COLL_METHOD');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: COLL_METHOD');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COLL_METHOD'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('FREQ_COLL', "Diciembre 2023");
-        var propertyEditor = editor.getEditor('root.FREQ_COLL');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: FREQ_COLL');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FREQ_COLL'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('REL_CAL_POLICY', "");
-        var propertyEditor = editor.getEditor('root.REL_CAL_POLICY');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: REL_CAL_POLICY');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REL_CAL_POLICY'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('DATA_SOURCE', "");
-        var propertyEditor = editor.getEditor('root.DATA_SOURCE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: DATA_SOURCE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_SOURCE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('COMPILING_ORG', "Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT). Comisión Nacional del Agua (CONAGUA). Gerencia de Planificación Hídrica. Sistema Nacional de Información del Agua (SINA).<br>");
-        var propertyEditor = editor.getEditor('root.COMPILING_ORG');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: COMPILING_ORG');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPILING_ORG'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('INST_MANDATE', "");
-        var propertyEditor = editor.getEditor('root.INST_MANDATE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: INST_MANDATE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.INST_MANDATE'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_METHOD'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('RATIONALE', "La cantidad de AOD relacionada con el agua y el saneamiento puede utilizarse como indicador indirecto de la “cooperación internacional y el apoyo para el desarrollo de capacidades” en términos financieros. Es esencial poder evaluar la AOD en proporción de la cantidad del presupuesto del gobierno para comprender si los donantes están alineados con los gobiernos nacionales y, al mismo tiempo, resaltar los desembolsos totales de AOD para agua y saneamiento a los países en desarrollo a lo largo del tiempo. Estrictamente, un valor bajo de este indicador (cerca del 0%) sugeriría que los donantes internacionales están invirtiendo en actividades y programas relacionados con el agua y el saneamiento en el país fuera del alcance del gobierno nacional. Un valor alto (cerca del 100%) indicaría que los donantes están alineados con el gobierno nacional y las políticas y planes nacionales de agua y saneamiento.");
-        var propertyEditor = editor.getEditor('root.RATIONALE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: RATIONALE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.RATIONALE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('REC_USE_LIM', "");
-        var propertyEditor = editor.getEditor('root.REC_USE_LIM');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: REC_USE_LIM');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('DATA_COMP', "");
-        var propertyEditor = editor.getEditor('root.DATA_COMP');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: DATA_COMP');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('DATA_VALIDATION', "Los datos extraídos del sistema de la OCDE fue realizada en la consulta realizada en noviembre de 2022. El dato reportado como AOD en el año 2021 es preliminar. El dato de AOD y IAPDS están considerados a pesos corrientes, es decir del año de cálculo del indicador. Aunque el metadato internacional indica que el indicador tiene una periodicidad bienal (cada dos años), con los datos recabados se puede tener una  serie histórica anual del valor del indicador.");
-        var propertyEditor = editor.getEditor('root.DATA_VALIDATION');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: DATA_VALIDATION');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_VALIDATION'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('DOC_METHOD', "");
-        var propertyEditor = editor.getEditor('root.DOC_METHOD');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: DOC_METHOD');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DOC_METHOD'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('QUALITY_MGMNT', "");
-        var propertyEditor = editor.getEditor('root.QUALITY_MGMNT');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: QUALITY_MGMNT');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_MGMNT'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('QUALITY_ASSURE', "");
-        var propertyEditor = editor.getEditor('root.QUALITY_ASSURE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: QUALITY_ASSURE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSURE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('QUALITY_ASSMNT', "");
-        var propertyEditor = editor.getEditor('root.QUALITY_ASSMNT');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: QUALITY_ASSMNT');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSMNT'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('COVERAGE', "Nacional");
-        var propertyEditor = editor.getEditor('root.COVERAGE');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: COVERAGE');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COVERAGE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('COMPARABILITY', "");
-        var propertyEditor = editor.getEditor('root.COMPARABILITY');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: COMPARABILITY');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('OTHER_DOC', "<a href=\"https://agenda2030.mx/docs/files/csv/zip/6.a.1._es.zip\">Datos para el cálculo</a>");
-        var propertyEditor = editor.getEditor('root.OTHER_DOC');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: OTHER_DOC');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_updated_date'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2023-08-03");
-        var propertyEditor = editor.getEditor('root.national_metadata_updated_date');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: national_metadata_updated_date');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_updated_date'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
@@ -1206,12 +798,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230809172613'></script>
+<script src='/site/assets/js/sdg.js?v=20230809174307'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230809172613"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230809174307"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

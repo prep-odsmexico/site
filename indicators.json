@@ -7,19 +7,19 @@
         
         {
           "id": "1-1-1",
-          "title": "1.1.1 Proporción de la población que vive por debajo del umbral internacional de la pobreza (1.90 dólares diarios), desglosada por sexo, edad, situación laboral y ubicación geográfica (urbano y rural)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-1-1-a",
-          "title": "1.1.1.a Proporción de la población que vive por debajo del umbral internacional de la pobreza (1.90 dólares diarios), por desglose geográfico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-1-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-1",
@@ -31,11 +31,11 @@
         },
         {
           "id": "1-2-1-a",
-          "title": "1.2.1.a Proporción de la población que vive por debajo del umbral nacional de la pobreza, por desglose geográfico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-2",
@@ -47,43 +47,43 @@
         },
         {
           "id": "1-2-2-a",
-          "title": "1.2.2.a Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, con arreglo a las definiciones nacionales, por desglose geográfico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-1(1)",
-          "title": "1.2.1(1) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2016 - 2020)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1(1)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-1(2)",
-          "title": "1.2.1(2) Proporción de la población que vive por debajo del umbral nacional de la pobreza, desglosada por sexo y edad (2008 - 2014)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-2(1)",
-          "title": "1.2.2(1) Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, de acuerdo con las definiciones nacionales (2016 - 2020)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2(1)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-2(2)",
-          "title": "1.2.2(2) Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones, de acuerdo con las definiciones nacionales (2008 - 2014)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-3-1",
@@ -103,19 +103,19 @@
         },
         {
           "id": "1-4-2",
-          "title": "1.4.2 Proporción del total de la población adulta con derechos seguros de tenencia de la tierra que posee documentación reconocida legalmente al respecto, desglosada por sexo y tipo de tenencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-4-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-5-1",
-          "title": "1.5.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-5-2",
@@ -151,59 +151,11 @@
         },
         {
           "id": "1-a-2",
-          "title": "1.a.2 Proporción del gasto público total en servicios esenciales (educación, salud y protección social)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/1-a-2/",
-          "status": "complete"
-        },
-        {
-          "id": "1-n1-1",
-          "title": "1.n1.1 Porcentaje de la población en situación de pobreza",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-n1-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-n2-2",
-          "title": "1.n2.2 Proporción de la población menor a un año de edad con esquema básico completo de vacunación",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-n2-2/",
-          "status": "complete"
-        },
-        {
-          "id": "1-n3-1",
-          "title": "1.n3.1 Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-n3-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-n3-1-a",
-          "title": "1.n3.1.a Porcentaje de población de 65 años o más que recibe jubilación o pensión (contributiva o no contributiva) por un monto igual o mayor al valor promedio de la línea de pobreza por ingresos, por desglose geográfico",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-n3-1-a/",
-          "status": "complete"
-        },
-        {
-          "id": "1-n3-2",
-          "title": "1.n3.2 Porcentaje de población ocupada con hijos(as) de seis años o menos que tiene acceso a guarderías como prestación laboral",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-n3-2/",
-          "status": "complete"
-        },
-        {
-          "id": "1-n3-3",
-          "title": "1.n3.3 Porcentaje de la población que presenta carencia por acceso a la seguridad social",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-n3-3/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-n-1-1",
@@ -271,35 +223,35 @@
         },
         {
           "id": "2-1-2",
-          "title": "2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa, desglosada por sexo y edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-1-2-a",
-          "title": "2.1.2.a Proporción de la población con inseguridad alimentaria moderada o severa, por desglose geográfico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-2-1",
-          "title": "2.2.1 Prevalencia del retraso en el crecimiento (estatura para la edad, desviación típica < -2 de la mediana de los patrones de crecimiento infantil de la Organización Mundial de la Salud (OMS)) entre los niños menores de 5 años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-2-2",
-          "title": "2.2.2 Prevalencia de la malnutrición (peso para la estatura, desviación típica > +2 o < -2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación y sobrepeso)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-2-3",
@@ -311,19 +263,19 @@
         },
         {
           "id": "2-2-2(1)",
-          "title": "2.2.2(1) Prevalencia de emaciación (peso para la estatura, desviación típica <-2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-2(1)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-2-2(2)",
-          "title": "2.2.2(2) Prevalencia de sobrepeso u obesidad (peso para la estatura, desviación típica >+2 de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-2(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-3-1",
@@ -398,22 +350,6 @@
           "status": "notstarted"
         },
         {
-          "id": "2-n1-1",
-          "title": "2.n1.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica",
-          "description": "",
-          "keywords": "",
-          "href": "/site/2-n1-1/",
-          "status": "complete"
-        },
-        {
-          "id": "2-n2-1",
-          "title": "2.n2.1 Porcentaje de población con inseguridad alimentaria moderada o severa",
-          "description": "",
-          "keywords": "",
-          "href": "/site/2-n2-1/",
-          "status": "complete"
-        },
-        {
           "id": "2-n-1-1",
           "title": "",
           "description": "",
@@ -439,27 +375,27 @@
         
         {
           "id": "3-1-1",
-          "title": "3.1.1 Razón de mortalidad materna",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-1-2",
-          "title": "3.1.2 Proporción de partos atendidos por personal sanitario capacitado",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-2-1",
-          "title": "3.2.1 Tasa de mortalidad de niños menores de 5 años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-2-2",
@@ -471,27 +407,27 @@
         },
         {
           "id": "3-3-1",
-          "title": "3.3.1 Número de nuevas infecciones por el VIH por cada 1.000 habitantes no infectados, desglosado por sexo, edad y poblaciones clave",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-3-2",
-          "title": "3.3.2 Incidencia de tuberculosis pulmonar (por cada 100 mil habitantes)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-3-3",
-          "title": "3.3.3 Incidencia de paludismo (por cada 100 mil habitantes)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-3/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-3-4",
@@ -503,35 +439,19 @@
         },
         {
           "id": "3-3-5",
-          "title": "3.3.5 Proporción de tratamientos otorgados a casos confirmados de paludismo, para la prevención, control y eliminación de la transmisión del Plasmodium Vivax",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-5/",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-r-1",
-          "title": "3.3.r.1 Tasa de prevalencia del VIH/SIDA entre la población de 15 a 49 años",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-3-r-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-r-2",
-          "title": "3.3.r.2 Mortalidad por VIH/SIDA, desglosada por sexo",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-3-r-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-4-1",
-          "title": "3.4.1 Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-4-2",
@@ -543,19 +463,19 @@
         },
         {
           "id": "3-4-2-a",
-          "title": "3.4.2.a Tasa de mortalidad por suicidio",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-4-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-4-2-b",
-          "title": "3.4.2.b Número de muertes por suicidio (personas con residencia habitual fuera de México o no especificada)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-4-2-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-5-1",
@@ -583,11 +503,11 @@
         },
         {
           "id": "3-7-1",
-          "title": "3.7.1 Porcentaje de mujeres en edad fértil (15 a 49 años) unidas con demanda satisfecha de métodos anticonceptivos modernos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-7-2",
@@ -599,43 +519,19 @@
         },
         {
           "id": "3-7-2-a",
-          "title": "3.7.2.a Tasa de fecundidad en niñas y adolescentes (de 10 a 14 años) por cada 1 000 niñas y adolescentes en ese grupo de edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-7-2-b",
-          "title": "3.7.2.b Tasa de fecundidad en adolescentes (de 15 a 19 años) por cada 1 000 mujeres de ese grupo de edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-2-b/",
-          "status": "complete"
-        },
-        {
-          "id": "3-7-r-1",
-          "title": "3.7.r.1 Necesidad insatisfecha de métodos anticonceptivos en mujeres en edad fértil (15 a 49 años) sexualmente activas",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-7-r-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-7-r-a",
-          "title": "3.7.r.a Porcentaje del último hijo nacido vivo en el periodo de 2013 a 2018, tenido a la edad de 15 a 29 años, que no fue planificado",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-7-r-a/",
-          "status": "complete"
-        },
-        {
-          "id": "3-7-r-b",
-          "title": "3.7.r.b Porcentaje de mujeres de 15 a 19 años que son madres",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-7-r-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-8-1",
@@ -679,27 +575,27 @@
         },
         {
           "id": "3-9-2a",
-          "title": "3.9.2a Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-9-2a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-9-3a",
-          "title": "3.9.3a Tasa de mortalidad atribuida a intoxicaciones involuntarias",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-9-3a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-9-3b",
-          "title": "3.9.3b Defunciones atribuidas a intoxicaciones involuntarias, según la residencia habitual fuera de México o no especificada",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-9-3b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-a-1",
@@ -735,11 +631,11 @@
         },
         {
           "id": "3-c-1",
-          "title": "3.c.1 Densidad y distribución del personal sanitario",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-c-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-d-1",
@@ -756,38 +652,6 @@
           "keywords": "",
           "href": "/site/3-d-2/",
           "status": "notstarted"
-        },
-        {
-          "id": "3-n1-1",
-          "title": "3.n1.1 Porcentaje de la población que presenta carencia por acceso a los servicios de salud",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-n1-1/",
-          "status": "complete"
-        },
-        {
-          "id": "3-n1-2",
-          "title": "3.n1.2 Porcentaje de población que tardaría menos de dos horas en llegar a un hospital en caso de una emergencia",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-n1-2/",
-          "status": "complete"
-        },
-        {
-          "id": "3-n1-3",
-          "title": "3.n1.3 Porcentaje de población derechohabiente que no gastó en servicios médicos la última vez que recibió atención médica",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-n1-3/",
-          "status": "complete"
-        },
-        {
-          "id": "3-n1-4",
-          "title": "3.n1.4 Porcentaje de hogares con gasto catastrófico en salud",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-n1-4/",
-          "status": "complete"
         },
         {
           "id": "3-n-1-1",
@@ -823,19 +687,19 @@
         },
         {
           "id": "3-n-3-1",
-          "title": "3n.3.1 Tasa de fecundidad en niñas de 10 a 14 años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-n-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-n-4-1",
-          "title": "3n.4.1 Porcentaje de la población con sobrepeso y obesidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/3-n-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-r-3-1",
@@ -895,43 +759,43 @@
         },
         {
           "id": "4-1-2",
-          "title": "4.1.2 Índice de finalización (enseñanza primaria, secundaria y preparatoria)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-2-1",
-          "title": "4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-2-2",
-          "title": "4.2.2 Tasa de participación en el aprendizaje organizado (un año antes de la edad oficial de ingreso en la enseñanza primaria), desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-3-1",
-          "title": "4.3.1 Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-4-1",
-          "title": "4.4.1 Proporción de jóvenes y adultos con conocimientos de tecnología de la información y las comunicaciones (TIC), desglosada por tipo de conocimiento técnico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-5-1",
@@ -951,11 +815,11 @@
         },
         {
           "id": "4-6-1-a",
-          "title": "4.6.1.a Porcentaje de población en un grupo de edad determinado que alcanza por lo menos un nivel fijo de competencia funcional en alfabetización, desglosado por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-6-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-7-1",
@@ -975,67 +839,67 @@
         },
         {
           "id": "4-a-1-a",
-          "title": "4.a.1.a Proporción de escuelas con acceso a electricidad por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-b",
-          "title": "4.a.1.b Proporción de escuelas con acceso a internet por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-c",
-          "title": "4.a.1.c Proporción de escuelas con equipos de cómputo en funcionamiento por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-d1",
-          "title": "4.a.1.d1 Proporción de escuelas con infraestructura adaptada para discapacidad por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-d1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-d2",
-          "title": "4.a.1.d2 Proporción de escuelas con materiales adaptados para discapacidad por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-d2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-e",
-          "title": "4.a.1.e Proporción de escuelas con conexión a la red pública de agua potable por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-e/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-f",
-          "title": "4.a.1.f Proporción de escuelas con sanitarios independientes por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-f/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1-g",
-          "title": "4.a.1.g Proporción de escuelas con lavabo de manos por entidad federativa y nivel educativo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-a-1-g/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-b-1",
@@ -1055,51 +919,51 @@
         },
         {
           "id": "4-c-1-a",
-          "title": "4.c.1.a Proporción del profesorado de educación preescolar, que ha recibido al menos la mínima formación docente organizada previa al empleo o en el empleo (por ejemplo, formación pedagógica) exigida para impartir enseñanza a nivel preescolar en México",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-c-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-c-1-b",
-          "title": "4.c.1.b Proporción del profesorado de educación primaria, que ha recibido al menos la mínima formación docente organizada previa al empleo o en el empleo (por ejemplo, formación pedagógica) exigida para impartir enseñanza a nivel primaria en México",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-c-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-c-1-c",
-          "title": "4.c.1.c Proporción del profesorado de educación secundaria, que ha recibido al menos la mínima formación docente organizada previa al empleo o en el empleo (por ejemplo, formación pedagógica) exigida para impartir enseñanza a nivel secundaria en México",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-c-1-c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-n-1-1",
-          "title": "4n.1.1 Porcentaje de alumnos que asisten a escuelas de organización escolar multigrado",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-n-2-1",
-          "title": "4n.2.1 Prevalencia de la violencia en el ámbito escolar  entre las mujeres de 15 años y más en los últimos 12 meses",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-r-3-1",
-          "title": "4r.3.1 Tasa bruta de matrícula de educación superior, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/4-r-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1127,19 +991,19 @@
         },
         {
           "id": "5-2-1-a",
-          "title": "5.2.1.a Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por entidad federativa según tipo de violencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-2-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-2-1-b",
-          "title": "5.2.1.b Proporción de mujeres de 15 años de edad o más, que han sufrido violencia física, sexual o psicológica infligida por un compañero íntimo actual o anterior, en los 12 meses anteriores, por grupos de edad según tipo de violencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-2-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-2-2",
@@ -1151,19 +1015,19 @@
         },
         {
           "id": "5-2-2-a",
-          "title": "5.2.2.a Proporción de mujeres y niñas a partir de 15 años de edad que han sufrido violencia sexual a manos de personas que no eran su pareja en los últimos 12 meses, por entidad federativa y lugar del hecho",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-2-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-2-2-b",
-          "title": "5.2.2.b Proporción de mujeres y niñas a partir de 15 años de edad que han sufrido violencia sexual a manos de personas que no eran su pareja en los últimos 12 meses, desglosada por edad y lugar del hecho",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-2-2-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-3-1",
@@ -1183,19 +1047,19 @@
         },
         {
           "id": "5-3-1a",
-          "title": "5.3.1a Proporción de mujeres de entre 20 y 24 años que estaban casadas o mantenían una unión estable antes de cumplir los 15 años y antes de cumplir los 18 años, desglosada por hablantes de lengua indígena",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-3-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-3-1b",
-          "title": "5.3.1b Proporción de mujeres de entre 20 y 24 años que estaban casadas o mantenían una unión estable antes de cumplir los 15 años y antes de cumplir los 18 años, por entidad federativa",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-3-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-4-1",
@@ -1207,27 +1071,27 @@
         },
         {
           "id": "5-4-1a",
-          "title": "5.4.1a Proporción de tiempo dedicado al trabajo doméstico y de cuidado no remunerado, desglosada por tipo de localidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-4-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-4-1b",
-          "title": "5.4.1b Proporción de tiempo dedicado al trabajo doméstico y de cuidado no remunerado, desglosada por entidad federativa",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-4-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-4-1c",
-          "title": "5.4.1c Proporción de tiempo dedicado al trabajo doméstico y de cuidado no remunerado, desglosada por hablantes de lengua indígena",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-4-1c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-1",
@@ -1239,59 +1103,59 @@
         },
         {
           "id": "5-5-1-a",
-          "title": "5.5.1.a Proporción de escaños ocupados por mujeres en la Cámara de Diputados",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-5-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-1-b",
-          "title": "5.5.1.b Proporción de mujeres en las gubernaturas de las entidades federativas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-5-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-1-c",
-          "title": "5.5.1.c Proporción de presidentas municipales",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-5-1-c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-1-d",
-          "title": "5.5.1.d Proporción de mujeres en los cabildos municipales",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-5-1-d/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-1-e",
-          "title": "5.5.1.e Proporción de mujeres en los Congresos estatales",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-5-1-e/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-2",
-          "title": "5.5.2 Proporción de mujeres en cargos directivos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-5-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-6-1",
-          "title": "5.6.1 Proporción de mujeres de entre 15 y 49 años que toman sus propias decisiones informadas sobre las relaciones sexuales, el uso de anticonceptivos y la atención de la salud reproductiva",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-6-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-6-2",
@@ -1319,27 +1183,27 @@
         },
         {
           "id": "5-a-1a",
-          "title": "5.a.1a Proporción del total de la población agrícola con derechos de propiedad o derechos seguros sobre tierras agrícolas, desglosada por sexo, desglosada por tipo de tenencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-a-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-a-1b",
-          "title": "5.a.1b Proporción de mujeres entre los propietarios o los titulares de derechos sobre tierras agrícolas, desglosada por tipo de tenencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-a-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-b-1",
-          "title": "5.b.1 Proporción de personas que utilizan teléfonos móviles, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-b-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-c-1",
@@ -1351,51 +1215,51 @@
         },
         {
           "id": "5-n-1-1",
-          "title": "5n.1.1 Razón del ingreso laboral de trabajadoras/trabajadores por nivel de escolaridad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-n-1-2",
-          "title": "5n.1.2 Brecha en el tiempo promedio que hombres y mujeres destinan a quehaceres domésticos, por grupos de edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-n-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-n-1-3",
-          "title": "5n.1.3 Brecha en el tiempo promedio que niñas y niños destinan a quehaceres domésticos y al cuidado a integrantes del hogar",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-n-1-3/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-n-1-4",
-          "title": "5n.1.4 Ingreso laboral real promedio de las personas ocupadas según sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-n-1-4/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-n-2-1",
-          "title": "5n.2.1 Porcentaje de certificados y títulos expedidos a mujeres como sujetos agrarios con respecto a los hombres",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-n-3-1",
-          "title": "5n.3.1 Proporción de mujeres y niñas a partir de 15 años de edad que han experimentado violencia física o sexual  por otro agresor distinto a la pareja y pidieron apoyo a alguna institución o presentaron una queja o denuncia ante alguna autoridad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/5-n-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1407,67 +1271,67 @@
         
         {
           "id": "6-1-1",
-          "title": "6.1.1. Proporción de la población que dispone de servicios de suministro de agua potable gestionados de manera segura",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-2-1",
-          "title": "6.2.1. Proporción de la población que utiliza servicios de saneamiento gestionados de manera segura,  incluida una instalación para lavarse las manos con agua y jabón",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-3-1",
-          "title": "6.3.1 Proporción de aguas residuales tratadas de manera adecuada",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-3-2",
-          "title": "6.3.2. Proporción de cuerpos de agua con buena calidad de agua",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-4-1",
-          "title": "6.4.1 Cambio en la eficiencia del uso del agua a lo largo del tiempo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-4-2",
-          "title": "6.4.2 Nivel de estrés hídrico: extracción de agua dulce como proporción de los recursos disponibles de agua dulce.",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-4-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-5-1",
-          "title": "6.5.1. Grado de implementación de la gestión integrada de los recursos hídricos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-5-2",
-          "title": "6.5.2. Proporción de la superficie de cuencas transfronterizas sujetas a arreglos operacionales para la cooperación en materia de aguas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-5-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-6-1",
@@ -1479,11 +1343,11 @@
         },
         {
           "id": "6-a-1",
-          "title": "6.a.1. Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno.",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-a-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-b-1",
@@ -1495,27 +1359,27 @@
         },
         {
           "id": "6-n-1-1",
-          "title": "6n.1.1 Porcentaje de la población que tiene acceso al agua entubada diariamente así como al saneamiento",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-n-2-1",
-          "title": "6n.2.1 Grado de presión sobre el recurso hídrico de las zonas centro y norte del país",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-n-2-2",
-          "title": "6n.2.2 Rendimiento de cultivos básicos en zonas con infraestructura de riego",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-n-2-2/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1543,19 +1407,19 @@
         },
         {
           "id": "7-2-1",
-          "title": "7.2.1 Proporción de la energía renovable en el consumo final total de energía",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-3-1",
-          "title": "7.3.1 Intensidad energética medida en función de la energía primaria y el PIB",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-a-1",
@@ -1575,27 +1439,27 @@
         },
         {
           "id": "7-n-1-1",
-          "title": "7n.1.1 Porcentaje de participación de las energías limpias en la matriz de generación de energía eléctrica",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-n-2-1",
-          "title": "7n.2.1 Intensidad energética nacional",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-n-3-1",
-          "title": "7n.3.1 Capacidad total instalada por generación distribuida",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-n-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1607,43 +1471,43 @@
         
         {
           "id": "8-1-1",
-          "title": "8.1.1 Tasa de crecimiento anual del PIB real per cápita",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-2-1",
-          "title": "8.2.1 Tasa de crecimiento del PIB por persona ocupada (2014-2022)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-2-1(2)",
-          "title": "8.2.1(2) Tasa de crecimiento del PIB por persona ocupada (1996-2020)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-2-1(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-3-1",
-          "title": "8.3.1 Proporción del empleo informal en el empleo no agropecuario, desglosada por sexo (2014-2022)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-3-1(2)",
-          "title": "8.3.1(2) Proporción del empleo informal en el empleo no agropecuario, desglosada por sexo (1995-2020)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-3-1(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-4-1",
@@ -1671,51 +1535,51 @@
         },
         {
           "id": "8-5-2",
-          "title": "8.5.2 Tasa de desocupación, desglosada por sexo y edad (2014-2022)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-5-1a",
-          "title": "8.5.1a Ingreso medio por hora de empleadas y empleados",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-5-1b",
-          "title": "8.5.1b Ingreso medio por hora de empleadas y empleados, desglosado por grupos de edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-5-1c",
-          "title": "8.5.1c Ingreso medio por hora de empleadas y empleados, desglosado por tipo de ocupación",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-1c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-5-1d",
-          "title": "8.5.1d Ingreso medio por hora de empleadas y empleados, desglosado según condición de residencia y país de nacimiento",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-1d/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-5-2(2)",
-          "title": "8.5.2(2) Tasa de desocupación, desglosada por sexo y edad (1995-2020)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-2(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-6-1",
@@ -1727,43 +1591,43 @@
         },
         {
           "id": "8-6-1a",
-          "title": "8.6.1a Proporción de jóvenes (de 15 a 24 años) que no estudian, no tienen empleo ni reciben capacitación, desglosado por escolaridad y tipo de localidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-6-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-6-1b",
-          "title": "8.6.1b Proporción de jóvenes (de 15 a 24 años) que no estudian, no tienen empleo ni reciben capacitación, desglosado por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-6-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-6-1c",
-          "title": "8.6.1c Proporción de jóvenes (de 15 a 24 años) que no estudian, no tienen empleo ni reciben capacitación, desglosado según el lugar de nacimiento y de residencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-6-1c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-7-1",
-          "title": "8.7.1 Proporción de la población de 5 a 17 años que realiza una ocupación infantil no permitida, desglosada por sexo y edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-7-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-8-1",
-          "title": "8.8.1 Tasa de incidencia de lesiones ocupacionales mortales y no mortales, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-8-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-8-2",
@@ -1775,11 +1639,11 @@
         },
         {
           "id": "8-9-1",
-          "title": "8.9.1 PIB directo turístico como proporción del PIB total y en tasas de crecimiento",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-9-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-10-1",
@@ -1791,27 +1655,27 @@
         },
         {
           "id": "8-10-1-a",
-          "title": "8.10.1.a Número de sucursales de bancos comerciales por cada 100 000 adultos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-10-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-10-1-b",
-          "title": "8.10.1.b Número de cajeros automáticos por cada 100 000 adultos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-10-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-10-2",
-          "title": "8.10.2 Proporción de adultos (de 15 años o más) con una cuenta en un banco u otra institución financiera o con un proveedor móvil de servicios monetarios",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-10-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-a-1",
@@ -1831,67 +1695,67 @@
         },
         {
           "id": "8-n-1-1",
-          "title": "8n.1.1 Tasa de participación laboral de personas con discapacidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-n-2-2",
-          "title": "8n.2.2 Número de Personas Trabajadoras del Hogar afiliadas ante el Instituto Mexicano del Seguro Social",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-2-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-n-3-1a",
-          "title": "8n.3.1a Porcentaje de la población entre 18 y 70 años que tiene una cuenta en un banco u otra institución financiera, por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-3-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-n-3-1b",
-          "title": "8n.3.1b Porcentaje de la población entre 18 y 70 años que tiene una cuenta en un banco u otra institución financiera, por grupos de edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-3-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-n-3-1c",
-          "title": "8n.3.1c Porcentaje de la población entre 18 y 70 años que tiene una cuenta en un banco u otra institución financiera, según nivel de escolaridad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-3-1c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-n-3-1d",
-          "title": "8n.3.1d Porcentaje de la población entre 18 y 70 años que tiene una cuenta en un banco u otra institución financiera, por región geográfica o tamaño de localidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-3-1d/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-n-4-1",
-          "title": "8n.4.1 Variación anual del índice global de productividad laboral de la economía",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-n-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "8-r-6-1",
-          "title": "8r.6.1 Proporción de jóvenes (de 15 a 24 años) que no estudian, no tienen empleo, no reciben capacitación y no realizan trabajo doméstico no remunerado de manera exclusiva, desglosada por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/8-r-6-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1903,11 +1767,11 @@
         
         {
           "id": "9-1-1",
-          "title": "9.1.1 Proporción de la población rural que vive a menos de 2 km de una carretera transitable todo el año",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-1-2",
@@ -1919,19 +1783,19 @@
         },
         {
           "id": "9-1-2-a",
-          "title": "9.1.2.a. Volumen de transporte de pasajeros, desglosado por medio de transporte",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-1-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-1-2-b",
-          "title": "9.1.2.b. Volumen de transporte de carga, desglosado por medio de transporte",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-1-2-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-2-1",
@@ -1943,35 +1807,35 @@
         },
         {
           "id": "9-2-1-a",
-          "title": "9.2.1.a Valor agregado por manufactura como proporción del PIB",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-2-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-2-1-b",
-          "title": "9.2.1.b Valor agregado por manufactura per cápita",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-2-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-2-2",
-          "title": "9.2.2 Ocupación en la manufactura como proporción del empleo total, desglosada por sexo (2014-2022)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-2-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-2-2(2)",
-          "title": "9.2.2(2) Ocupación en la manufactura como proporción del empleo total, desglosada por sexo (1995-2020)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-2-2(2)/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-3-1",
@@ -1991,27 +1855,27 @@
         },
         {
           "id": "9-4-1",
-          "title": "9.4.1 Emisiones de dióxido de carbono total por PIB por paridad de poder de compra",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-5-1",
-          "title": "9.5.1 Gasto federal en investigación científica y desarrollo experimental como proporción del PIB",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-5-2",
-          "title": "9.5.2 Personas investigadoras por millón de habitantes",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-5-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-a-1",
@@ -2023,11 +1887,11 @@
         },
         {
           "id": "9-b-1",
-          "title": "9.b.1. Proporción del valor añadido por la industria de tecnología mediana y alta en el valor agregado bruto",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-b-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-c-1",
@@ -2039,11 +1903,11 @@
         },
         {
           "id": "9-n-3-1",
-          "title": "9n.3.1 Porcentaje del Personal Ocupado generado por las MIPyMEs (comprende asalariados, no asalariados y empleos suministrados por otra razón social)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/9-n-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2063,35 +1927,35 @@
         },
         {
           "id": "10-2-1",
-          "title": "10.2.1 Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por edad, sexo y personas con discapacidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-2-1a",
-          "title": "10.2.1a Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad, por desglose geográfico",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-2-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-3-1",
-          "title": "10.3.1. Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-4-1",
-          "title": "10.4.1 Proporción laboral del PIB que comprende los salarios y las transferencias de protección social",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-4-2",
@@ -2175,43 +2039,43 @@
         },
         {
           "id": "10-n-1-1",
-          "title": "10n.1.1 Crecimiento del ingreso corriente de los hogares por deciles",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-n-2-1",
-          "title": "10n.2.1 Porcentaje que representa el ingreso de los dos deciles más bajos sobre los dos deciles más altos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-n-3-1",
-          "title": "10n.3.1 Porcentaje de la población de 18 años y más, bisexual, gay o lesbiana u otra orientación  que declaró la negación de sus derechos en los últimos cinco años",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-n-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-r-4-1a",
-          "title": "10r.4.1a Índice de Gini con transferencias",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-r-4-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-r-4-1b",
-          "title": "10r.4.1b Índice de Gini sin transferencias",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/10-r-4-1b/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2223,51 +2087,51 @@
         
         {
           "id": "11-1-1",
-          "title": "11.1.1 Proporción de la población urbana que habita en viviendas precarias",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-2-1",
-          "title": "11.2.1 Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-3-1",
-          "title": "11.3.1 Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-3-2",
-          "title": "11.3.2 Proporción de ciudades con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas que opera regular y democráticamente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-4-1",
-          "title": "11.4.1 Total de gasto público per cápita en la protección ambiental",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-5-1",
-          "title": "11.5.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-5-2",
@@ -2295,11 +2159,11 @@
         },
         {
           "id": "11-6-1-a",
-          "title": "11.6.1.a Porcentaje de residuos sólidos urbanos recolectados con disposición final adecuada",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-6-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-6-2",
@@ -2311,11 +2175,11 @@
         },
         {
           "id": "11-7-1",
-          "title": "11.7.1. Proporción media de la superficie edificada de las ciudades que se dedica a espacios abiertos para uso público de todos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-7-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-7-2",
@@ -2351,51 +2215,51 @@
         },
         {
           "id": "11-n-1-1",
-          "title": "11n.1.1 Porcentaje de viviendas en rezago habitacional",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-n-2-1",
-          "title": "11n.2.1 Superficie de áreas verdes urbanas per cápita",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-r-2-1a",
-          "title": "11r.2.1a Tiempo promedio (en minutos) de traslado al trabajo, desglosado por sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-r-2-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-r-2-1b",
-          "title": "11r.2.1b Tiempo promedio (en minutos) de traslado al trabajo, desglosado por hablantes de lengua indígena",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-r-2-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-r-2-1c",
-          "title": "11r.2.1c Tiempo promedio (en minutos) de traslado al trabajo, desagregado por tamaño de localidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-r-2-1c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "11-r-2-1d",
-          "title": "11r.2.1d Tiempo promedio (en minutos) de traslado al trabajo, desglosado por grupo de edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/11-r-2-1d/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2463,11 +2327,11 @@
         },
         {
           "id": "12-5-1-a",
-          "title": "12.5.1.a Porcentaje de residuos sólidos urbanos recolectados reciclables",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/12-5-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "12-6-1",
@@ -2503,11 +2367,11 @@
         },
         {
           "id": "12-b-1",
-          "title": "12.b.1 Implementación de herramientas contables estándar para supervisar los aspectos económicos y ambientales de la sostenibilidad del turismo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/12-b-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "12-c-1",
@@ -2519,11 +2383,11 @@
         },
         {
           "id": "12-n-1-1",
-          "title": "12n.1.1 Porcentaje de municipios con disposición adecuada de residuos sólidos urbanos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/12-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2535,11 +2399,11 @@
         
         {
           "id": "13-1-1",
-          "title": "13.1.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/13-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "13-1-2",
@@ -2599,11 +2463,11 @@
         },
         {
           "id": "13-r-3-1",
-          "title": "13r.3.1 Emisiones de gases de efecto invernadero, desglosadas por sector (actividad económica)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/13-r-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2647,11 +2511,11 @@
         },
         {
           "id": "14-5-1",
-          "title": "14.5.1 Cobertura de las zonas protegidas en relación con las zonas marinas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/14-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "14-6-1",
@@ -2671,11 +2535,11 @@
         },
         {
           "id": "14-a-1",
-          "title": "14.a.1 Proporción del Presupuesto Federal para Investigación Científica y Desarrollo Experimental asignado a la Secretaría de Marina",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/14-a-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "14-b-1",
@@ -2695,19 +2559,19 @@
         },
         {
           "id": "14-r-2",
-          "title": "14r.2 Área de manglares",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/14-r-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "14-r-5-1",
-          "title": "14r.5.1 Cobertura de las zonas protegidas en relación con las zonas marinas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/14-r-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2719,19 +2583,19 @@
         
         {
           "id": "15-1-1",
-          "title": "15.1.1 Superficie forestal como proporción de la superficie total",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-1-2",
-          "title": "15.1.2 Proporción de lugares importantes para la diversidad biológica terrestre y del agua dulce que forman parte de zonas protegidas, desglosada por tipo de ecosistema",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-2-1",
@@ -2751,27 +2615,27 @@
         },
         {
           "id": "15-4-1",
-          "title": "15.4.1 Lugares importantes para la biodiversidad de las montañas incluidos en zonas protegidas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-4-2",
-          "title": "15.4.2. Índice de cobertura verde de las montañas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-4-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-5-1",
-          "title": "15.5.1 Proporción de especies en peligro de extinción",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-6-1",
@@ -2831,27 +2695,27 @@
         },
         {
           "id": "15-n-2-1",
-          "title": "15n.2.1 Tasa anual de deforestación bruta a nivel nacional",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-r-1a",
-          "title": "15r.1a Cobertura de las zonas terrestres protegidas en relación con el territorio terrestre",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-r-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-r-1b",
-          "title": "15r.1b Área de humedales incluidos en la Convención relativa a los Humedales de Importancia Internacional, especialmente como Hábitat de Aves Acuáticas (Convención de Ramsar)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/15-r-1b/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -2863,11 +2727,11 @@
         
         {
           "id": "16-1-1",
-          "title": "16.1.1 Número de defunciones por homicidio por cada 100 000 habitantes, desglosado por sexo y edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-1-2",
@@ -2887,35 +2751,35 @@
         },
         {
           "id": "16-1-3-a",
-          "title": "16.1.3.a Proporción de la población que ha sufrido violencia física en los últimos 12 meses",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-3-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-1-3-b",
-          "title": "16.1.3.b Proporción de la población que ha sufrido violencia psicológica en los últimos 12 meses",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-3-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-1-3-c",
-          "title": "16.1.3.c Proporción de la población que ha sufrido violencia sexual en los últimos 12 meses",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-3-c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-1-4",
-          "title": "16.1.4. Proporción de la población que se siente segura al caminar sola por la noche en su zona de residencia",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-1-4/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-2-1",
@@ -2943,43 +2807,43 @@
         },
         {
           "id": "16-3-1",
-          "title": "16.3.1 Proporción de víctimas de violencia en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-3-1-a",
-          "title": "16.3.1.a Proporción de víctimas de violencia física en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-3-1-b",
-          "title": "16.3.1.b Proporción de víctimas de violencia psicológica en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-3-1-c",
-          "title": "16.3.1.c Proporción de víctimas de violencia sexual en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-1-c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-3-2",
-          "title": "16.3.2 Proporción de detenidos que no han sido condenados en el conjunto de la población reclusa total",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-3-3",
@@ -3007,27 +2871,27 @@
         },
         {
           "id": "16-5-1",
-          "title": "16.5.1. Proporción de personas que han tenido al menos un contacto con un funcionario público y que han pagado un soborno a un funcionario público, o a las que un funcionario público les ha pedido un soborno, durante los últimos 12 meses",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-5-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-5-2",
-          "title": "16.5.2 Proporción de negocios que han tenido al menos un contacto con un funcionario público y que han pagado un soborno a un funcionario público, o a los que un funcionario público les ha pedido un  soborno, durante los últimos 12 meses",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-5-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-6-1",
-          "title": "16.6.1 Gastos primarios del gobierno como proporción del presupuesto aprobado original, desglosados por sector (o por códigos presupuestarios o elementos similares)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-6-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-6-2",
@@ -3039,19 +2903,19 @@
         },
         {
           "id": "16-6-2-a",
-          "title": "16.6.2.a Satisfacción con el servicio de educación pública obligatoria",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-6-2-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-6-2-b",
-          "title": "16.6.2.b Satisfacción con el servicio de educación pública universitaria",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-6-2-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-7-1",
@@ -3063,27 +2927,27 @@
         },
         {
           "id": "16-7-2",
-          "title": "16.7.2. Proporción de la población que considera que la adopción de decisiones es inclusiva y participativa",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-7-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-7-1b",
-          "title": "16.7.1b Proporciones de plazas en las instituciones nacionales y locales, entre ellas la administración pública",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-7-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-7-1c",
-          "title": "16.7.1c Proporciones de plazas en las instituciones nacionales y locales, entre ellas el Poder Judicial",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-7-1c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-8-1",
@@ -3103,19 +2967,19 @@
         },
         {
           "id": "16-9-1a",
-          "title": "16.9.1a Porcentaje de hijos sobrevivientes menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil por edad según sexo",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-9-1a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-9-1b",
-          "title": "16.9.1b Porcentaje de hijos sobrevivientes menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil por entidad federativa y edad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-9-1b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-10-1",
@@ -3143,131 +3007,131 @@
         },
         {
           "id": "16-b-1",
-          "title": "16.b.1. Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos.",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-b-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-1-1",
-          "title": "16n.1.1 Prevalencia delictiva en personas de 18 años y más",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-1-2",
-          "title": "16n.1.2 Prevalencia delictiva en unidades económicas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-2-1",
-          "title": "16n.2.1 Porcentaje de personas de 18 años y más que identifica a la policía estatal y manifiesta que le genera confianza",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-2-2",
-          "title": "16n.2.2 Porcentaje de personas de 18 años y más que identifica a los Ministerios Públicos y Procuradurías y manifiesta que les generan confianza",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-2-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-2-3",
-          "title": "16n.2.3 Porcentaje de delitos ocurridos y denunciados donde el trato recibido al momento de la denuncia, por parte del Ministerio Público, fue calificado como bueno o excelente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-2-3/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-2-4",
-          "title": "16n.2.4 Porcentaje de la población de 18 años y más que tiene mucha o algo de confianza en jueces",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-2-4/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-1-a",
-          "title": "16n.3.1.a Porcentaje de la población de 18 años y más satisfecha con el servicio de calles y avenidas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-1-b",
-          "title": "16n.3.1.b Porcentaje de la población de 18 años y más satisfecha con el servicio de parques y jardines públicos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-1-c",
-          "title": "16n.3.1.c Porcentaje de la población de 18 años y más satisfecha con el servicio de agua potable",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-1-c/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-1-d",
-          "title": "16n.3.1.d Porcentaje de la población de 18 años y más satisfecha con el servicio de drenaje y alcantarillado",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-1-d/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-1-e",
-          "title": "16n.3.1.e Porcentaje de la población de 18 años y más satisfecha con el servicio de alumbrado público",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-1-e/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-1-f",
-          "title": "16n.3.1.f Porcentaje de la población de 18 años y más satisfecha con el servicio de recolección de basura",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-1-f/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-n-3-2",
-          "title": "16n.3.2 Confianza en el Gobierno Federal",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-n-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-r-3a",
-          "title": "16r.3a Tasa de ocupación carcelaria federal",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-r-3a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-r-3b",
-          "title": "16r.3b Tasa de ocupación carcelaria estatal",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/16-r-3b/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -3279,19 +3143,19 @@
         
         {
           "id": "17-1-1",
-          "title": "17.1.1 Total de los ingresos del gobierno como proporción del PIB, desglosado por fuente",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-1-2",
-          "title": "17.1.2 Proporción del presupuesto nacional financiado por impuestos internos",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-2-1",
@@ -3311,19 +3175,19 @@
         },
         {
           "id": "17-3-2",
-          "title": "17.3.2 Volumen de las remesas (en dólares de los Estados Unidos) como proporción del PIB total",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-4-1",
-          "title": "17.4.1 Servicio de la deuda como proporción de las exportaciones de bienes y servicios",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-5-1",
@@ -3335,11 +3199,11 @@
         },
         {
           "id": "17-6-1",
-          "title": "17.6.1 Accesos del servicio fijo de Internet por cada 100 habitantes, desglosados por velocidad",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-6-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-7-1",
@@ -3351,19 +3215,19 @@
         },
         {
           "id": "17-8-1",
-          "title": "17.8.1 Proporción de personas que usan internet, por entidad federativa y principales ciudades",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-8-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-8-1-a",
-          "title": "17.8.1.a Proporción de personas que usan Internet, dentro y fuera del hogar",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-8-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-9-1",
@@ -3471,43 +3335,43 @@
         },
         {
           "id": "17-n-1-1",
-          "title": "17n.1.1 Autonomía fiscal de gobiernos subnacionales (ingresos propios como proporción de los ingresos totales de estados)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-n-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-n-2-1",
-          "title": "17n.2.1 Porcentaje de indicadores globales y regionales para los que se encuentra información pública en la plataforma de indicadores",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-n-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-n-4-1",
-          "title": "17n.4.1 Crecimiento de los puestos de trabajo ocupados totales del sector de la cultura",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-n-4-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-n-4-2",
-          "title": "17n.4.2 Crecimiento real del valor agregado bruto del sector de la cultura",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-n-4-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-r-19-a",
-          "title": "17r.19.a Porcentaje del presupuesto público que representa a) la oficina nacional de estadística, b) el sistema estadístico nacional, c) el instituto geográfico nacional y d) el sistema geográfico nacional",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/17-r-19-a/",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   }]

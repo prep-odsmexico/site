@@ -1471,7 +1471,7 @@
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-1-1/",
@@ -1479,18 +1479,34 @@
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-2-1/",
           "status": "notstarted"
         },
         {
+          "id": "8-2-1(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-2-1(2)/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-3-1",
-          "title": "Proportion of informal employment in total employment, by sector and sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-3-1(2)/",
           "status": "notstarted"
         },
         {
@@ -1519,10 +1535,50 @@
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-1d/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-5-2(2)/",
           "status": "notstarted"
         },
         {
@@ -1534,8 +1590,40 @@
           "status": "notstarted"
         },
         {
+          "id": "8-6-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-r-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-6-r-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-7-1/",
@@ -1543,7 +1631,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-8-1/",
@@ -1559,7 +1647,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-9-1/",
@@ -1574,8 +1662,24 @@
           "status": "notstarted"
         },
         {
+          "id": "8-10-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-10-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-10-1-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-10-2/",
@@ -1595,6 +1699,62 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/8-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n3-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n3-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n3-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n3-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n3-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n3-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n3-1d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n3-1d/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-n4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/8-n4-1/",
           "status": "notstarted"
         }]
     }

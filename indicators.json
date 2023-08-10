@@ -1271,67 +1271,67 @@
         
         {
           "id": "6-1-1",
-          "title": "",
+          "title": "6.1.1. Proporción de la población que dispone de servicios de suministro de agua potable gestionados de manera segura",
           "description": "",
           "keywords": "",
           "href": "/site/6-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "",
+          "title": "6.2.1. Proporción de la población que utiliza servicios de saneamiento gestionados de manera segura,  incluida una instalación para lavarse las manos con agua y jabón",
           "description": "",
           "keywords": "",
           "href": "/site/6-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "",
+          "title": "6.3.1 Proporción de aguas residuales tratadas de manera adecuada",
           "description": "",
           "keywords": "",
           "href": "/site/6-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "",
+          "title": "6.3.2. Proporción de cuerpos de agua con buena calidad de agua",
           "description": "",
           "keywords": "",
           "href": "/site/6-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-1",
-          "title": "",
+          "title": "6.4.1 Cambio en la eficiencia del uso del agua a lo largo del tiempo",
           "description": "",
           "keywords": "",
           "href": "/site/6-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-2",
-          "title": "",
+          "title": "6.4.2 Nivel de estrés hídrico: extracción de agua dulce como proporción de los recursos disponibles de agua dulce.",
           "description": "",
           "keywords": "",
           "href": "/site/6-4-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-1",
-          "title": "",
+          "title": "6.5.1. Grado de implementación de la gestión integrada de los recursos hídricos",
           "description": "",
           "keywords": "",
           "href": "/site/6-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-2",
-          "title": "",
+          "title": "6.5.2. Proporción de la superficie de cuencas transfronterizas sujetas a arreglos operacionales para la cooperación en materia de aguas",
           "description": "",
           "keywords": "",
           "href": "/site/6-5-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-6-1",
@@ -1343,11 +1343,11 @@
         },
         {
           "id": "6-a-1",
-          "title": "",
+          "title": "6.a.1. Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno.",
           "description": "",
           "keywords": "",
           "href": "/site/6-a-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-b-1",
@@ -1359,27 +1359,27 @@
         },
         {
           "id": "6-n1-1",
-          "title": "",
+          "title": "6.n1.1 Porcentaje de la población que tiene acceso al agua entubada diariamente así como al saneamiento",
           "description": "",
           "keywords": "",
           "href": "/site/6-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-n2-1",
-          "title": "",
+          "title": "6.n2.1 Grado de presión sobre el recurso hídrico de las zonas centro y norte del país",
           "description": "",
           "keywords": "",
           "href": "/site/6-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-n2-2",
-          "title": "",
+          "title": "6.n2.2 Rendimiento de cultivos básicos en zonas con infraestructura de riego",
           "description": "",
           "keywords": "",
           "href": "/site/6-n2-2/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

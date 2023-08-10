@@ -1407,7 +1407,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-2-1/",
@@ -1415,7 +1415,7 @@
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/7-3-1/",
@@ -1435,6 +1435,30 @@
           "description": "",
           "keywords": "",
           "href": "/site/7-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/7-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/7-n2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-n3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/7-n3-1/",
           "status": "notstarted"
         }]
     }

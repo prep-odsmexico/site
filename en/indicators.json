@@ -1767,7 +1767,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-1-1/",
@@ -1782,6 +1782,22 @@
           "status": "notstarted"
         },
         {
+          "id": "9-1-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-1-2-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-1-2-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-1",
           "title": "Manufacturing value added as a proportion of GDP and per capita",
           "description": "",
@@ -1790,11 +1806,35 @@
           "status": "notstarted"
         },
         {
+          "id": "9-2-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-2-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-2-1-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-2(2)",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-2-2(2)/",
           "status": "notstarted"
         },
         {
@@ -1815,7 +1855,7 @@
         },
         {
           "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-4-1/",
@@ -1823,7 +1863,7 @@
         },
         {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-5-1/",
@@ -1831,7 +1871,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-5-2/",
@@ -1847,7 +1887,7 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-b-1/",
@@ -1859,6 +1899,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/9-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-n3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/9-n3-1/",
           "status": "notstarted"
         }]
     }

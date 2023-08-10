@@ -1271,7 +1271,7 @@
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-1-1/",
@@ -1279,7 +1279,7 @@
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-2-1/",
@@ -1287,7 +1287,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of domestic and industrial wastewater flows safely treated",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-3-1/",
@@ -1295,7 +1295,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-3-2/",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-4-1/",
@@ -1311,7 +1311,7 @@
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-4-2/",
@@ -1319,7 +1319,7 @@
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-5-1/",
@@ -1327,7 +1327,7 @@
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-5-2/",
@@ -1343,7 +1343,7 @@
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/6-a-1/",
@@ -1355,6 +1355,30 @@
           "description": "",
           "keywords": "",
           "href": "/site/6-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/6-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/6-n2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-n2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/6-n2-2/",
           "status": "notstarted"
         }]
     }

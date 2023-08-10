@@ -1407,19 +1407,19 @@
         },
         {
           "id": "7-2-1",
-          "title": "",
+          "title": "7.2.1 Proporción de la energía renovable en el consumo final total de energía",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-3-1",
-          "title": "",
+          "title": "7.3.1 Intensidad energética medida en función de la energía primaria y el PIB",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-a-1",
@@ -1439,27 +1439,27 @@
         },
         {
           "id": "7-n1-1",
-          "title": "",
+          "title": "7.n1.1 Porcentaje de participación de las energías limpias en la matriz de generación de energía eléctrica",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-n2-1",
-          "title": "",
+          "title": "7.n2.1 Intensidad energética nacional",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-n3-1",
-          "title": "",
+          "title": "7.n3.1 Capacidad total instalada por generación distribuida",
           "description": "",
           "keywords": "",
           "href": "/site/en/7-n3-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

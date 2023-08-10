@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 4.2.1 -
         
-         - Indicadores para los Objetivos de Desarrollo Sostenible
+        4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230810144011">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230810145915">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -419,7 +419,7 @@ data-event-label="high"
                         
                         Indicador 4.2.1
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo</span>
                     </h1>
                 </div>
             </div>
@@ -446,12 +446,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_4-2-1'
   data-id="4-2-1"
-  data-country="México"
-  data-charttitle=""
+  data-country="Nacional"
+  data-charttitle="4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Porcentaje"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="Line"
   data-graphtypes="[]"
   data-geocoderegex=""
@@ -470,7 +470,273 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://prep-odsmexico.github.io/data/es/data/4-2-1.csv" class="btn btn-primary btn-download" download='indicator_4-2-1.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
+
+    
+    <h3>No hay datos principales disponibles</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Advertencia:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Instituto Nacional de Salud Pública (INSP). Encuesta Nacional de Salud y Nutrición 2021 sobre COVID-19 [22 de mayo del 2023]. Disponible en <a target="_blank" class="liga3" href="https//ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf"> https//ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf </a></dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descargar la imagen del gráfico como PNG"
+          aria-label="Descargar la imagen del gráfico como PNG"
+          class='btn btn-primary btn-download'>
+          Descargar la imagen del gráfico (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Pulse para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Instituto Nacional de Salud Pública (INSP). Encuesta Nacional de Salud y Nutrición 2021 sobre COVID-19 [22 de mayo del 2023]. Disponible en <a target="_blank" class="liga3" href="https//ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf"> https//ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf </a></dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Nacional</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota(s) y/o llamada(s):</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -578,88 +844,67 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Objetivo </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Objetivo 4. Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Meta </th>
+        <td>
           
-      
-      
-      
+            <p>Meta 4.2 De aquí a 2030, asegurar que todas las niñas y todos los niños tengan acceso a servicios de atención y desarrollo en la primera infancia y educación preescolar de calidad, a fin de que estén preparados para la enseñanza primaria</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
           
-      
-      
-      
+            <p>4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Descripción </th>
+        <td>
           
-      
-      
-      
+            <p>El indicador se calcula sumando el número de niños de 24 a 59 meses de edad que tienen un adecuado desarrollo en salud, aprendizaje y  binestar psicosocial y dicha suma se divide entre el total de niños dentro de dicho rango de edad</p>
+
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -683,33 +928,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Persona(s) de contacto </th>
+        <td>
           
-      
-      
-      
-        
+            <p>Ruth Argelia Vázquez Salas<br />Investigadora en Ciencias Médicas “C” en el Instituto Nacional de Salud Pública<br />7a. Cerrada de Fray Pedro de Gante Num.50, Col. Sección XVI Tlalpan. C.P. 14080; Ciudad de México<br />55 54 87 10 00, ext 4325<br />argelia.vazquez@insp.mx<br /><br /></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -743,6 +974,174 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
+          
+            <p>El indicador representa el porcentaje de niños con edades de los 24 a 59 meses que muestran un desarrollo adecuado, según los estándares médicos prevalentes al momento del estudio, con respecto a los elementos de salud, aprendizaje y bienestar psicosocial, con un desglose por sexo y tamaño de la localidad, como proporción del total de niños entre los 24 y 59 meses de edad.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unidad de medida </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Fuentes de datos </th>
+        <td>
+          
+            <p>Instituto Nacional de Salud Pública (INSP). Encuesta Nacional de Salud y Nutrición 2021 sobre COVID-19 [22 de mayo del 2023]. Disponible en: <a target="_blank" class="liga3" href="https://ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf"> https://ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf </a><br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Calendario de recopilación de datos </th>
+        <td>
+          
+            <p>2023</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Proveedores de datos </th>
+        <td>
+          
+            <p>Repositorio de metadatos de los ODS, disponible en: <a target="_blank" class="liga3" href="https://unstats.un.org/sdgs/metadata/"> https://unstats.un.org/sdgs/metadata/<br /></a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Compiladores de datos </th>
+        <td>
+          
+            <p>Secretaría de Salud. Instituto Nacional de Salud Pública.<br /></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Justificación </th>
+        <td>
+          
+            <p>El desarrollo adecuado de los niños en edad temprana es esencial para garantizar un crecimiento óptimo, así como una inserción adecuada en la sociedad. Por ende, el indicador permite diseñar y aplicar políticas públicas tendientes a que sea cada vez mayor el número de niños que gocen de las condiciones para un pleno desarrollo.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validación </th>
+        <td>
+          
+            <p>El Desarrollo Infantil Temprano es el proceso ordenado y predecible a lo largo del cual una niña(o) aprende a manejar niveles más complejos de habilidades para moverse, pensar, hablar, sentir y relacionarse con los demás. Los dominios vitales para el desarrollo general de las niñas(os) son el crecimiento físico, las habilidades de alfabetización y conocimientos numéricos, el desarrollo socioemocional y la disposición de aprender. Dada la importancia del tema se incluyó en los Objetivos del Desarrollo Sostenible (ODS), en específico el indicador 4.2.1, que estípula la medición del porcentaje de niñas(os) menores de cinco años cuyo desarrollo es óptimo en salud, aprendizaje y bienestar psicosocial.<br /><br />Para calcular el indicador, se utilizó un módulo de 20 preguntas desarrollado y validado por UNICEF, en donde madres o cuidadores principales informan sobre el comportamiento, habilidades y conocimientos de sus hijas(os). El desarrollo es adecuado cuando el puntaje obtenido es igual o mayor al punto de corte correspondiente a la edad de la niña(o).<br /><br />Los puntos de corte se muestran a continuación:<br />• Niñas(os) de 24 a 29 meses el punto de corte es 7 de los 20 puntos posibles<br />• Niñas(os) de 30 a 35 meses el punto de corte es 9 de los 20 puntos posibles<br />• Niñas(os) de 36 a 41 meses el punto de corte es 11 de los 20 puntos posibles<br />• Niñas(os) de 42 a 47 meses el punto de corte es 13 de los 20 puntos posibles<br />• Niñas(os) de 48 a 59 meses el punto de corte es 15 de los 20 puntos posibles</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -763,18 +1162,70 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Disponibilidad y desglose de datos </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Referencias y documentación </th>
+        <td>
           
-      
-      
-      
-        
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/4.2.1_es.zip">Datos para el cálculo</a></p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Datos actualizados por última vez </th>
+        <td>
+          
+            Aug 10, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
+          
+            Aug 10, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1089,6 +1540,218 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Instituto Nacional de Salud Pública (INSP). Encuesta Nacional de Salud y Nutrición 2021 sobre COVID-19 [22 de mayo del 2023]. Disponible en <a target="_blank" class="liga3" href="https//ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf"> https//ensanut.insp.mx/encuestas/ensanutcontinua2021/doctos/informes/220804_Ensa21_digital_4ago.pdf </a></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Anual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Nacional</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1198,12 +1861,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230810144011'></script>
+<script src='/site/assets/js/sdg.js?v=20230810145915'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230810144011"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230810145915"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

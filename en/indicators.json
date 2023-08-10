@@ -759,51 +759,51 @@
         },
         {
           "id": "4-1-2",
-          "title": "",
+          "title": "4.1.2 Índice de finalización (enseñanza primaria, secundaria y preparatoria)",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "",
+          "title": "4.2.1 Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
-          "title": "",
+          "title": "4.2.2 Tasa de participación en el aprendizaje organizado (un año antes de la edad oficial de ingreso en la enseñanza primaria), desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "",
+          "title": "4.3.1 Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-r-1",
-          "title": "",
+          "title": "4.3.r.1 Tasa bruta de matrícula de educación superior, desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-3-r-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "",
+          "title": "4.4.1 Proporción de jóvenes y adultos con conocimientos de tecnología de la información y las comunicaciones (TIC), desglosada por tipo de conocimiento técnico",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
@@ -823,11 +823,11 @@
         },
         {
           "id": "4-6-1-a",
-          "title": "",
+          "title": "4.6.1.a Porcentaje de población en un grupo de edad determinado que alcanza por lo menos un nivel fijo de competencia funcional en alfabetización, desglosado por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-6-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-7-1",
@@ -847,67 +847,67 @@
         },
         {
           "id": "4-a-1-a",
-          "title": "",
+          "title": "4.a.1.a Proporción de escuelas con acceso a electricidad por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-b",
-          "title": "",
+          "title": "4.a.1.b Proporción de escuelas con acceso a internet por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-c",
-          "title": "",
+          "title": "4.a.1.c Proporción de escuelas con equipos de cómputo en funcionamiento por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-d1",
-          "title": "",
+          "title": "4.a.1.d1 Proporción de escuelas con infraestructura adaptada para discapacidad por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-d1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-d2",
-          "title": "",
+          "title": "4.a.1.d2 Proporción de escuelas con materiales adaptados para discapacidad por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-d2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-e",
-          "title": "",
+          "title": "4.a.1.e Proporción de escuelas con conexión a la red pública de agua potable por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-e/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-f",
-          "title": "",
+          "title": "4.a.1.f Proporción de escuelas con sanitarios independientes por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-f/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-a-1-g",
-          "title": "",
+          "title": "4.a.1.g Proporción de escuelas con lavabo de manos por entidad federativa y nivel educativo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-a-1-g/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-b-1",
@@ -927,43 +927,43 @@
         },
         {
           "id": "4-c-1-a",
-          "title": "",
+          "title": "4.c.1.a Proporción del profesorado de educación preescolar, que ha recibido al menos la mínima formación docente organizada previa al empleo o en el empleo (por ejemplo, formación pedagógica) exigida para impartir enseñanza a nivel preescolar en México",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-c-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-c-1-b",
-          "title": "",
+          "title": "4.c.1.b Proporción del profesorado de educación primaria, que ha recibido al menos la mínima formación docente organizada previa al empleo o en el empleo (por ejemplo, formación pedagógica) exigida para impartir enseñanza a nivel primaria en México",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-c-1-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-c-1-c",
-          "title": "",
+          "title": "4.c.1.c Proporción del profesorado de educación secundaria, que ha recibido al menos la mínima formación docente organizada previa al empleo o en el empleo (por ejemplo, formación pedagógica) exigida para impartir enseñanza a nivel secundaria en México",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-c-1-c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-n1-1",
-          "title": "",
+          "title": "4.n1.1 Porcentaje de alumnos que asisten a escuelas de organización escolar multigrado",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-n2-1",
-          "title": "",
+          "title": "4.n2.1 Prevalencia de la violencia en el ámbito escolar  entre las mujeres de 15 años y más en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

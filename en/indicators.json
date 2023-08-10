@@ -759,7 +759,7 @@
         },
         {
           "id": "4-1-2",
-          "title": "Completion rate (primary education, lower secondary education, upper secondary education)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-1-2/",
@@ -767,7 +767,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sexi",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-2-1/",
@@ -775,7 +775,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-2-2/",
@@ -783,15 +783,23 @@
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-3-1/",
           "status": "notstarted"
         },
         {
+          "id": "4-3-r-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-3-r-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-4-1/",
@@ -814,6 +822,14 @@
           "status": "notstarted"
         },
         {
+          "id": "4-6-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-6-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-7-1",
           "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
           "description": "",
@@ -830,6 +846,70 @@
           "status": "notstarted"
         },
         {
+          "id": "4-a-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-d1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-d1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-d2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-d2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-e/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-f",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-f/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-g",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-a-1-g/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-b-1",
           "title": "Volume of official development assistance flows for scholarships by sector and type of study",
           "description": "",
@@ -843,6 +923,46 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/4-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-c-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-c-1-b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-c-1-c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/4-n2-1/",
           "status": "notstarted"
         }]
     }

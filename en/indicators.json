@@ -1767,11 +1767,11 @@
         
         {
           "id": "9-1-1",
-          "title": "",
+          "title": "9.1.1 Proporción de la población rural que vive a menos de 2 km de una carretera transitable todo el año",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-1-2",
@@ -1783,19 +1783,19 @@
         },
         {
           "id": "9-1-2-a",
-          "title": "",
+          "title": "9.1.2.a. Volumen de transporte de pasajeros, desglosado por medio de transporte",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-1-2-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-1-2-b",
-          "title": "",
+          "title": "9.1.2.b. Volumen de transporte de carga, desglosado por medio de transporte",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-1-2-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-1",
@@ -1807,35 +1807,35 @@
         },
         {
           "id": "9-2-1-a",
-          "title": "",
+          "title": "9.2.1.a Valor agregado por manufactura como proporción del PIB",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-2-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-1-b",
-          "title": "",
+          "title": "9.2.1.b Valor agregado por manufactura per cápita",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-2-1-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "",
+          "title": "9.2.2 Ocupación en la manufactura como proporción del empleo total, desglosada por sexo (2014-2022)",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2(2)",
-          "title": "",
+          "title": "9.2.2(2) Ocupación en la manufactura como proporción del empleo total, desglosada por sexo (1995-2020)",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-2-2(2)/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -1855,27 +1855,27 @@
         },
         {
           "id": "9-4-1",
-          "title": "",
+          "title": "9.4.1 Emisiones de dióxido de carbono total por PIB por paridad de poder de compra",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-1",
-          "title": "",
+          "title": "9.5.1 Gasto federal en investigación científica y desarrollo experimental como proporción del PIB",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
-          "title": "",
+          "title": "9.5.2 Personas investigadoras por millón de habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-5-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-a-1",
@@ -1887,11 +1887,11 @@
         },
         {
           "id": "9-b-1",
-          "title": "",
+          "title": "9.b.1. Proporción del valor añadido por la industria de tecnología mediana y alta en el valor agregado bruto",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-c-1",
@@ -1903,11 +1903,11 @@
         },
         {
           "id": "9-n3-1",
-          "title": "",
+          "title": "9.n3.1 Porcentaje del Personal Ocupado generado por las MIPyMEs (comprende asalariados, no asalariados y empleos suministrados por otra razón social)",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-n3-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1927,15 +1927,23 @@
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-2-1/",
           "status": "notstarted"
         },
         {
+          "id": "10-2-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-2-1a/",
+          "status": "notstarted"
+        },
+        {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-3-1/",
@@ -1943,7 +1951,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-1/",
@@ -1955,6 +1963,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-r-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-4-r-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-r-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-4-r-1b/",
           "status": "notstarted"
         },
         {
@@ -2027,6 +2051,30 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/10-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-n3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n3-1/",
           "status": "notstarted"
         }]
     }

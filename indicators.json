@@ -2326,6 +2326,14 @@
           "status": "notstarted"
         },
         {
+          "id": "12-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/12-5-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-6-1",
           "title": "Number of companies publishing sustainability reports",
           "description": "",
@@ -2359,7 +2367,7 @@
         },
         {
           "id": "12-b-1",
-          "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/12-b-1/",
@@ -2371,6 +2379,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/12-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/12-n1-1/",
           "status": "notstarted"
         }]
     }

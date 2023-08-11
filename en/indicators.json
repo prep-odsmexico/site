@@ -1927,35 +1927,35 @@
         },
         {
           "id": "10-2-1",
-          "title": "",
+          "title": "10.2.1 Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por edad, sexo y personas con discapacidad",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-2-1a",
-          "title": "",
+          "title": "10.2.1a Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad, por desglose geográfico",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-2-1a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-3-1",
-          "title": "",
+          "title": "10.3.1. Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "",
+          "title": "10.4.1 Proporción laboral del PIB que comprende los salarios y las transferencias de protección social",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-2",
@@ -1967,19 +1967,19 @@
         },
         {
           "id": "10-4-r-1a",
-          "title": "",
+          "title": "10.4.r.1a Índice de Gini con transferencias",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-r-1a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-r-1b",
-          "title": "",
+          "title": "10.4.r.1b Índice de Gini sin transferencias",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-r-1b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-5-1",
@@ -2055,27 +2055,27 @@
         },
         {
           "id": "10-n1-1",
-          "title": "",
+          "title": "10.n1.1 Crecimiento del ingreso corriente de los hogares por deciles",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-n2-1",
-          "title": "",
+          "title": "10.n2.1 Porcentaje que representa el ingreso de los dos deciles más bajos sobre los dos deciles más altos",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-n3-1",
-          "title": "",
+          "title": "10.n3.1 Porcentaje de la población de 18 años y más, bisexual, gay o lesbiana u otra orientación  que declaró la negación de sus derechos en los últimos cinco años",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-n3-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

@@ -148,7 +148,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230811220050">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230811224423">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -595,6 +595,31 @@ data-event-label="Change to Map tab"
       >Map</button>
     </li>
     
+    <li role="presentation"
+      class="
+        nav-item
+        
+        embedded-map
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-embeddedmapview"
+          data-bs-target="#embeddedmapview"
+          aria-controls="embeddedmapview"
+          data-no-disagg="true"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to embedded item tab"
+
+        
+      >Otra información</button>
+    </li>
+    
   </ul>
   
     <div class="tab-content data-view">
@@ -821,6 +846,31 @@ data-event-label="Change to Map tab"
     </dl>
 </div>
 
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="embeddedmapview" class="embedded-map">
+          <div class="row">
+  <div class="col-xs-12">
+    
+      <h3>Título</h3>
+    
+    
+    
+      <div class="embedded-map" id="embeddedmapframe">
+         <div> <div> Texto</div> <div><a href="#">Enlace</div></div>
+      </div>
+    
+    
+      <div id="embedfooter" class="table-footer-text">
+        <p><p>Información</p>
+</p>
+      </div>
+    
+  </div>
+</div>
 
         </div>
       
@@ -1316,7 +1366,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Metadata last updated </th>
         <td>
           
-            Aug 09, 2023
+            Aug 11, 2023
           
         </td>
         </tr>
@@ -1912,12 +1962,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230811220050'></script>
+<script src='/site/assets/js/sdg.js?v=20230811224423'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230811220050"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230811224423"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

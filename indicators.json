@@ -2327,11 +2327,11 @@
         },
         {
           "id": "12-5-1-a",
-          "title": "",
+          "title": "12.5.1.a Porcentaje de residuos sólidos urbanos recolectados reciclables",
           "description": "",
           "keywords": "",
           "href": "/site/12-5-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-6-1",
@@ -2367,11 +2367,11 @@
         },
         {
           "id": "12-b-1",
-          "title": "",
+          "title": "12.b.1 Implementación de herramientas contables estándar para supervisar los aspectos económicos y ambientales de la sostenibilidad del turismo",
           "description": "",
           "keywords": "",
           "href": "/site/12-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-c-1",
@@ -2383,11 +2383,11 @@
         },
         {
           "id": "12-n1-1",
-          "title": "",
+          "title": "12.n1.1 Porcentaje de municipios con disposición adecuada de residuos sólidos urbanos",
           "description": "",
           "keywords": "",
           "href": "/site/12-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

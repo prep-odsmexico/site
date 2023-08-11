@@ -2399,7 +2399,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-1-1/",
@@ -2446,6 +2446,14 @@
           "status": "notstarted"
         },
         {
+          "id": "13-3-r-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13-3-r-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "13-a-1",
           "title": "Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025",
           "description": "",
@@ -2486,6 +2494,14 @@
           "status": "notstarted"
         },
         {
+          "id": "14-2-r",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/14-2-r/",
+          "status": "notstarted"
+        },
+        {
           "id": "14-3-1",
           "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
           "description": "",
@@ -2503,10 +2519,18 @@
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/14-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-5-r-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/14-5-r-1/",
           "status": "notstarted"
         },
         {
@@ -2527,7 +2551,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/14-a-1/",
@@ -2559,7 +2583,7 @@
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-1-1/",
@@ -2567,10 +2591,26 @@
         },
         {
           "id": "15-1-2",
-          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-1-r-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/15-1-r-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-1-r-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/15-1-r-b/",
           "status": "notstarted"
         },
         {
@@ -2591,7 +2631,7 @@
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-4-1/",
@@ -2599,7 +2639,7 @@
         },
         {
           "id": "15-4-2",
-          "title": "(a) Mountain Green Cover Index and (b) proportion of degraded mountain land",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-4-2/",
@@ -2607,7 +2647,7 @@
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-5-1/",
@@ -2667,6 +2707,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/15-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/15-n2-1/",
           "status": "notstarted"
         }]
     }

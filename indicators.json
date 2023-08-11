@@ -2087,83 +2087,83 @@
         
         {
           "id": "11-1-1",
-          "title": "",
+          "title": "11.1.1 Proporción de la población urbana que habita en viviendas precarias",
           "description": "",
           "keywords": "",
           "href": "/site/11-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-1",
-          "title": "",
+          "title": "11.2.1 Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-r-1a",
-          "title": "",
+          "title": "11.2.r.1a Tiempo promedio (en minutos) de traslado al trabajo, desglosado por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-r-1a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-r-1b",
-          "title": "",
+          "title": "11.2.r.1b Tiempo promedio (en minutos) de traslado al trabajo, desglosado por hablantes de lengua indígena",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-r-1b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-r-1c",
-          "title": "",
+          "title": "11.2.r.1c Tiempo promedio (en minutos) de traslado al trabajo, desagregado por tamaño de localidad",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-r-1c/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-r-1d",
-          "title": "",
+          "title": "11.2.r.1d Tiempo promedio (en minutos) de traslado al trabajo, desglosado por grupo de edad",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-r-1d/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-3-1",
-          "title": "",
+          "title": "11.3.1 Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población",
           "description": "",
           "keywords": "",
           "href": "/site/11-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-3-2",
-          "title": "",
+          "title": "11.3.2 Proporción de ciudades con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas que opera regular y democráticamente",
           "description": "",
           "keywords": "",
           "href": "/site/11-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-4-1",
-          "title": "",
+          "title": "11.4.1 Total de gasto público per cápita en la protección ambiental",
           "description": "",
           "keywords": "",
           "href": "/site/11-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-1",
-          "title": "",
+          "title": "11.5.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/11-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-2",
@@ -2191,11 +2191,11 @@
         },
         {
           "id": "11-6-1-a",
-          "title": "",
+          "title": "11.6.1.a Porcentaje de residuos sólidos urbanos recolectados con disposición final adecuada",
           "description": "",
           "keywords": "",
           "href": "/site/11-6-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-6-2",
@@ -2207,11 +2207,11 @@
         },
         {
           "id": "11-7-1",
-          "title": "",
+          "title": "11.7.1. Proporción media de la superficie edificada de las ciudades que se dedica a espacios abiertos para uso público de todos",
           "description": "",
           "keywords": "",
           "href": "/site/11-7-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-2",
@@ -2247,19 +2247,19 @@
         },
         {
           "id": "11-n1-1",
-          "title": "",
+          "title": "11.n1.1 Porcentaje de viviendas en rezago habitacional",
           "description": "",
           "keywords": "",
           "href": "/site/11-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-n2-1",
-          "title": "",
+          "title": "11.n2.1 Superficie de áreas verdes urbanas per cápita",
           "description": "",
           "keywords": "",
           "href": "/site/11-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

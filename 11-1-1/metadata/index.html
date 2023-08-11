@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230811154334">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230811160728">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -579,84 +579,504 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_GOAL', "Objetivo 11. Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles");
+        var propertyEditor = editor.getEditor('root.SDG_GOAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_GOAL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_TARGET', "Meta 11.1 De aquí a 2030, asegurar el acceso de todas las personas a viviendas y servicios básicos adecuados, seguros y asequibles y mejorar los barrios marginales");
+        var propertyEditor = editor.getEditor('root.SDG_TARGET');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_TARGET');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "11.1.1 Proporción de la población urbana que habita en viviendas precarias");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_SERIES_DESCR', "Este indicador resulta de dividir a los ocupantes de viviendas particulares ubicadas en localidades urbanas que habitan en viviendas precarias en un año determinado, entre el total de ocupantes de viviendas particulares ubicadas en localidades urbanas en el mismo año. El resultado se expresa en porcentaje.");
+        var propertyEditor = editor.getEditor('root.SDG_SERIES_DESCR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_SERIES_DESCR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('META_LAST_UPDATE', "Septiembre de 2015");
+        var propertyEditor = editor.getEditor('root.META_LAST_UPDATE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: META_LAST_UPDATE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.META_LAST_UPDATE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_RELATED_INDICATORS', "");
+        var propertyEditor = editor.getEditor('root.SDG_RELATED_INDICATORS');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_RELATED_INDICATORS');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_ORGANISATION', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_ORGANISATION');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_ORGANISATION');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_ORGANISATION'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_NAME', "Maria Eugenia García Velarde<br>Directora de Operación Urbana<br><br>41 23 71 00, ext. 52100<br>eugenia.garcia@sedatu.gob.mx<br><br>");
+        var propertyEditor = editor.getEditor('root.CONTACT_NAME');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_NAME');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_NAME'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('ORGANISATION_UNIT', "");
+        var propertyEditor = editor.getEditor('root.ORGANISATION_UNIT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ORGANISATION_UNIT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ORGANISATION_UNIT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_FUNCT', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_FUNCT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_FUNCT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_FUNCT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_PHONE', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_PHONE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_PHONE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_PHONE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CONTACT_MAIL', "");
+        var propertyEditor = editor.getEditor('root.CONTACT_MAIL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CONTACT_MAIL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_MAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_EMAIL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Es el porcentaje de ocupantes en viviendas particulares ubicadas en localidades urbanas (más de 15 mil habitantes) que presentan al menos una de las siguientes características:<br>  <br>  1) falta de acceso a fuentes de agua mejoradas,<br>  2) carencia de drenaje y saneamiento adecuado, <br>  3) deficiencias en los materiales de construcción de sus viviendas (piso de tierra, muro o techo frágil)<br>  4) carencia de espacio suficiente para vivir.");
+        var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: STAT_CONC_DEF');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "Porcentaje");
+        var propertyEditor = editor.getEditor('root.UNIT_MEASURE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: UNIT_MEASURE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.UNIT_MEASURE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('CLASS_SYSTEM', "");
+        var propertyEditor = editor.getEditor('root.CLASS_SYSTEM');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: CLASS_SYSTEM');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CLASS_SYSTEM'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "Para el dato nacional: Instituto Nacional de Estadística y Geografía (INEGI). Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH). Para entidad federativa: Instituto Nacional de Estadística y Geografía (INEGI). Módulo de Condiciones Socioeconómicas de la ENIGH (MCS-ENIGH) 2008, 2010, 2012, 2014, 2016, 2018 y 2020. Para municipios: Instituto Nacional de Estadística y Geografía (INEGI). Censo de Población y Vivienda 2000, 2010 y 2020.<br>");
+        var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SOURCE_TYPE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SOURCE_TYPE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COLL_METHOD', "");
+        var propertyEditor = editor.getEditor('root.COLL_METHOD');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COLL_METHOD');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COLL_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('FREQ_COLL', "No definida");
+        var propertyEditor = editor.getEditor('root.FREQ_COLL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: FREQ_COLL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.FREQ_COLL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('REL_CAL_POLICY', "");
+        var propertyEditor = editor.getEditor('root.REL_CAL_POLICY');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: REL_CAL_POLICY');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REL_CAL_POLICY'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_SOURCE', "Organización Mundial de la Salud (OMS) Agua, saneamiento e higiene<br>");
+        var propertyEditor = editor.getEditor('root.DATA_SOURCE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_SOURCE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_SOURCE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COMPILING_ORG', "Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU). <a target=\"_blank\" class=\"liga3\" href=\"http:// https://www.gob.mx/sedatu /\"><br>");
+        var propertyEditor = editor.getEditor('root.COMPILING_ORG');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COMPILING_ORG');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPILING_ORG'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('INST_MANDATE', "");
+        var propertyEditor = editor.getEditor('root.INST_MANDATE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: INST_MANDATE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.INST_MANDATE'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('RATIONALE', "Este indicador describe el porcentaje de personas que habitan en viviendas precarias lo que permite identificar a la población urbana vulnerable a problemas de salud, de vivienda y que presenta un riesgo mayor frente a los fenómenos naturales.");
+        var propertyEditor = editor.getEditor('root.RATIONALE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: RATIONALE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.RATIONALE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('REC_USE_LIM', "");
+        var propertyEditor = editor.getEditor('root.REC_USE_LIM');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: REC_USE_LIM');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP', "");
+        var propertyEditor = editor.getEditor('root.DATA_COMP');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_VALIDATION', "Según la definición de la ONU una vivienda de tugurio es aquella que carece de al menos una de las siguientes condiciones:<br><br>1. Acceso a fuentes mejoradas de agua.<br>2. Acceso a servicios de saneamiento mejorados.<br>3. Durabilidad de la vivienda.<br>4. Espacio suficiente para vivir.<br>5. Seguridad de la tenencia de la tierra.<br><br>En este caso se presenta la proporción de la población urbana que vive en viviendas precarias debido a la carencia de fuentes para medir adecuadamente la seguridad de la tenencia de la tierra. El indicador se construyó a partir de la identificación de las viviendas con al menos una carencia, las cuales se midieron de la siguiente manera.<br>1) Se consideran fuentes mejoradas de agua aquellas fuentes que están protegidas de la contaminación exterior, particularmente de la contaminación con excrementos por lo que se identificaron a las viviendas que carecen de acceso a agua de la red pública, ya sea en la vivienda, en el terreno o a través de una llave pública.<br>2) Las instalaciones de saneamiento mejorado separan higiénicamente los excrementos humanos del contacto con humanos, animales e insectos, por lo que en este apartado se identificaron dos rubros:<br>a) Las viviendas que no cuentan con drenaje a la red pública o a fosa séptica y,<br>b) Las que carecen de excusado de uso exclusivo de sus habitantes.<br>3) Se considera que una vivienda es durable si se construye en un lugar no peligroso y tiene una estructura lo suficientemente resistente y adecuada para proteger a sus habitantes de condiciones climáticas extremas como lluvia, calor, frío y humedad. Dado que no se cuenta con información sobre la ubicación de las viviendas solo pudieron identificarse las siguientes características:<br>a) Piso de tierra.<br>b) Muro frágil (construido a partir de materiales de desecho, lámina de cartón, lámina metálica o de asbesto, carrizo, bambú, palma, embarro o bajareque).<br>c) Techo frágil (construido a partir de materiales de desecho, lámina de cartón o palma).<br>4) Se considera que una vivienda cuenta con suficiente espacio habitable si no más de tres personas comparten un mismo dormitorio (mínimo 4m2). Por lo que se identificaron las viviendas con más de tres miembros del hogar por cuarto.<br><br>*Para el año 2005 se realizó una medición.<br>La ENIGH 2005, a diferencia de los levantamientos llevados a cabo en años anteriores de manera bienal, corresponde a una edición especial, por lo que la serie continuará actualizándose cada dos años.<br><br>Las cifras por entidad federativa provienen del Módulo de Condiciones Socioeconómicas de la Encuesta Nacional de Ingresos y Gastos de los Hogares (MCS-ENIGH).<br><br>Las cifras a nivel municipal provienen de la Muestra del Censo de Población y Vivienda.<br><br>Los Municipios de - Mezcalapa, El Parral, Emiliano Zapata y Belisario Domínguez - del Estado de Chiapas, no se incluyen en el Marco Geoestadístico Nacional y en el Catálogo Único de Claves de Áreas Geoestadísticas Estatales, Municipales y Localidades, hasta en tanto la Suprema Corte de Justicia de la Nación resuelva lo correspondiente.");
+        var propertyEditor = editor.getEditor('root.DATA_VALIDATION');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_VALIDATION');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_VALIDATION'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DOC_METHOD', "");
+        var propertyEditor = editor.getEditor('root.DOC_METHOD');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DOC_METHOD');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.DOC_METHOD'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_MGMNT', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_MGMNT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_MGMNT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_MGMNT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_ASSURE', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_ASSURE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_ASSURE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSURE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('QUALITY_ASSMNT', "");
+        var propertyEditor = editor.getEditor('root.QUALITY_ASSMNT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: QUALITY_ASSMNT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSMNT'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COVERAGE', "Nacional, entidad federativa y municipio (para localidades con 15 mil habitantes o más).");
+        var propertyEditor = editor.getEditor('root.COVERAGE');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COVERAGE');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COVERAGE'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('COMPARABILITY', "");
+        var propertyEditor = editor.getEditor('root.COMPARABILITY');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: COMPARABILITY');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('OTHER_DOC', "<a href=\"https://agenda2030.mx/docs/files/csv/zip/11.1.1_es.zip\">Datos para el cálculo</a>");
+        var propertyEditor = editor.getEditor('root.OTHER_DOC');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: OTHER_DOC');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_updated_date', "2023-08-11");
+        var propertyEditor = editor.getEditor('root.national_data_updated_date');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_updated_date');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_updated_date'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2023-08-11");
+        var propertyEditor = editor.getEditor('root.national_metadata_updated_date');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_updated_date');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_updated_date'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
@@ -798,12 +1218,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230811154334'></script>
+<script src='/site/assets/js/sdg.js?v=20230811160728'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230811154334"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230811160728"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

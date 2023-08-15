@@ -250,6 +250,9 @@ reporting_status:
   description: status.description
   disaggregation_tabs: false
   status_types:
+    - value: inprogress
+      label: status.statistics_in_progress
+      hide_on_goal_pages: false
     - value: notstarted
       label: status.exploring_data_sources
       hide_on_goal_pages: false

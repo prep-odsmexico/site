@@ -23,11 +23,11 @@
         },
         {
           "id": "1-1-r-1",
-          "title": "",
+          "title": "1.1.r.1 Porcentaje de la población que vive por debajo del umbral de pobreza extrema regional, desglosada por sexo, edad, condición de actividad, ubicación geográfica (urbana y rural) y etnia",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-1-r-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "1-2-1",
@@ -175,11 +175,11 @@
         },
         {
           "id": "1-n2-1",
-          "title": "",
+          "title": "1.n2.1 Proporción de partos con asistencia de personal sanitario capacitado",
           "description": "",
           "keywords": "",
           "href": "/site/en/1-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "1-n2-2",
@@ -319,19 +319,19 @@
         },
         {
           "id": "2-4-r-a",
-          "title": "",
+          "title": "2.4.r.a Intensidad de uso de fertilizantes (consumo aparente por superficie cultivada)",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-4-r-a/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "2-4-r-b",
-          "title": "",
+          "title": "2.4.r.b Consumo aparente de plaguicidas por tipo (herbicidas, insecticidas o funguicidas)",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-4-r-b/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "2-5-1",
@@ -399,11 +399,11 @@
         },
         {
           "id": "2-n3-1",
-          "title": "",
+          "title": "2.n3.1 Rendimiento agrícola del maíz de grano",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-n3-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -431,11 +431,11 @@
         },
         {
           "id": "3-1-r-1",
-          "title": "",
+          "title": "3.1.r.1 Cobertura de atención prenatal por personal capacitado (al menos cuatro consultas)",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-1-r-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "3-2-1",
@@ -511,11 +511,11 @@
         },
         {
           "id": "3-3-r-c",
-          "title": "",
+          "title": "3.3.r.c Incidencia de enfermedades transmitidas por vectores",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-3-r-c/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "3-4-1",
@@ -783,11 +783,11 @@
         },
         {
           "id": "3-n2-1",
-          "title": "",
+          "title": "3.n2.1 Porcentaje de recursos económicos destinado a salud mental",
           "description": "",
           "keywords": "",
           "href": "/site/en/3-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "3-n3-1",
@@ -895,11 +895,11 @@
         },
         {
           "id": "4-6-r",
-          "title": "",
+          "title": "4.6.r Tasa de alfabetización de las personas de 15 a 24 años y de 15 años o más, desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/4-6-r/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "4-7-1",
@@ -1103,11 +1103,11 @@
         },
         {
           "id": "5-2-r",
-          "title": "",
+          "title": "5.2.r Tasa de femicidio o feminicidio (homicidios de mujeres de 15 años y más de edad, asesinadas por razones de género, por cada 100.000 mujeres)",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-2-r/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "5-3-1",
@@ -1175,11 +1175,11 @@
         },
         {
           "id": "5-4-r",
-          "title": "",
+          "title": "5.4.r Promedio de horas semanales dedicadas al trabajo no remunerado y remunerado combinados (carga total de trabajo), desglosada por sexo",
           "description": "",
           "keywords": "",
           "href": "/site/en/5-4-r/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "5-5-1",
@@ -1799,7 +1799,7 @@
         },
         {
           "id": "8-n2-1",
-          "title": "",
+          "title": "8.n2.1 Existencia de un Sistema Nacional de Cuidados",
           "description": "",
           "keywords": "",
           "href": "/site/en/8-n2-1/",
@@ -1999,19 +1999,19 @@
         },
         {
           "id": "9-n1-1",
-          "title": "",
+          "title": "9.n1.1 Vulnerabilidad de los asentamientos humanos por inundaciones",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "9-n2-1",
-          "title": "",
+          "title": "9.n2.1 Multiplicador del subsidio a la investigación y desarrollo experimental de empresas",
           "description": "",
           "keywords": "",
           "href": "/site/en/9-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "9-n3-1",
@@ -2191,11 +2191,11 @@
         },
         {
           "id": "10-n4-1",
-          "title": "",
+          "title": "10.n4.1 Porcentaje de solicitudes de refugio o protección complementaria a México con resolución en tiempo (45 o 90 días) anuales",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-n4-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2455,11 +2455,11 @@
         },
         {
           "id": "12-5-r-1",
-          "title": "",
+          "title": "12.5.r.1 Proporción de desechos reciclados respecto del total de desechos recolectados",
           "description": "",
           "keywords": "",
           "href": "/site/en/12-5-r-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "12-6-1",
@@ -2519,11 +2519,11 @@
         },
         {
           "id": "12-n2-1",
-          "title": "",
+          "title": "12.n2.1 Uso de fertilizante fosfatados (Kg/Ha)",
           "description": "",
           "keywords": "",
           "href": "/site/en/12-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2559,11 +2559,11 @@
         },
         {
           "id": "13-1-r",
-          "title": "",
+          "title": "13.1.r Ocurrencia de eventos naturales extremos y desastres, desglosada por tipo",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-1-r/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "13-2-1",
@@ -2615,27 +2615,27 @@
         },
         {
           "id": "13-n1-1",
-          "title": "",
+          "title": "13.n1.1 Severidad acumulada de excedencias de ozono y PM2.5 en un conjunto de estaciones de monitoreo centinela",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "13-n1-2",
-          "title": "",
+          "title": "13.n1.2 Fortalecimiento de capacidades adaptativas de los municipios para responder al cambio climático",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-n1-2/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "13-n2-1",
-          "title": "",
+          "title": "13.n2.1 Intensidad de carbono por la quema de combustibles fósiles",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2743,11 +2743,11 @@
         },
         {
           "id": "14-n1-1",
-          "title": "",
+          "title": "14.n1.1 Refugios pesqueros en aguas nacionales.",
           "description": "",
           "keywords": "",
           "href": "/site/en/14-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2887,11 +2887,11 @@
         },
         {
           "id": "15-n1-1",
-          "title": "",
+          "title": "15.n1.1 Porcentaje de ANP terrestres que incrementan o mantienen su superficie con cobertura vegetal, o que presentan pérdidas menores al 5%",
           "description": "",
           "keywords": "",
           "href": "/site/en/15-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "15-n2-1",
@@ -3543,7 +3543,7 @@
         },
         {
           "id": "17-n3-1",
-          "title": "",
+          "title": "17.n3.1 Porcentaje de planes estatales de desarrollo con visión de sostenibilidad",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-n3-1/",

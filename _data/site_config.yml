@@ -31,6 +31,9 @@ create_indicators:
   previous_next_links: true
 create_pages:
   - filename: ''
+    folder: /
+    layout: frontpage-alt
+  - filename: ''
     folder: /goals
     layout: goals
     title: general.goals

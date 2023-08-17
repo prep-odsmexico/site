@@ -32,7 +32,7 @@ create_indicators:
 create_pages:
   - filename: ''
     folder: /goals
-    layout: goal-by-target
+    layout: goals
     title: general.goals
   - filename: ''
     folder: /reporting-status

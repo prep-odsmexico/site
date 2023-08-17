@@ -25,14 +25,14 @@ country:
   name: México
   adjective: México
 create_goals:
-  previous_next_links: false
+  previous_next_links: true
   goals: []
 create_indicators:
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /goals
-    layout: goals
+    layout: goal-by-target
     title: general.goals
   - filename: ''
     folder: /reporting-status

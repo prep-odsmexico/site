@@ -2794,13 +2794,8 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 td {
   overflow-wrap: anywhere; }
 
-/*.btn-primary {
-    background-color: #FFFFFF!important;
-}
-.btn:visited {
-    color: #000000!important;
-}
+.btn-primary {
+  background-color: #478BCA !important; }
 
 .btn-primary:hover {
-    background-color: #478BCA!important;
-}*/
+  background-color: #04587e !important; }

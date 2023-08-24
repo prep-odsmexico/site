@@ -19,7 +19,7 @@ var usucontra=[
     "contra":"angval30"
   },
   {
-    "usuario":"alexa.boyer",
+    "usuario":"alexandra.boyer",
     "contra":"alexa01"
   },
   {
